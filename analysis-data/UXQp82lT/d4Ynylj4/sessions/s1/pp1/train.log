@@ -1,0 +1,741 @@
+[2020/06/27-11:39:11.805] [FT-TrainWorkThread-PntezW5I-2150] [INFO] [dku.analysis.prediction]  - ******************************************
+[2020/06/27-11:39:11.806] [FT-TrainWorkThread-PntezW5I-2150] [INFO] [dku.analysis.prediction]  - ** Start train session s1
+[2020/06/27-11:39:11.808] [FT-TrainWorkThread-PntezW5I-2150] [INFO] [dku.analysis.prediction]  - ******************************************
+[2020/06/27-11:39:11.812] [FT-TrainWorkThread-PntezW5I-2150] [INFO] [dku.shaker.data] T-d4Ynylj4 - [ct: 7] Need to compute sampleId before checking memory cache
+[2020/06/27-11:39:11.813] [FT-TrainWorkThread-PntezW5I-2150] [DEBUG] [dip.shaker.runner] T-d4Ynylj4 - [ct: 8] Script settings sampleMax=104857600 processedMax=-1
+[2020/06/27-11:39:11.815] [FT-TrainWorkThread-PntezW5I-2150] [DEBUG] [dip.shaker.runner] T-d4Ynylj4 - [ct: 10] Processing with sampleMax=104857600 processedMax=524288000
+[2020/06/27-11:39:11.817] [FT-TrainWorkThread-PntezW5I-2150] [DEBUG] [dip.shaker.runner] T-d4Ynylj4 - [ct: 12] Computed required sample id : c91b0bdc1a6826d1a3054e757c1f9794-NA-31c57f559ab672625afa057353f0de860--d751713988987e9331980363e24189ce
+[2020/06/27-11:39:11.821] [FT-TrainWorkThread-PntezW5I-2150] [DEBUG] [dku.shaker.cache] T-d4Ynylj4 - Shaker MemoryCache get on CONUNDRUM13.Conundrum_13_Data_prepared key=ds=c728552b289675bd81e78138f14bf5a3--scr=7168196d4e02a3618a13b7529ed90701--samp=c91b0bdc1a6826d1a3054e757c1f9794-NA-31c57f559ab672625afa057353f0de860--d751713988987e9331980363e24189ce: hit
+[2020/06/27-11:39:11.822] [FT-TrainWorkThread-PntezW5I-2150] [INFO] [dku.shaker.schema] T-d4Ynylj4 - [ct: 17] Column Name meaning=Text fail=0
+[2020/06/27-11:39:11.823] [FT-TrainWorkThread-PntezW5I-2150] [INFO] [dku.shaker.schema] T-d4Ynylj4 - [ct: 18] Column Age meaning=LongMeaning fail=0
+[2020/06/27-11:39:11.824] [FT-TrainWorkThread-PntezW5I-2150] [INFO] [dku.shaker.schema] T-d4Ynylj4 - [ct: 19] Column Nationality meaning=CountryMeaning fail=650
+[2020/06/27-11:39:11.827] [FT-TrainWorkThread-PntezW5I-2150] [INFO] [dku.shaker.schema] T-d4Ynylj4 - [ct: 22] Column Wage_Euro meaning=LongMeaning fail=0
+[2020/06/27-11:39:11.828] [FT-TrainWorkThread-PntezW5I-2150] [INFO] [dku.shaker.schema] T-d4Ynylj4 - [ct: 23] Column Right meaning=LongMeaning fail=0
+[2020/06/27-11:39:11.829] [FT-TrainWorkThread-PntezW5I-2150] [INFO] [dku.shaker.schema] T-d4Ynylj4 - [ct: 24] Column Left meaning=LongMeaning fail=0
+[2020/06/27-11:39:11.830] [FT-TrainWorkThread-PntezW5I-2150] [INFO] [dku.shaker.schema] T-d4Ynylj4 - [ct: 25] Column Lean meaning=LongMeaning fail=0
+[2020/06/27-11:39:11.833] [FT-TrainWorkThread-PntezW5I-2150] [INFO] [dku.shaker.schema] T-d4Ynylj4 - [ct: 28] Column Normal meaning=LongMeaning fail=0
+[2020/06/27-11:39:11.834] [FT-TrainWorkThread-PntezW5I-2150] [INFO] [dku.shaker.schema] T-d4Ynylj4 - [ct: 29] Column Stocky meaning=LongMeaning fail=0
+[2020/06/27-11:39:11.836] [FT-TrainWorkThread-PntezW5I-2150] [INFO] [dku.shaker.schema] T-d4Ynylj4 - [ct: 31] Column RM meaning=LongMeaning fail=0
+[2020/06/27-11:39:11.837] [FT-TrainWorkThread-PntezW5I-2150] [INFO] [dku.shaker.schema] T-d4Ynylj4 - [ct: 32] Column GK meaning=LongMeaning fail=0
+[2020/06/27-11:39:11.839] [FT-TrainWorkThread-PntezW5I-2150] [INFO] [dku.shaker.schema] T-d4Ynylj4 - [ct: 34] Column LW meaning=LongMeaning fail=0
+[2020/06/27-11:39:11.840] [FT-TrainWorkThread-PntezW5I-2150] [INFO] [dku.shaker.schema] T-d4Ynylj4 - [ct: 35] Column CB meaning=LongMeaning fail=0
+[2020/06/27-11:39:11.841] [FT-TrainWorkThread-PntezW5I-2150] [INFO] [dku.shaker.schema] T-d4Ynylj4 - [ct: 36] Column LF meaning=LongMeaning fail=0
+[2020/06/27-11:39:11.841] [FT-TrainWorkThread-PntezW5I-2150] [INFO] [dku.shaker.schema] T-d4Ynylj4 - [ct: 36] Column RCM meaning=LongMeaning fail=0
+[2020/06/27-11:39:11.842] [FT-TrainWorkThread-PntezW5I-2150] [INFO] [dku.shaker.schema] T-d4Ynylj4 - [ct: 37] Column RS meaning=LongMeaning fail=0
+[2020/06/27-11:39:11.842] [FT-TrainWorkThread-PntezW5I-2150] [INFO] [dku.shaker.schema] T-d4Ynylj4 - [ct: 37] Column CM meaning=LongMeaning fail=0
+[2020/06/27-11:39:11.843] [FT-TrainWorkThread-PntezW5I-2150] [INFO] [dku.shaker.schema] T-d4Ynylj4 - [ct: 38] Column CDM meaning=LongMeaning fail=0
+[2020/06/27-11:39:11.846] [FT-TrainWorkThread-PntezW5I-2150] [INFO] [dku.shaker.schema] T-d4Ynylj4 - [ct: 41] Column LB meaning=LongMeaning fail=0
+[2020/06/27-11:39:11.847] [FT-TrainWorkThread-PntezW5I-2150] [INFO] [dku.shaker.schema] T-d4Ynylj4 - [ct: 42] Column LCM meaning=LongMeaning fail=0
+[2020/06/27-11:39:11.850] [FT-TrainWorkThread-PntezW5I-2150] [INFO] [dku.shaker.schema] T-d4Ynylj4 - [ct: 45] Column LDM meaning=LongMeaning fail=0
+[2020/06/27-11:39:11.850] [FT-TrainWorkThread-PntezW5I-2150] [INFO] [dku.shaker.schema] T-d4Ynylj4 - [ct: 45] Column CAM meaning=LongMeaning fail=0
+[2020/06/27-11:39:11.853] [FT-TrainWorkThread-PntezW5I-2150] [INFO] [dku.shaker.schema] T-d4Ynylj4 - [ct: 48] Column LS meaning=LongMeaning fail=0
+[2020/06/27-11:39:11.854] [FT-TrainWorkThread-PntezW5I-2150] [INFO] [dku.shaker.schema] T-d4Ynylj4 - [ct: 49] Column ST meaning=LongMeaning fail=0
+[2020/06/27-11:39:11.857] [FT-TrainWorkThread-PntezW5I-2150] [INFO] [dku.shaker.schema] T-d4Ynylj4 - [ct: 52] Column LCB meaning=LongMeaning fail=0
+[2020/06/27-11:39:11.858] [FT-TrainWorkThread-PntezW5I-2150] [INFO] [dku.shaker.schema] T-d4Ynylj4 - [ct: 53] Column LM meaning=LongMeaning fail=0
+[2020/06/27-11:39:11.861] [FT-TrainWorkThread-PntezW5I-2150] [INFO] [dku.shaker.schema] T-d4Ynylj4 - [ct: 56] Column RDM meaning=LongMeaning fail=0
+[2020/06/27-11:39:11.861] [FT-TrainWorkThread-PntezW5I-2150] [INFO] [dku.shaker.schema] T-d4Ynylj4 - [ct: 56] Column RF meaning=LongMeaning fail=0
+[2020/06/27-11:39:11.864] [FT-TrainWorkThread-PntezW5I-2150] [INFO] [dku.shaker.schema] T-d4Ynylj4 - [ct: 59] Column RCB meaning=LongMeaning fail=0
+[2020/06/27-11:39:11.865] [FT-TrainWorkThread-PntezW5I-2150] [INFO] [dku.shaker.schema] T-d4Ynylj4 - [ct: 60] Column RB meaning=LongMeaning fail=0
+[2020/06/27-11:39:11.870] [FT-TrainWorkThread-PntezW5I-2150] [INFO] [dku.shaker.schema] T-d4Ynylj4 - [ct: 65] Column RW meaning=LongMeaning fail=0
+[2020/06/27-11:39:11.872] [FT-TrainWorkThread-PntezW5I-2150] [INFO] [dku.shaker.schema] T-d4Ynylj4 - [ct: 67] Column RWB meaning=LongMeaning fail=0
+[2020/06/27-11:39:11.873] [FT-TrainWorkThread-PntezW5I-2150] [INFO] [dku.shaker.schema] T-d4Ynylj4 - [ct: 68] Column LWB meaning=LongMeaning fail=0
+[2020/06/27-11:39:11.876] [FT-TrainWorkThread-PntezW5I-2150] [INFO] [dku.shaker.schema] T-d4Ynylj4 - [ct: 71] Column CF meaning=LongMeaning fail=0
+[2020/06/27-11:39:11.877] [FT-TrainWorkThread-PntezW5I-2150] [INFO] [dku.shaker.schema] T-d4Ynylj4 - [ct: 72] Column LAM meaning=LongMeaning fail=0
+[2020/06/27-11:39:11.881] [FT-TrainWorkThread-PntezW5I-2150] [INFO] [dku.shaker.schema] T-d4Ynylj4 - [ct: 76] Column RAM meaning=LongMeaning fail=0
+[2020/06/27-11:39:11.883] [FT-TrainWorkThread-PntezW5I-2150] [INFO] [dku.shaker.schema] T-d4Ynylj4 - [ct: 78] Column Height meaning=DoubleMeaning fail=0
+[2020/06/27-11:39:11.884] [FT-TrainWorkThread-PntezW5I-2150] [INFO] [dku.shaker.schema] T-d4Ynylj4 - [ct: 79] Column Weight_LBS meaning=DoubleMeaning fail=0
+[2020/06/27-11:39:11.893] [FT-TrainWorkThread-PntezW5I-2150] [INFO] [dku.shaker.schema] T-d4Ynylj4 - [ct: 88] Column Crossing meaning=LongMeaning fail=0
+[2020/06/27-11:39:11.894] [FT-TrainWorkThread-PntezW5I-2150] [INFO] [dku.shaker.schema] T-d4Ynylj4 - [ct: 89] Column Finishing meaning=LongMeaning fail=0
+[2020/06/27-11:39:11.897] [FT-TrainWorkThread-PntezW5I-2150] [INFO] [dku.shaker.schema] T-d4Ynylj4 - [ct: 92] Column HeadingAccuracy meaning=LongMeaning fail=0
+[2020/06/27-11:39:11.900] [FT-TrainWorkThread-PntezW5I-2150] [INFO] [dku.shaker.schema] T-d4Ynylj4 - [ct: 95] Column ShortPassing meaning=LongMeaning fail=0
+[2020/06/27-11:39:11.900] [FT-TrainWorkThread-PntezW5I-2150] [INFO] [dku.shaker.schema] T-d4Ynylj4 - [ct: 95] Column Volleys meaning=LongMeaning fail=0
+[2020/06/27-11:39:11.901] [FT-TrainWorkThread-PntezW5I-2150] [INFO] [dku.shaker.schema] T-d4Ynylj4 - [ct: 96] Column Dribbling meaning=LongMeaning fail=0
+[2020/06/27-11:39:11.906] [FT-TrainWorkThread-PntezW5I-2150] [INFO] [dku.shaker.schema] T-d4Ynylj4 - [ct: 101] Column Curve meaning=LongMeaning fail=0
+[2020/06/27-11:39:11.911] [FT-TrainWorkThread-PntezW5I-2150] [INFO] [dku.shaker.schema] T-d4Ynylj4 - [ct: 106] Column FKAccuracy meaning=LongMeaning fail=0
+[2020/06/27-11:39:11.920] [FT-TrainWorkThread-PntezW5I-2150] [INFO] [dku.shaker.schema] T-d4Ynylj4 - [ct: 115] Column LongPassing meaning=LongMeaning fail=0
+[2020/06/27-11:39:11.930] [FT-TrainWorkThread-PntezW5I-2150] [INFO] [dku.shaker.schema] T-d4Ynylj4 - [ct: 125] Column BallControl meaning=LongMeaning fail=0
+[2020/06/27-11:39:11.933] [FT-TrainWorkThread-PntezW5I-2150] [INFO] [dku.shaker.schema] T-d4Ynylj4 - [ct: 128] Column Acceleration meaning=LongMeaning fail=0
+[2020/06/27-11:39:11.943] [FT-TrainWorkThread-PntezW5I-2150] [INFO] [dku.shaker.schema] T-d4Ynylj4 - [ct: 138] Column SprintSpeed meaning=LongMeaning fail=0
+[2020/06/27-11:39:11.944] [FT-TrainWorkThread-PntezW5I-2150] [INFO] [dku.shaker.schema] T-d4Ynylj4 - [ct: 139] Column Agility meaning=LongMeaning fail=0
+[2020/06/27-11:39:11.945] [FT-TrainWorkThread-PntezW5I-2150] [INFO] [dku.shaker.schema] T-d4Ynylj4 - [ct: 140] Column Reactions meaning=LongMeaning fail=0
+[2020/06/27-11:39:11.945] [FT-TrainWorkThread-PntezW5I-2150] [INFO] [dku.shaker.schema] T-d4Ynylj4 - [ct: 140] Column Balance meaning=LongMeaning fail=0
+[2020/06/27-11:39:11.947] [FT-TrainWorkThread-PntezW5I-2150] [INFO] [dku.shaker.schema] T-d4Ynylj4 - [ct: 142] Column ShotPower meaning=LongMeaning fail=0
+[2020/06/27-11:39:11.949] [FT-TrainWorkThread-PntezW5I-2150] [INFO] [dku.shaker.schema] T-d4Ynylj4 - [ct: 144] Column Jumping meaning=LongMeaning fail=0
+[2020/06/27-11:39:11.951] [FT-TrainWorkThread-PntezW5I-2150] [INFO] [dku.shaker.schema] T-d4Ynylj4 - [ct: 146] Column Stamina meaning=LongMeaning fail=0
+[2020/06/27-11:39:11.957] [FT-TrainWorkThread-PntezW5I-2150] [INFO] [dku.shaker.schema] T-d4Ynylj4 - [ct: 152] Column Strength meaning=LongMeaning fail=0
+[2020/06/27-11:39:11.958] [FT-TrainWorkThread-PntezW5I-2150] [INFO] [dku.shaker.schema] T-d4Ynylj4 - [ct: 153] Column LongShots meaning=LongMeaning fail=0
+[2020/06/27-11:39:11.958] [FT-TrainWorkThread-PntezW5I-2150] [INFO] [dku.shaker.schema] T-d4Ynylj4 - [ct: 153] Column Aggression meaning=LongMeaning fail=0
+[2020/06/27-11:39:11.959] [FT-TrainWorkThread-PntezW5I-2150] [INFO] [dku.shaker.schema] T-d4Ynylj4 - [ct: 154] Column Interceptions meaning=LongMeaning fail=0
+[2020/06/27-11:39:11.959] [FT-TrainWorkThread-PntezW5I-2150] [INFO] [dku.shaker.schema] T-d4Ynylj4 - [ct: 154] Column Positioning meaning=LongMeaning fail=0
+[2020/06/27-11:39:11.963] [FT-TrainWorkThread-PntezW5I-2150] [INFO] [dku.shaker.schema] T-d4Ynylj4 - [ct: 158] Column Vision meaning=LongMeaning fail=0
+[2020/06/27-11:39:11.963] [FT-TrainWorkThread-PntezW5I-2150] [INFO] [dku.shaker.schema] T-d4Ynylj4 - [ct: 158] Column Penalties meaning=LongMeaning fail=0
+[2020/06/27-11:39:11.966] [FT-TrainWorkThread-PntezW5I-2150] [INFO] [dku.shaker.schema] T-d4Ynylj4 - [ct: 161] Column Composure meaning=LongMeaning fail=0
+[2020/06/27-11:39:11.967] [FT-TrainWorkThread-PntezW5I-2150] [INFO] [dku.shaker.schema] T-d4Ynylj4 - [ct: 162] Column Marking meaning=LongMeaning fail=0
+[2020/06/27-11:39:11.970] [FT-TrainWorkThread-PntezW5I-2150] [INFO] [dku.shaker.schema] T-d4Ynylj4 - [ct: 165] Column StandingTackle meaning=LongMeaning fail=0
+[2020/06/27-11:39:11.972] [FT-TrainWorkThread-PntezW5I-2150] [INFO] [dku.shaker.schema] T-d4Ynylj4 - [ct: 167] Column SlidingTackle meaning=LongMeaning fail=0
+[2020/06/27-11:39:11.974] [FT-TrainWorkThread-PntezW5I-2150] [INFO] [dku.datasets.file] T-d4Ynylj4 - [ct: 169] Building Filesystem handler config: {"connection":"filesystem_managed","path":"CONUNDRUM13/Conundrum_13_Data_prepared","notReadyIfEmpty":false,"filesSelectionRules":{"mode":"ALL","excludeRules":[],"includeRules":[],"explicitFiles":[]}}
+[2020/06/27-11:39:11.975] [FT-TrainWorkThread-PntezW5I-2150] [INFO] [dku.datasets.ftplike] T-d4Ynylj4 - Enumerating Filesystem dataset prefix=
+[2020/06/27-11:39:11.980] [FT-TrainWorkThread-PntezW5I-2150] [DEBUG] [dku.fs.local] T-d4Ynylj4 - [ct: 175] Enumerating local filesystem prefix=/
+[2020/06/27-11:39:11.981] [FT-TrainWorkThread-PntezW5I-2150] [DEBUG] [dku.fs.local] T-d4Ynylj4 - [ct: 176] Enumeration done nb_paths=1 size=954880
+[2020/06/27-11:39:11.982] [FT-TrainWorkThread-PntezW5I-2150] [INFO] [dku.input.push] T-d4Ynylj4 - USTP: push selection.method=FULL records=100000 ratio=0.02 col=null
+[2020/06/27-11:39:11.983] [FT-TrainWorkThread-PntezW5I-2150] [INFO] [dku.format] T-d4Ynylj4 - [ct: 178] Extractor run: limit={"maxBytes":-1,"maxRecords":-1,"ordering":{"enabled":false,"rules":[]}} totalRecords=0
+[2020/06/27-11:39:11.986] [FT-TrainWorkThread-PntezW5I-2150] [INFO] [dku] T-d4Ynylj4 - getCompression filename=**out-s0.csv.gz**
+[2020/06/27-11:39:11.987] [FT-TrainWorkThread-PntezW5I-2150] [INFO] [dku] T-d4Ynylj4 - getCompression filename=**out-s0.csv.gz**
+[2020/06/27-11:39:11.990] [FT-TrainWorkThread-PntezW5I-2150] [INFO] [dku.format] T-d4Ynylj4 - [ct: 185] Start compressed [GZIP] stream: /Volumes/DATA/dss_home/managed_datasets/CONUNDRUM13/Conundrum_13_Data_prepared/out-s0.csv.gz / totalRecsBefore=0
+[2020/06/27-11:39:11.990] [FT-TrainWorkThread-PntezW5I-2150] [INFO] [dku] T-d4Ynylj4 - getCompression filename=**out-s0.csv.gz**
+[2020/06/27-11:39:11.993] [FT-TrainWorkThread-PntezW5I-2150] [INFO] [dku] T-d4Ynylj4 - getCompression filename=**out-s0.csv.gz**
+[2020/06/27-11:39:13.444] [FT-TrainWorkThread-PntezW5I-2150] [INFO] [dku.format] T-d4Ynylj4 - [ct: 1639] after stream totalComp=954880 totalUncomp=3722542 totalRec=18207
+[2020/06/27-11:39:13.445] [FT-TrainWorkThread-PntezW5I-2150] [INFO] [dku.format] T-d4Ynylj4 - [ct: 1640] Extractor run done, totalCompressed=954880 totalRecords=18207
+[2020/06/27-11:39:13.452] [FT-TrainWorkThread-PntezW5I-2150] [INFO] [dku.analysis.splits] T-d4Ynylj4 - [ct: 1647] Search for split: p=extractBeforePrepare=true,,ds=Conundrum_13_Data_prepared,sel=(method=full) i=468cdde82c5b2843df6ed4a0064c8d7d-0
+[2020/06/27-11:39:13.456] [FT-TrainWorkThread-PntezW5I-2150] [INFO] [dku.analysis.splits] T-d4Ynylj4 - [ct: 1651] Search for split: p=extractBeforePrepare=true,,ds=Conundrum_13_Data_prepared,sel=(method=full) i=468cdde82c5b2843df6ed4a0064c8d7d-0
+[2020/06/27-11:39:13.458] [FT-TrainWorkThread-PntezW5I-2150] [INFO] [dku.analysis.ml.python] T-d4Ynylj4 - Joining processing thread ...
+[2020/06/27-11:39:13.464] [MRT-2152] [INFO] [dku.analysis.ml.python]  - TrainAdditionalThread done
+[2020/06/27-11:39:13.458] [MRT-2151] [INFO] [dku.analysis.ml.python]  - Running a preprocessing set: pp1 in /Volumes/DATA/dss_home/analysis-data/CONUNDRUM13/UXQp82lT/d4Ynylj4/sessions/s1/pp1
+[2020/06/27-11:39:13.468] [MRT-2151] [INFO] [dku.block.link]  - Started a socket on port 53915
+[2020/06/27-11:39:13.471] [MRT-2151] [INFO] [dku.ml.kernel]  - Writing output of python-single-command-kernel to /Volumes/DATA/dss_home/analysis-data/CONUNDRUM13/UXQp82lT/d4Ynylj4/sessions/s1/pp1/train.log
+[2020/06/27-11:39:13.472] [MRT-2151] [INFO] [dku.code.envs.resolution]  - Executing Python activity in builtin env
+[2020/06/27-11:39:13.475] [MRT-2151] [WARN] [dku.code.projectLibs]  - External libraries file not found: /Volumes/DATA/dss_home/config/projects/CONUNDRUM13/lib/external-libraries.json
+[2020/06/27-11:39:13.475] [MRT-2151] [INFO] [dku.code.projectLibs]  - EXTERNAL LIBS FROM CONUNDRUM13 is {"gitReferences":{},"pythonPath":["python"],"rsrcPath":["R"],"importLibrariesFromProjects":[]}
+[2020/06/27-11:39:13.476] [MRT-2151] [INFO] [dku.code.projectLibs]  - chunkFolder is /Volumes/DATA/dss_home/config/projects/CONUNDRUM13/lib/R
+[2020/06/27-11:39:13.476] [MRT-2151] [INFO] [dku.python.single_command.kernel]  - Starting Python process for kernel  python-single-command-kernel
+[2020/06/27-11:39:13.477] [MRT-2151] [INFO] [dip.tickets]  - Creating API ticket for analysis-ml-CONUNDRUM13-n1xn4RO on behalf of admin id=analysis-ml-CONUNDRUM13-n1xn4RO_9TCAga0KIXIf
+[2020/06/27-11:39:13.477] [MRT-2151] [INFO] [dku.security.process]  - Starting process (regular)
+[2020/06/27-11:39:13.494] [MRT-2151] [INFO] [dku.security.process]  - Process started with pid=4414
+[2020/06/27-11:39:13.495] [MRT-2151] [INFO] [dku.processes.cgroups]  - Will use cgroups []
+[2020/06/27-11:39:13.497] [MRT-2151] [INFO] [dku.processes.cgroups]  - Applying rules to used cgroups: []
+Installing debugging signal handler
+[2020-06-27 11:39:19,426] [4414/MainThread] [INFO] [root] Connecting to parent at port 53915
+[2020-06-27 11:39:19,428] [4414/MainThread] [INFO] [root] Connected to parent at port 53915
+[2020/06/27-11:39:19.430] [MRT-2151] [INFO] [dku.link.secret_protected]  - Connected to kernel
+[2020/06/27-11:39:19.433] [MRT-2151] [INFO] [dku.analysis.train]  - SUBMITTING pp1 in: /Volumes/DATA/dss_home/analysis-data/CONUNDRUM13/UXQp82lT/d4Ynylj4/sessions/s1/pp1 ; modeling set: [{"modelId":"m1","fullId":{"type":"ANALYSIS","taskLoc":{"analysisProjectKey":"CONUNDRUM13","analysisId":"UXQp82lT","mlTaskId":"d4Ynylj4"},"sessionId":"s1","preprocessingId":"pp1","modelId":"m1"},"modelingParams":{"algorithm":"PY_TWO_STEP","k":5,"n_jobs":2,"max_iterations":30,"epsilon":0.0,"min_sample_ratio":0.0,"gamma":0.0,"coef0":0.0,"seed":1337,"custom_has_k":false,"isolation_forest":{"k":2,"enabled":false,"n_estimators":100,"max_samples":0.5,"max_features":1.0,"contamination":0.05,"bootstrap":true,"max_anomalies":100,"n_samples":256,"max_depth":15,"seed":1337},"ts_kmeans_k":50,"metrics":{"evaluationMetric":"SILHOUETTE","customEvaluationMetricGIB":true}},"userMeta":{"description":"Interactive Clustering\n","name":"Interactive Clustering","starred":false,"clusterMetas":{},"customMeta":{"kv":{}},"tags":[],"activeClassifierThreshold":0.0},"run_folder":"/Volumes/DATA/dss_home/analysis-data/CONUNDRUM13/UXQp82lT/d4Ynylj4/sessions/s1/pp1/m1","estimatedTrains":1,"pluginAlgoCustomGridSearch":false}]
+[2020/06/27-11:39:19.438] [MRT-2151] [INFO] [dku.block.link.interaction]  - Execute link command respClazz=true respTypeToken=false respIsString=false is=false asyncInputStream=false os=false
+[2020-06-27 11:39:23,431] [4414/MainThread] [INFO] [root] Running analysis command: train_clustering_models_nosave
+[2020-06-27 11:39:23,435] [4414/MainThread] [INFO] [dataiku.doctor.commands] START TRAIN :
+[2020-06-27 11:39:23,435] [4414/MainThread] [INFO] [dataiku.doctor.utils.listener] START -  Loading source dataset
+[2020-06-27 11:39:23,436] [4414/MainThread] [INFO] [root] Reading with dtypes: None
+[2020-06-27 11:39:23,436] [4414/MainThread] [INFO] [dataiku.doctor.utils] Computed dtype for Name: None (schema_type=string feature_type=CATEGORY feature_role=REJECT)
+[2020-06-27 11:39:23,436] [4414/MainThread] [INFO] [dataiku.doctor.utils] Computed dtype for Age: <type 'numpy.float64'> (schema_type=bigint feature_type=NUMERIC feature_role=INPUT)
+[2020-06-27 11:39:23,436] [4414/MainThread] [INFO] [dataiku.doctor.utils] Computed dtype for Nationality: None (schema_type=string feature_type=CATEGORY feature_role=REJECT)
+[2020-06-27 11:39:23,436] [4414/MainThread] [INFO] [dataiku.doctor.utils] Computed dtype for Wage_Euro: <type 'numpy.float64'> (schema_type=bigint feature_type=NUMERIC feature_role=INPUT)
+[2020-06-27 11:39:23,437] [4414/MainThread] [INFO] [dataiku.doctor.utils] Computed dtype for Right: <type 'numpy.float64'> (schema_type=bigint feature_type=NUMERIC feature_role=INPUT)
+[2020-06-27 11:39:23,437] [4414/MainThread] [INFO] [dataiku.doctor.utils] Computed dtype for Left: <type 'numpy.float64'> (schema_type=bigint feature_type=NUMERIC feature_role=INPUT)
+[2020-06-27 11:39:23,437] [4414/MainThread] [INFO] [dataiku.doctor.utils] Computed dtype for Lean: <type 'numpy.float64'> (schema_type=bigint feature_type=NUMERIC feature_role=INPUT)
+[2020-06-27 11:39:23,437] [4414/MainThread] [INFO] [dataiku.doctor.utils] Computed dtype for Normal: <type 'numpy.float64'> (schema_type=bigint feature_type=NUMERIC feature_role=INPUT)
+[2020-06-27 11:39:23,438] [4414/MainThread] [INFO] [dataiku.doctor.utils] Computed dtype for Stocky: <type 'numpy.float64'> (schema_type=bigint feature_type=NUMERIC feature_role=INPUT)
+[2020-06-27 11:39:23,438] [4414/MainThread] [INFO] [dataiku.doctor.utils] Computed dtype for RM: <type 'numpy.float64'> (schema_type=bigint feature_type=NUMERIC feature_role=INPUT)
+[2020-06-27 11:39:23,438] [4414/MainThread] [INFO] [dataiku.doctor.utils] Computed dtype for GK: <type 'numpy.float64'> (schema_type=bigint feature_type=NUMERIC feature_role=INPUT)
+[2020-06-27 11:39:23,438] [4414/MainThread] [INFO] [dataiku.doctor.utils] Computed dtype for LW: <type 'numpy.float64'> (schema_type=bigint feature_type=NUMERIC feature_role=INPUT)
+[2020-06-27 11:39:23,439] [4414/MainThread] [INFO] [dataiku.doctor.utils] Computed dtype for CB: <type 'numpy.float64'> (schema_type=bigint feature_type=NUMERIC feature_role=INPUT)
+[2020-06-27 11:39:23,439] [4414/MainThread] [INFO] [dataiku.doctor.utils] Computed dtype for LF: <type 'numpy.float64'> (schema_type=bigint feature_type=NUMERIC feature_role=INPUT)
+[2020-06-27 11:39:23,439] [4414/MainThread] [INFO] [dataiku.doctor.utils] Computed dtype for RCM: <type 'numpy.float64'> (schema_type=bigint feature_type=NUMERIC feature_role=INPUT)
+[2020-06-27 11:39:23,439] [4414/MainThread] [INFO] [dataiku.doctor.utils] Computed dtype for RS: <type 'numpy.float64'> (schema_type=bigint feature_type=NUMERIC feature_role=INPUT)
+[2020-06-27 11:39:23,439] [4414/MainThread] [INFO] [dataiku.doctor.utils] Computed dtype for CM: <type 'numpy.float64'> (schema_type=bigint feature_type=NUMERIC feature_role=INPUT)
+[2020-06-27 11:39:23,439] [4414/MainThread] [INFO] [dataiku.doctor.utils] Computed dtype for CDM: <type 'numpy.float64'> (schema_type=bigint feature_type=NUMERIC feature_role=INPUT)
+[2020-06-27 11:39:23,439] [4414/MainThread] [INFO] [dataiku.doctor.utils] Computed dtype for LB: <type 'numpy.float64'> (schema_type=bigint feature_type=NUMERIC feature_role=INPUT)
+[2020-06-27 11:39:23,439] [4414/MainThread] [INFO] [dataiku.doctor.utils] Computed dtype for LCM: <type 'numpy.float64'> (schema_type=bigint feature_type=NUMERIC feature_role=INPUT)
+[2020-06-27 11:39:23,439] [4414/MainThread] [INFO] [dataiku.doctor.utils] Computed dtype for LDM: <type 'numpy.float64'> (schema_type=bigint feature_type=NUMERIC feature_role=INPUT)
+[2020-06-27 11:39:23,440] [4414/MainThread] [INFO] [dataiku.doctor.utils] Computed dtype for CAM: <type 'numpy.float64'> (schema_type=bigint feature_type=NUMERIC feature_role=INPUT)
+[2020-06-27 11:39:23,440] [4414/MainThread] [INFO] [dataiku.doctor.utils] Computed dtype for LS: <type 'numpy.float64'> (schema_type=bigint feature_type=NUMERIC feature_role=INPUT)
+[2020-06-27 11:39:23,440] [4414/MainThread] [INFO] [dataiku.doctor.utils] Computed dtype for ST: <type 'numpy.float64'> (schema_type=bigint feature_type=NUMERIC feature_role=INPUT)
+[2020-06-27 11:39:23,440] [4414/MainThread] [INFO] [dataiku.doctor.utils] Computed dtype for LCB: <type 'numpy.float64'> (schema_type=bigint feature_type=NUMERIC feature_role=INPUT)
+[2020-06-27 11:39:23,440] [4414/MainThread] [INFO] [dataiku.doctor.utils] Computed dtype for LM: <type 'numpy.float64'> (schema_type=bigint feature_type=NUMERIC feature_role=INPUT)
+[2020-06-27 11:39:23,440] [4414/MainThread] [INFO] [dataiku.doctor.utils] Computed dtype for RDM: <type 'numpy.float64'> (schema_type=bigint feature_type=NUMERIC feature_role=INPUT)
+[2020-06-27 11:39:23,440] [4414/MainThread] [INFO] [dataiku.doctor.utils] Computed dtype for RF: <type 'numpy.float64'> (schema_type=bigint feature_type=NUMERIC feature_role=INPUT)
+[2020-06-27 11:39:23,440] [4414/MainThread] [INFO] [dataiku.doctor.utils] Computed dtype for RCB: <type 'numpy.float64'> (schema_type=bigint feature_type=NUMERIC feature_role=INPUT)
+[2020-06-27 11:39:23,440] [4414/MainThread] [INFO] [dataiku.doctor.utils] Computed dtype for RB: <type 'numpy.float64'> (schema_type=bigint feature_type=NUMERIC feature_role=INPUT)
+[2020-06-27 11:39:23,440] [4414/MainThread] [INFO] [dataiku.doctor.utils] Computed dtype for RW: <type 'numpy.float64'> (schema_type=bigint feature_type=NUMERIC feature_role=INPUT)
+[2020-06-27 11:39:23,440] [4414/MainThread] [INFO] [dataiku.doctor.utils] Computed dtype for RWB: <type 'numpy.float64'> (schema_type=bigint feature_type=NUMERIC feature_role=INPUT)
+[2020-06-27 11:39:23,440] [4414/MainThread] [INFO] [dataiku.doctor.utils] Computed dtype for LWB: <type 'numpy.float64'> (schema_type=bigint feature_type=NUMERIC feature_role=INPUT)
+[2020-06-27 11:39:23,440] [4414/MainThread] [INFO] [dataiku.doctor.utils] Computed dtype for CF: <type 'numpy.float64'> (schema_type=bigint feature_type=NUMERIC feature_role=INPUT)
+[2020-06-27 11:39:23,441] [4414/MainThread] [INFO] [dataiku.doctor.utils] Computed dtype for LAM: <type 'numpy.float64'> (schema_type=bigint feature_type=NUMERIC feature_role=INPUT)
+[2020-06-27 11:39:23,441] [4414/MainThread] [INFO] [dataiku.doctor.utils] Computed dtype for RAM: <type 'numpy.float64'> (schema_type=bigint feature_type=NUMERIC feature_role=INPUT)
+[2020-06-27 11:39:23,441] [4414/MainThread] [INFO] [dataiku.doctor.utils] Computed dtype for Height: <type 'numpy.float64'> (schema_type=double feature_type=NUMERIC feature_role=INPUT)
+[2020-06-27 11:39:23,441] [4414/MainThread] [INFO] [dataiku.doctor.utils] Computed dtype for Weight_LBS: <type 'numpy.float64'> (schema_type=double feature_type=NUMERIC feature_role=INPUT)
+[2020-06-27 11:39:23,441] [4414/MainThread] [INFO] [dataiku.doctor.utils] Computed dtype for Crossing: <type 'numpy.float64'> (schema_type=bigint feature_type=NUMERIC feature_role=INPUT)
+[2020-06-27 11:39:23,441] [4414/MainThread] [INFO] [dataiku.doctor.utils] Computed dtype for Finishing: <type 'numpy.float64'> (schema_type=bigint feature_type=NUMERIC feature_role=INPUT)
+[2020-06-27 11:39:23,441] [4414/MainThread] [INFO] [dataiku.doctor.utils] Computed dtype for HeadingAccuracy: <type 'numpy.float64'> (schema_type=bigint feature_type=NUMERIC feature_role=INPUT)
+[2020-06-27 11:39:23,441] [4414/MainThread] [INFO] [dataiku.doctor.utils] Computed dtype for ShortPassing: <type 'numpy.float64'> (schema_type=bigint feature_type=NUMERIC feature_role=INPUT)
+[2020-06-27 11:39:23,441] [4414/MainThread] [INFO] [dataiku.doctor.utils] Computed dtype for Volleys: <type 'numpy.float64'> (schema_type=bigint feature_type=NUMERIC feature_role=INPUT)
+[2020-06-27 11:39:23,441] [4414/MainThread] [INFO] [dataiku.doctor.utils] Computed dtype for Dribbling: <type 'numpy.float64'> (schema_type=bigint feature_type=NUMERIC feature_role=INPUT)
+[2020-06-27 11:39:23,441] [4414/MainThread] [INFO] [dataiku.doctor.utils] Computed dtype for Curve: <type 'numpy.float64'> (schema_type=bigint feature_type=NUMERIC feature_role=INPUT)
+[2020-06-27 11:39:23,441] [4414/MainThread] [INFO] [dataiku.doctor.utils] Computed dtype for FKAccuracy: <type 'numpy.float64'> (schema_type=bigint feature_type=NUMERIC feature_role=INPUT)
+[2020-06-27 11:39:23,441] [4414/MainThread] [INFO] [dataiku.doctor.utils] Computed dtype for LongPassing: <type 'numpy.float64'> (schema_type=bigint feature_type=NUMERIC feature_role=INPUT)
+[2020-06-27 11:39:23,441] [4414/MainThread] [INFO] [dataiku.doctor.utils] Computed dtype for BallControl: <type 'numpy.float64'> (schema_type=bigint feature_type=NUMERIC feature_role=INPUT)
+[2020-06-27 11:39:23,441] [4414/MainThread] [INFO] [dataiku.doctor.utils] Computed dtype for Acceleration: <type 'numpy.float64'> (schema_type=bigint feature_type=NUMERIC feature_role=INPUT)
+[2020-06-27 11:39:23,442] [4414/MainThread] [INFO] [dataiku.doctor.utils] Computed dtype for SprintSpeed: <type 'numpy.float64'> (schema_type=bigint feature_type=NUMERIC feature_role=INPUT)
+[2020-06-27 11:39:23,442] [4414/MainThread] [INFO] [dataiku.doctor.utils] Computed dtype for Agility: <type 'numpy.float64'> (schema_type=bigint feature_type=NUMERIC feature_role=INPUT)
+[2020-06-27 11:39:23,442] [4414/MainThread] [INFO] [dataiku.doctor.utils] Computed dtype for Reactions: <type 'numpy.float64'> (schema_type=bigint feature_type=NUMERIC feature_role=INPUT)
+[2020-06-27 11:39:23,442] [4414/MainThread] [INFO] [dataiku.doctor.utils] Computed dtype for Balance: <type 'numpy.float64'> (schema_type=bigint feature_type=NUMERIC feature_role=INPUT)
+[2020-06-27 11:39:23,442] [4414/MainThread] [INFO] [dataiku.doctor.utils] Computed dtype for ShotPower: <type 'numpy.float64'> (schema_type=bigint feature_type=NUMERIC feature_role=INPUT)
+[2020-06-27 11:39:23,442] [4414/MainThread] [INFO] [dataiku.doctor.utils] Computed dtype for Jumping: <type 'numpy.float64'> (schema_type=bigint feature_type=NUMERIC feature_role=INPUT)
+[2020-06-27 11:39:23,442] [4414/MainThread] [INFO] [dataiku.doctor.utils] Computed dtype for Stamina: <type 'numpy.float64'> (schema_type=bigint feature_type=NUMERIC feature_role=INPUT)
+[2020-06-27 11:39:23,442] [4414/MainThread] [INFO] [dataiku.doctor.utils] Computed dtype for Strength: <type 'numpy.float64'> (schema_type=bigint feature_type=NUMERIC feature_role=INPUT)
+[2020-06-27 11:39:23,442] [4414/MainThread] [INFO] [dataiku.doctor.utils] Computed dtype for LongShots: <type 'numpy.float64'> (schema_type=bigint feature_type=NUMERIC feature_role=INPUT)
+[2020-06-27 11:39:23,442] [4414/MainThread] [INFO] [dataiku.doctor.utils] Computed dtype for Aggression: <type 'numpy.float64'> (schema_type=bigint feature_type=NUMERIC feature_role=INPUT)
+[2020-06-27 11:39:23,442] [4414/MainThread] [INFO] [dataiku.doctor.utils] Computed dtype for Interceptions: <type 'numpy.float64'> (schema_type=bigint feature_type=NUMERIC feature_role=INPUT)
+[2020-06-27 11:39:23,442] [4414/MainThread] [INFO] [dataiku.doctor.utils] Computed dtype for Positioning: <type 'numpy.float64'> (schema_type=bigint feature_type=NUMERIC feature_role=INPUT)
+[2020-06-27 11:39:23,442] [4414/MainThread] [INFO] [dataiku.doctor.utils] Computed dtype for Vision: <type 'numpy.float64'> (schema_type=bigint feature_type=NUMERIC feature_role=INPUT)
+[2020-06-27 11:39:23,442] [4414/MainThread] [INFO] [dataiku.doctor.utils] Computed dtype for Penalties: <type 'numpy.float64'> (schema_type=bigint feature_type=NUMERIC feature_role=INPUT)
+[2020-06-27 11:39:23,442] [4414/MainThread] [INFO] [dataiku.doctor.utils] Computed dtype for Composure: <type 'numpy.float64'> (schema_type=bigint feature_type=NUMERIC feature_role=INPUT)
+[2020-06-27 11:39:23,442] [4414/MainThread] [INFO] [dataiku.doctor.utils] Computed dtype for Marking: <type 'numpy.float64'> (schema_type=bigint feature_type=NUMERIC feature_role=INPUT)
+[2020-06-27 11:39:23,443] [4414/MainThread] [INFO] [dataiku.doctor.utils] Computed dtype for StandingTackle: <type 'numpy.float64'> (schema_type=bigint feature_type=NUMERIC feature_role=INPUT)
+[2020-06-27 11:39:23,443] [4414/MainThread] [INFO] [dataiku.doctor.utils] Computed dtype for SlidingTackle: <type 'numpy.float64'> (schema_type=bigint feature_type=NUMERIC feature_role=INPUT)
+[2020-06-27 11:39:23,443] [4414/MainThread] [INFO] [root] Reading with FIXED dtypes: {u'Acceleration': <type 'numpy.float64'>, u'Marking': <type 'numpy.float64'>, u'RAM': <type 'numpy.float64'>, u'Crossing': <type 'numpy.float64'>, u'SlidingTackle': <type 'numpy.float64'>, u'Composure': <type 'numpy.float64'>, u'StandingTackle': <type 'numpy.float64'>, u'Dribbling': <type 'numpy.float64'>, u'Lean': <type 'numpy.float64'>, u'Stamina': <type 'numpy.float64'>, u'RCM': <type 'numpy.float64'>, u'Strength': <type 'numpy.float64'>, u'CAM': <type 'numpy.float64'>, u'LWB': <type 'numpy.float64'>, u'Height': <type 'numpy.float64'>, u'RCB': <type 'numpy.float64'>, u'LF': <type 'numpy.float64'>, u'Agility': <type 'numpy.float64'>, u'RW': <type 'numpy.float64'>, u'LB': <type 'numpy.float64'>, u'Normal': <type 'numpy.float64'>, u'Vision': <type 'numpy.float64'>, u'Volleys': <type 'numpy.float64'>, u'LM': <type 'numpy.float64'>, u'LDM': <type 'numpy.float64'>, u'Stocky': <type 'numpy.float64'>, u'RF': <type 'numpy.float64'>, u'Jumping': <type 'numpy.float64'>, u'FKAccuracy': <type 'numpy.float64'>, u'Wage_Euro': <type 'numpy.float64'>, u'RB': <type 'numpy.float64'>, u'RM': <type 'numpy.float64'>, u'ShortPassing': <type 'numpy.float64'>, u'ShotPower': <type 'numpy.float64'>, u'SprintSpeed': <type 'numpy.float64'>, u'LS': <type 'numpy.float64'>, u'CM': <type 'numpy.float64'>, u'Reactions': <type 'numpy.float64'>, u'CB': <type 'numpy.float64'>, u'Age': <type 'numpy.float64'>, u'Curve': <type 'numpy.float64'>, u'CF': <type 'numpy.float64'>, u'LW': <type 'numpy.float64'>, u'Positioning': <type 'numpy.float64'>, u'RDM': <type 'numpy.float64'>, u'Finishing': <type 'numpy.float64'>, u'Balance': <type 'numpy.float64'>, u'GK': <type 'numpy.float64'>, u'HeadingAccuracy': <type 'numpy.float64'>, u'Left': <type 'numpy.float64'>, u'LAM': <type 'numpy.float64'>, u'RWB': <type 'numpy.float64'>, u'Right': <type 'numpy.float64'>, u'BallControl': <type 'numpy.float64'>, u'CDM': <type 'numpy.float64'>, u'Weight_LBS': <type 'numpy.float64'>, u'RS': <type 'numpy.float64'>, u'LongShots': <type 'numpy.float64'>, u'ST': <type 'numpy.float64'>, u'LCB': <type 'numpy.float64'>, u'Interceptions': <type 'numpy.float64'>, u'LongPassing': <type 'numpy.float64'>, u'LCM': <type 'numpy.float64'>, u'Penalties': <type 'numpy.float64'>, u'Aggression': <type 'numpy.float64'>}
+[2020-06-27 11:39:23,774] [4414/MainThread] [INFO] [root] Loaded table
+[2020-06-27 11:39:23,783] [4414/MainThread] [INFO] [dataiku.doctor.utils]  Coercion done
+[2020-06-27 11:39:23,783] [4414/MainThread] [INFO] [dataiku.doctor.commands] Loaded source df: shape=(18207,67)
+[2020-06-27 11:39:23,783] [4414/MainThread] [INFO] [dataiku.doctor.utils.listener] END -  Loading source dataset
+[2020-06-27 11:39:23,783] [4414/MainThread] [INFO] [dataiku.doctor.utils.listener] START -  Collecting statistics
+[2020-06-27 11:39:23,783] [4414/MainThread] [INFO] [dataiku.doctor.preprocessing_collector] Looking at Acceleration... (type=NUMERIC)
+[2020-06-27 11:39:23,784] [4414/MainThread] [INFO] [dataiku.doctor.preprocessing_collector] Checking series of type: float64 (isM8=False)
+[2020-06-27 11:39:23,795] [4414/MainThread] [INFO] [dataiku.doctor.preprocessing_collector] Looking at Marking... (type=NUMERIC)
+[2020-06-27 11:39:23,796] [4414/MainThread] [INFO] [dataiku.doctor.preprocessing_collector] Checking series of type: float64 (isM8=False)
+[2020-06-27 11:39:23,799] [4414/MainThread] [INFO] [dataiku.doctor.preprocessing_collector] Looking at Strength... (type=NUMERIC)
+[2020-06-27 11:39:23,799] [4414/MainThread] [INFO] [dataiku.doctor.preprocessing_collector] Checking series of type: float64 (isM8=False)
+[2020-06-27 11:39:23,801] [4414/MainThread] [INFO] [dataiku.doctor.preprocessing_collector] Looking at SlidingTackle... (type=NUMERIC)
+[2020-06-27 11:39:23,801] [4414/MainThread] [INFO] [dataiku.doctor.preprocessing_collector] Checking series of type: float64 (isM8=False)
+[2020-06-27 11:39:23,803] [4414/MainThread] [INFO] [dataiku.doctor.preprocessing_collector] Looking at Composure... (type=NUMERIC)
+[2020-06-27 11:39:23,804] [4414/MainThread] [INFO] [dataiku.doctor.preprocessing_collector] Checking series of type: float64 (isM8=False)
+[2020-06-27 11:39:23,806] [4414/MainThread] [INFO] [dataiku.doctor.preprocessing_collector] Looking at StandingTackle... (type=NUMERIC)
+[2020-06-27 11:39:23,806] [4414/MainThread] [INFO] [dataiku.doctor.preprocessing_collector] Checking series of type: float64 (isM8=False)
+[2020-06-27 11:39:23,808] [4414/MainThread] [INFO] [dataiku.doctor.preprocessing_collector] Looking at Dribbling... (type=NUMERIC)
+[2020-06-27 11:39:23,808] [4414/MainThread] [INFO] [dataiku.doctor.preprocessing_collector] Checking series of type: float64 (isM8=False)
+[2020-06-27 11:39:23,810] [4414/MainThread] [INFO] [dataiku.doctor.preprocessing_collector] Looking at Lean... (type=NUMERIC)
+[2020-06-27 11:39:23,810] [4414/MainThread] [INFO] [dataiku.doctor.preprocessing_collector] Checking series of type: float64 (isM8=False)
+[2020-06-27 11:39:23,812] [4414/MainThread] [INFO] [dataiku.doctor.preprocessing_collector] Looking at Stamina... (type=NUMERIC)
+[2020-06-27 11:39:23,812] [4414/MainThread] [INFO] [dataiku.doctor.preprocessing_collector] Checking series of type: float64 (isM8=False)
+[2020-06-27 11:39:23,814] [4414/MainThread] [INFO] [dataiku.doctor.preprocessing_collector] Looking at RCM... (type=NUMERIC)
+[2020-06-27 11:39:23,814] [4414/MainThread] [INFO] [dataiku.doctor.preprocessing_collector] Checking series of type: float64 (isM8=False)
+[2020-06-27 11:39:23,815] [4414/MainThread] [INFO] [dataiku.doctor.preprocessing_collector] Looking at CAM... (type=NUMERIC)
+[2020-06-27 11:39:23,815] [4414/MainThread] [INFO] [dataiku.doctor.preprocessing_collector] Checking series of type: float64 (isM8=False)
+[2020-06-27 11:39:23,817] [4414/MainThread] [INFO] [dataiku.doctor.preprocessing_collector] Looking at LWB... (type=NUMERIC)
+[2020-06-27 11:39:23,817] [4414/MainThread] [INFO] [dataiku.doctor.preprocessing_collector] Checking series of type: float64 (isM8=False)
+[2020-06-27 11:39:23,819] [4414/MainThread] [INFO] [dataiku.doctor.preprocessing_collector] Looking at ST... (type=NUMERIC)
+[2020-06-27 11:39:23,819] [4414/MainThread] [INFO] [dataiku.doctor.preprocessing_collector] Checking series of type: float64 (isM8=False)
+[2020-06-27 11:39:23,822] [4414/MainThread] [INFO] [dataiku.doctor.preprocessing_collector] Looking at Stocky... (type=NUMERIC)
+[2020-06-27 11:39:23,822] [4414/MainThread] [INFO] [dataiku.doctor.preprocessing_collector] Checking series of type: float64 (isM8=False)
+[2020-06-27 11:39:23,823] [4414/MainThread] [INFO] [dataiku.doctor.preprocessing_collector] Looking at RCB... (type=NUMERIC)
+[2020-06-27 11:39:23,824] [4414/MainThread] [INFO] [dataiku.doctor.preprocessing_collector] Checking series of type: float64 (isM8=False)
+[2020-06-27 11:39:23,825] [4414/MainThread] [INFO] [dataiku.doctor.preprocessing_collector] Looking at LF... (type=NUMERIC)
+[2020-06-27 11:39:23,825] [4414/MainThread] [INFO] [dataiku.doctor.preprocessing_collector] Checking series of type: float64 (isM8=False)
+[2020-06-27 11:39:23,827] [4414/MainThread] [INFO] [dataiku.doctor.preprocessing_collector] Looking at Agility... (type=NUMERIC)
+[2020-06-27 11:39:23,827] [4414/MainThread] [INFO] [dataiku.doctor.preprocessing_collector] Checking series of type: float64 (isM8=False)
+[2020-06-27 11:39:23,829] [4414/MainThread] [INFO] [dataiku.doctor.preprocessing_collector] Looking at RW... (type=NUMERIC)
+[2020-06-27 11:39:23,829] [4414/MainThread] [INFO] [dataiku.doctor.preprocessing_collector] Checking series of type: float64 (isM8=False)
+[2020-06-27 11:39:23,831] [4414/MainThread] [INFO] [dataiku.doctor.preprocessing_collector] Looking at LB... (type=NUMERIC)
+[2020-06-27 11:39:23,831] [4414/MainThread] [INFO] [dataiku.doctor.preprocessing_collector] Checking series of type: float64 (isM8=False)
+[2020-06-27 11:39:23,833] [4414/MainThread] [INFO] [dataiku.doctor.preprocessing_collector] Looking at RS... (type=NUMERIC)
+[2020-06-27 11:39:23,833] [4414/MainThread] [INFO] [dataiku.doctor.preprocessing_collector] Checking series of type: float64 (isM8=False)
+[2020-06-27 11:39:23,834] [4414/MainThread] [INFO] [dataiku.doctor.preprocessing_collector] Looking at Vision... (type=NUMERIC)
+[2020-06-27 11:39:23,834] [4414/MainThread] [INFO] [dataiku.doctor.preprocessing_collector] Checking series of type: float64 (isM8=False)
+[2020-06-27 11:39:23,837] [4414/MainThread] [INFO] [dataiku.doctor.preprocessing_collector] Looking at Volleys... (type=NUMERIC)
+[2020-06-27 11:39:23,837] [4414/MainThread] [INFO] [dataiku.doctor.preprocessing_collector] Checking series of type: float64 (isM8=False)
+[2020-06-27 11:39:23,839] [4414/MainThread] [INFO] [dataiku.doctor.preprocessing_collector] Looking at LM... (type=NUMERIC)
+[2020-06-27 11:39:23,839] [4414/MainThread] [INFO] [dataiku.doctor.preprocessing_collector] Checking series of type: float64 (isM8=False)
+[2020-06-27 11:39:23,841] [4414/MainThread] [INFO] [dataiku.doctor.preprocessing_collector] Looking at LDM... (type=NUMERIC)
+[2020-06-27 11:39:23,841] [4414/MainThread] [INFO] [dataiku.doctor.preprocessing_collector] Checking series of type: float64 (isM8=False)
+[2020-06-27 11:39:23,842] [4414/MainThread] [INFO] [dataiku.doctor.preprocessing_collector] Looking at LW... (type=NUMERIC)
+[2020-06-27 11:39:23,843] [4414/MainThread] [INFO] [dataiku.doctor.preprocessing_collector] Checking series of type: float64 (isM8=False)
+[2020-06-27 11:39:23,844] [4414/MainThread] [INFO] [dataiku.doctor.preprocessing_collector] Looking at RF... (type=NUMERIC)
+[2020-06-27 11:39:23,844] [4414/MainThread] [INFO] [dataiku.doctor.preprocessing_collector] Checking series of type: float64 (isM8=False)
+[2020-06-27 11:39:23,846] [4414/MainThread] [INFO] [dataiku.doctor.preprocessing_collector] Looking at Jumping... (type=NUMERIC)
+[2020-06-27 11:39:23,846] [4414/MainThread] [INFO] [dataiku.doctor.preprocessing_collector] Checking series of type: float64 (isM8=False)
+[2020-06-27 11:39:23,848] [4414/MainThread] [INFO] [dataiku.doctor.preprocessing_collector] Looking at FKAccuracy... (type=NUMERIC)
+[2020-06-27 11:39:23,848] [4414/MainThread] [INFO] [dataiku.doctor.preprocessing_collector] Checking series of type: float64 (isM8=False)
+[2020-06-27 11:39:23,850] [4414/MainThread] [INFO] [dataiku.doctor.preprocessing_collector] Looking at LS... (type=NUMERIC)
+[2020-06-27 11:39:23,850] [4414/MainThread] [INFO] [dataiku.doctor.preprocessing_collector] Checking series of type: float64 (isM8=False)
+[2020-06-27 11:39:23,851] [4414/MainThread] [INFO] [dataiku.doctor.preprocessing_collector] Looking at RB... (type=NUMERIC)
+[2020-06-27 11:39:23,851] [4414/MainThread] [INFO] [dataiku.doctor.preprocessing_collector] Checking series of type: float64 (isM8=False)
+[2020-06-27 11:39:23,853] [4414/MainThread] [INFO] [dataiku.doctor.preprocessing_collector] Looking at CB... (type=NUMERIC)
+[2020-06-27 11:39:23,853] [4414/MainThread] [INFO] [dataiku.doctor.preprocessing_collector] Checking series of type: float64 (isM8=False)
+[2020-06-27 11:39:23,856] [4414/MainThread] [INFO] [dataiku.doctor.preprocessing_collector] Looking at RM... (type=NUMERIC)
+[2020-06-27 11:39:23,856] [4414/MainThread] [INFO] [dataiku.doctor.preprocessing_collector] Checking series of type: float64 (isM8=False)
+[2020-06-27 11:39:23,858] [4414/MainThread] [INFO] [dataiku.doctor.preprocessing_collector] Looking at ShortPassing... (type=NUMERIC)
+[2020-06-27 11:39:23,858] [4414/MainThread] [INFO] [dataiku.doctor.preprocessing_collector] Checking series of type: float64 (isM8=False)
+[2020-06-27 11:39:23,860] [4414/MainThread] [INFO] [dataiku.doctor.preprocessing_collector] Looking at Age... (type=NUMERIC)
+[2020-06-27 11:39:23,860] [4414/MainThread] [INFO] [dataiku.doctor.preprocessing_collector] Checking series of type: float64 (isM8=False)
+[2020-06-27 11:39:23,861] [4414/MainThread] [INFO] [dataiku.doctor.preprocessing_collector] Looking at SprintSpeed... (type=NUMERIC)
+[2020-06-27 11:39:23,862] [4414/MainThread] [INFO] [dataiku.doctor.preprocessing_collector] Checking series of type: float64 (isM8=False)
+[2020-06-27 11:39:23,863] [4414/MainThread] [INFO] [dataiku.doctor.preprocessing_collector] Looking at Wage_Euro... (type=NUMERIC)
+[2020-06-27 11:39:23,863] [4414/MainThread] [INFO] [dataiku.doctor.preprocessing_collector] Checking series of type: float64 (isM8=False)
+[2020-06-27 11:39:23,865] [4414/MainThread] [INFO] [dataiku.doctor.preprocessing_collector] Looking at Name... (type=CATEGORY)
+[2020-06-27 11:39:23,865] [4414/MainThread] [INFO] [dataiku.doctor.preprocessing_collector] Looking at CM... (type=NUMERIC)
+[2020-06-27 11:39:23,865] [4414/MainThread] [INFO] [dataiku.doctor.preprocessing_collector] Checking series of type: float64 (isM8=False)
+[2020-06-27 11:39:23,867] [4414/MainThread] [INFO] [dataiku.doctor.preprocessing_collector] Looking at LAM... (type=NUMERIC)
+[2020-06-27 11:39:23,867] [4414/MainThread] [INFO] [dataiku.doctor.preprocessing_collector] Checking series of type: float64 (isM8=False)
+[2020-06-27 11:39:23,868] [4414/MainThread] [INFO] [dataiku.doctor.preprocessing_collector] Looking at Positioning... (type=NUMERIC)
+[2020-06-27 11:39:23,868] [4414/MainThread] [INFO] [dataiku.doctor.preprocessing_collector] Checking series of type: float64 (isM8=False)
+[2020-06-27 11:39:23,871] [4414/MainThread] [INFO] [dataiku.doctor.preprocessing_collector] Looking at ShotPower... (type=NUMERIC)
+[2020-06-27 11:39:23,871] [4414/MainThread] [INFO] [dataiku.doctor.preprocessing_collector] Checking series of type: float64 (isM8=False)
+[2020-06-27 11:39:23,873] [4414/MainThread] [INFO] [dataiku.doctor.preprocessing_collector] Looking at Curve... (type=NUMERIC)
+[2020-06-27 11:39:23,874] [4414/MainThread] [INFO] [dataiku.doctor.preprocessing_collector] Checking series of type: float64 (isM8=False)
+[2020-06-27 11:39:23,875] [4414/MainThread] [INFO] [dataiku.doctor.preprocessing_collector] Looking at CF... (type=NUMERIC)
+[2020-06-27 11:39:23,876] [4414/MainThread] [INFO] [dataiku.doctor.preprocessing_collector] Checking series of type: float64 (isM8=False)
+[2020-06-27 11:39:23,877] [4414/MainThread] [INFO] [dataiku.doctor.preprocessing_collector] Looking at RDM... (type=NUMERIC)
+[2020-06-27 11:39:23,877] [4414/MainThread] [INFO] [dataiku.doctor.preprocessing_collector] Checking series of type: float64 (isM8=False)
+[2020-06-27 11:39:23,879] [4414/MainThread] [INFO] [dataiku.doctor.preprocessing_collector] Looking at BallControl... (type=NUMERIC)
+[2020-06-27 11:39:23,879] [4414/MainThread] [INFO] [dataiku.doctor.preprocessing_collector] Checking series of type: float64 (isM8=False)
+[2020-06-27 11:39:23,881] [4414/MainThread] [INFO] [dataiku.doctor.preprocessing_collector] Looking at Nationality... (type=CATEGORY)
+[2020-06-27 11:39:23,881] [4414/MainThread] [INFO] [dataiku.doctor.preprocessing_collector] Looking at Crossing... (type=NUMERIC)
+[2020-06-27 11:39:23,881] [4414/MainThread] [INFO] [dataiku.doctor.preprocessing_collector] Checking series of type: float64 (isM8=False)
+[2020-06-27 11:39:23,882] [4414/MainThread] [INFO] [dataiku.doctor.preprocessing_collector] Looking at Finishing... (type=NUMERIC)
+[2020-06-27 11:39:23,883] [4414/MainThread] [INFO] [dataiku.doctor.preprocessing_collector] Checking series of type: float64 (isM8=False)
+[2020-06-27 11:39:23,884] [4414/MainThread] [INFO] [dataiku.doctor.preprocessing_collector] Looking at Balance... (type=NUMERIC)
+[2020-06-27 11:39:23,884] [4414/MainThread] [INFO] [dataiku.doctor.preprocessing_collector] Checking series of type: float64 (isM8=False)
+[2020-06-27 11:39:23,886] [4414/MainThread] [INFO] [dataiku.doctor.preprocessing_collector] Looking at GK... (type=NUMERIC)
+[2020-06-27 11:39:23,886] [4414/MainThread] [INFO] [dataiku.doctor.preprocessing_collector] Checking series of type: float64 (isM8=False)
+[2020-06-27 11:39:23,889] [4414/MainThread] [INFO] [dataiku.doctor.preprocessing_collector] Looking at HeadingAccuracy... (type=NUMERIC)
+[2020-06-27 11:39:23,890] [4414/MainThread] [INFO] [dataiku.doctor.preprocessing_collector] Checking series of type: float64 (isM8=False)
+[2020-06-27 11:39:23,892] [4414/MainThread] [INFO] [dataiku.doctor.preprocessing_collector] Looking at Left... (type=NUMERIC)
+[2020-06-27 11:39:23,892] [4414/MainThread] [INFO] [dataiku.doctor.preprocessing_collector] Checking series of type: float64 (isM8=False)
+[2020-06-27 11:39:23,893] [4414/MainThread] [INFO] [dataiku.doctor.preprocessing_collector] Looking at Reactions... (type=NUMERIC)
+[2020-06-27 11:39:23,893] [4414/MainThread] [INFO] [dataiku.doctor.preprocessing_collector] Checking series of type: float64 (isM8=False)
+[2020-06-27 11:39:23,895] [4414/MainThread] [INFO] [dataiku.doctor.preprocessing_collector] Looking at RWB... (type=NUMERIC)
+[2020-06-27 11:39:23,895] [4414/MainThread] [INFO] [dataiku.doctor.preprocessing_collector] Checking series of type: float64 (isM8=False)
+[2020-06-27 11:39:23,897] [4414/MainThread] [INFO] [dataiku.doctor.preprocessing_collector] Looking at Right... (type=NUMERIC)
+[2020-06-27 11:39:23,897] [4414/MainThread] [INFO] [dataiku.doctor.preprocessing_collector] Checking series of type: float64 (isM8=False)
+[2020-06-27 11:39:23,899] [4414/MainThread] [INFO] [dataiku.doctor.preprocessing_collector] Looking at CDM... (type=NUMERIC)
+[2020-06-27 11:39:23,899] [4414/MainThread] [INFO] [dataiku.doctor.preprocessing_collector] Checking series of type: float64 (isM8=False)
+[2020-06-27 11:39:23,900] [4414/MainThread] [INFO] [dataiku.doctor.preprocessing_collector] Looking at Penalties... (type=NUMERIC)
+[2020-06-27 11:39:23,901] [4414/MainThread] [INFO] [dataiku.doctor.preprocessing_collector] Checking series of type: float64 (isM8=False)
+[2020-06-27 11:39:23,902] [4414/MainThread] [INFO] [dataiku.doctor.preprocessing_collector] Looking at Normal... (type=NUMERIC)
+[2020-06-27 11:39:23,903] [4414/MainThread] [INFO] [dataiku.doctor.preprocessing_collector] Checking series of type: float64 (isM8=False)
+[2020-06-27 11:39:23,906] [4414/MainThread] [INFO] [dataiku.doctor.preprocessing_collector] Looking at LongShots... (type=NUMERIC)
+[2020-06-27 11:39:23,906] [4414/MainThread] [INFO] [dataiku.doctor.preprocessing_collector] Checking series of type: float64 (isM8=False)
+[2020-06-27 11:39:23,908] [4414/MainThread] [INFO] [dataiku.doctor.preprocessing_collector] Looking at Height... (type=NUMERIC)
+[2020-06-27 11:39:23,908] [4414/MainThread] [INFO] [dataiku.doctor.preprocessing_collector] Checking series of type: float64 (isM8=False)
+[2020-06-27 11:39:23,910] [4414/MainThread] [INFO] [dataiku.doctor.preprocessing_collector] Looking at LCB... (type=NUMERIC)
+[2020-06-27 11:39:23,910] [4414/MainThread] [INFO] [dataiku.doctor.preprocessing_collector] Checking series of type: float64 (isM8=False)
+[2020-06-27 11:39:23,912] [4414/MainThread] [INFO] [dataiku.doctor.preprocessing_collector] Looking at Interceptions... (type=NUMERIC)
+[2020-06-27 11:39:23,912] [4414/MainThread] [INFO] [dataiku.doctor.preprocessing_collector] Checking series of type: float64 (isM8=False)
+[2020-06-27 11:39:23,913] [4414/MainThread] [INFO] [dataiku.doctor.preprocessing_collector] Looking at LongPassing... (type=NUMERIC)
+[2020-06-27 11:39:23,914] [4414/MainThread] [INFO] [dataiku.doctor.preprocessing_collector] Checking series of type: float64 (isM8=False)
+[2020-06-27 11:39:23,915] [4414/MainThread] [INFO] [dataiku.doctor.preprocessing_collector] Looking at RAM... (type=NUMERIC)
+[2020-06-27 11:39:23,915] [4414/MainThread] [INFO] [dataiku.doctor.preprocessing_collector] Checking series of type: float64 (isM8=False)
+[2020-06-27 11:39:23,917] [4414/MainThread] [INFO] [dataiku.doctor.preprocessing_collector] Looking at LCM... (type=NUMERIC)
+[2020-06-27 11:39:23,917] [4414/MainThread] [INFO] [dataiku.doctor.preprocessing_collector] Checking series of type: float64 (isM8=False)
+[2020-06-27 11:39:23,919] [4414/MainThread] [INFO] [dataiku.doctor.preprocessing_collector] Looking at Weight_LBS... (type=NUMERIC)
+[2020-06-27 11:39:23,919] [4414/MainThread] [INFO] [dataiku.doctor.preprocessing_collector] Checking series of type: float64 (isM8=False)
+[2020-06-27 11:39:23,922] [4414/MainThread] [INFO] [dataiku.doctor.preprocessing_collector] Looking at Aggression... (type=NUMERIC)
+[2020-06-27 11:39:23,922] [4414/MainThread] [INFO] [dataiku.doctor.preprocessing_collector] Checking series of type: float64 (isM8=False)
+[2020-06-27 11:39:23,925] [4414/MainThread] [INFO] [dataiku.doctor.utils.listener] END -  Collecting statistics
+[2020-06-27 11:39:23,926] [4414/MainThread] [INFO] [dataiku.doctor.multiframe] generating interactions
+[2020-06-27 11:39:23,927] [4414/MainThread] [INFO] [dataiku.doctor.utils.listener] START -  Preprocessing data
+[2020-06-27 11:39:23,927] [4414/MainThread] [INFO] [dataiku.doctor.multiframe] Set MF index len 18207
+[2020-06-27 11:39:23,927] [4414/MainThread] [DEBUG] [dku.ml.preprocessing] FIT/PROCESS WITH Step:CopyMultipleColumnsFromInput
+[2020-06-27 11:39:23,961] [4414/MainThread] [DEBUG] [dku.ml.preprocessing] FIT/PROCESS WITH Step:CopyMultipleColumnsFromInput
+[2020-06-27 11:39:23,963] [4414/MainThread] [DEBUG] [dku.ml.preprocessing] FIT/PROCESS WITH Step:EmitCurrentMFAsResult
+[2020-06-27 11:39:23,963] [4414/MainThread] [INFO] [dataiku.doctor.multiframe] Set MF index len 18207
+[2020-06-27 11:39:23,963] [4414/MainThread] [DEBUG] [dku.ml.preprocessing] FIT/PROCESS WITH Step:DumpPipelineState
+[2020-06-27 11:39:23,963] [4414/MainThread] [DEBUG] [dku.ml.preprocessing] ********* Pipeline state (After create profiling)
+[2020-06-27 11:39:23,964] [4414/MainThread] [DEBUG] [dku.ml.preprocessing]    input_df= (18207, 67) 
+[2020-06-27 11:39:23,964] [4414/MainThread] [DEBUG] [dku.ml.preprocessing]    current_mf=(0, 0) 
+[2020-06-27 11:39:23,964] [4414/MainThread] [DEBUG] [dku.ml.preprocessing]    PPR: 
+[2020-06-27 11:39:23,964] [4414/MainThread] [DEBUG] [dku.ml.preprocessing]       UNPROCESSED = <class 'pandas.core.frame.DataFrame'> ((18207, 67))
+[2020-06-27 11:39:23,964] [4414/MainThread] [DEBUG] [dku.ml.preprocessing]       PROFILING = <class 'dataiku.doctor.multiframe.MultiFrame'> ((18207, 65))
+[2020-06-27 11:39:23,964] [4414/MainThread] [DEBUG] [dku.ml.preprocessing] FIT/PROCESS WITH Step:MultipleImputeMissingFromInput
+[2020-06-27 11:39:23,964] [4414/MainThread] [DEBUG] [dku.ml.preprocessing] MIMIFI: Imputing with map {u'Acceleration': 64.62300214203329, u'Marking': 47.31515351238534, u'Strength': 65.31905311144065, u'Crossing': 49.761245674740486, u'SlidingTackle': 45.70714560333938, u'Composure': 58.65183720547042, u'StandingTackle': 47.746086669962104, u'Dribbling': 55.39902235403966, u'Lean': 0.3526116328884495, u'Stamina': 63.23254792112924, u'RCM': 0.021475256769374416, u'CAM': 0.05261712528148514, u'LWB': 0.004284066567803592, u'Height': 176.72011259406068, u'RCB': 0.03635964189597408, u'LF': 0.0008238589553468446, u'Agility': 63.52073378370956, u'RW': 0.020321854231888835, u'LB': 0.07260943593123524, u'RS': 0.01114955786236063, u'Volleys': 42.92244741033668, u'LM': 0.06014170374031966, u'LDM': 0.013346515076618883, u'Stocky': 0.06261328060636019, u'RF': 0.0008787828857033009, u'Jumping': 65.10237820618444, u'FKAccuracy': 42.86087768440709, u'LS': 0.011369253583786456, u'RB': 0.07090679409018509, u'RM': 0.06173449772065689, u'ShortPassing': 58.70071950348767, u'Curve': 47.199373867193934, u'ShotPower': 55.48519800076893, u'SprintSpeed': 64.73559619926402, u'Wage_Euro': 9731.312132696215, u'RAM': 0.0011534025374855825, u'CM': 0.0765639589169001, u'Reactions': 61.83704069863239, u'HeadingAccuracy': 52.31317625089251, u'CB': 0.09765474817377931, u'Age': 25.122205745043114, u'Positioning': 49.99813258636788, u'CF': 0.004064370846377767, u'LW': 0.020926017465809854, u'RDM': 0.013621134728401164, u'Finishing': 45.58373153182842, u'Balance': 63.97457022024496, u'GK': 0.11122095897182402, u'Vision': 53.41302795628055, u'Left': 0.2312846707310375, u'LAM': 0.0011534025374855825, u'RWB': 0.004778381941011699, u'Right': 0.7660789806118525, u'BallControl': 58.386939089361235, u'CDM': 0.05206788597792058, u'Penalties': 48.54978854286813, u'Normal': 0.581973966057011, u'LongShots': 47.138682924150054, u'ST': 0.12149173394848135, u'LCB': 0.03559070687098369, u'Aggression': 55.90097215356731, u'LongPassing': 52.736420058219366, u'LCM': 0.02169495249080024, u'Weight_LBS': 75.27398131820654, u'Interceptions': 46.74652606140496}
+[2020-06-27 11:39:23,998] [4414/MainThread] [DEBUG] [dku.ml.preprocessing] FIT/PROCESS WITH Step:FlushDFBuilder(num_flagonly)
+[2020-06-27 11:39:23,998] [4414/MainThread] [DEBUG] [dku.ml.preprocessing] FIT/PROCESS WITH Step:MultipleImputeMissingFromInput
+[2020-06-27 11:39:23,998] [4414/MainThread] [DEBUG] [dku.ml.preprocessing] MIMIFI: Imputing with map {}
+[2020-06-27 11:39:23,998] [4414/MainThread] [DEBUG] [dku.ml.preprocessing] FIT/PROCESS WITH Step:FlushDFBuilder(cat_flagpresence)
+[2020-06-27 11:39:23,998] [4414/MainThread] [DEBUG] [dku.ml.preprocessing] FIT/PROCESS WITH Step:MultipleImputeMissingFromInput
+[2020-06-27 11:39:23,998] [4414/MainThread] [DEBUG] [dku.ml.preprocessing] MIMIFI: Imputing with map {}
+[2020-06-27 11:39:23,998] [4414/MainThread] [DEBUG] [dku.ml.preprocessing] FIT/PROCESS WITH Step:FlushDFBuilder(interaction)
+[2020-06-27 11:39:23,998] [4414/MainThread] [DEBUG] [dku.ml.preprocessing] FIT/PROCESS WITH Step:DumpPipelineState
+[2020-06-27 11:39:23,998] [4414/MainThread] [DEBUG] [dku.ml.preprocessing] ********* Pipeline state (After std handling)
+[2020-06-27 11:39:23,998] [4414/MainThread] [DEBUG] [dku.ml.preprocessing]    input_df= (18207, 67) 
+[2020-06-27 11:39:23,999] [4414/MainThread] [DEBUG] [dku.ml.preprocessing]    current_mf=(18207, 65) 
+[2020-06-27 11:39:23,999] [4414/MainThread] [DEBUG] [dku.ml.preprocessing]    PPR: 
+[2020-06-27 11:39:23,999] [4414/MainThread] [DEBUG] [dku.ml.preprocessing]       UNPROCESSED = <class 'pandas.core.frame.DataFrame'> ((18207, 67))
+[2020-06-27 11:39:23,999] [4414/MainThread] [DEBUG] [dku.ml.preprocessing]       PROFILING = <class 'dataiku.doctor.multiframe.MultiFrame'> ((18207, 65))
+[2020-06-27 11:39:23,999] [4414/MainThread] [DEBUG] [dku.ml.preprocessing] FIT/PROCESS WITH Step:DumpPipelineState
+[2020-06-27 11:39:23,999] [4414/MainThread] [DEBUG] [dku.ml.preprocessing] ********* Pipeline state (After outliers)
+[2020-06-27 11:39:23,999] [4414/MainThread] [DEBUG] [dku.ml.preprocessing]    input_df= (18207, 67) 
+[2020-06-27 11:39:23,999] [4414/MainThread] [DEBUG] [dku.ml.preprocessing]    current_mf=(18207, 65) 
+[2020-06-27 11:39:23,999] [4414/MainThread] [DEBUG] [dku.ml.preprocessing]    PPR: 
+[2020-06-27 11:39:23,999] [4414/MainThread] [DEBUG] [dku.ml.preprocessing]       UNPROCESSED = <class 'pandas.core.frame.DataFrame'> ((18207, 67))
+[2020-06-27 11:39:23,999] [4414/MainThread] [DEBUG] [dku.ml.preprocessing]       PROFILING = <class 'dataiku.doctor.multiframe.MultiFrame'> ((18207, 65))
+[2020-06-27 11:39:23,999] [4414/MainThread] [DEBUG] [dku.ml.preprocessing] FIT/PROCESS WITH Step:EmitCurrentMFAsResult
+[2020-06-27 11:39:23,999] [4414/MainThread] [INFO] [dataiku.doctor.multiframe] Set MF index len 18207
+[2020-06-27 11:39:23,999] [4414/MainThread] [DEBUG] [dku.ml.preprocessing] FIT/PROCESS WITH Step:AddReferenceInOutput
+[2020-06-27 11:39:23,999] [4414/MainThread] [DEBUG] [dku.ml.preprocessing] FIT/PROCESS WITH Step:DumpPipelineState
+[2020-06-27 11:39:24,000] [4414/MainThread] [DEBUG] [dku.ml.preprocessing] ********* Pipeline state (After PCA)
+[2020-06-27 11:39:24,000] [4414/MainThread] [DEBUG] [dku.ml.preprocessing]    input_df= (18207, 67) 
+[2020-06-27 11:39:24,000] [4414/MainThread] [DEBUG] [dku.ml.preprocessing]    current_mf=(0, 0) 
+[2020-06-27 11:39:24,000] [4414/MainThread] [DEBUG] [dku.ml.preprocessing]    PPR: 
+[2020-06-27 11:39:24,000] [4414/MainThread] [DEBUG] [dku.ml.preprocessing]       UNPROCESSED = <class 'pandas.core.frame.DataFrame'> ((18207, 67))
+[2020-06-27 11:39:24,000] [4414/MainThread] [DEBUG] [dku.ml.preprocessing]       TRAIN = <class 'dataiku.doctor.multiframe.MultiFrame'> ((18207, 65))
+[2020-06-27 11:39:24,000] [4414/MainThread] [DEBUG] [dku.ml.preprocessing]       PROFILING = <class 'dataiku.doctor.multiframe.MultiFrame'> ((18207, 65))
+[2020-06-27 11:39:24,000] [4414/MainThread] [DEBUG] [dku.ml.preprocessing]       TRAIN_PREPCA = <class 'dataiku.doctor.multiframe.MultiFrame'> ((18207, 65))
+[2020-06-27 11:39:24,004] [4414/MainThread] [INFO] [dataiku.doctor.utils.listener] END -  Preprocessing data
+[2020-06-27 11:39:24,005] [4414/MainThread] [INFO] [dataiku.doctor.utils.listener] START -  Fitting model
+[2020-06-27 11:39:24,030] [4414/MainThread] [INFO] [dataiku.doctor.clustering.clustering_fit] FP Acceleration=91.0
+[2020-06-27 11:39:24,031] [4414/MainThread] [INFO] [dataiku.doctor.clustering.clustering_fit] FP Age=31.0
+[2020-06-27 11:39:24,031] [4414/MainThread] [INFO] [dataiku.doctor.clustering.clustering_fit] FP Aggression=48.0
+[2020-06-27 11:39:24,031] [4414/MainThread] [INFO] [dataiku.doctor.clustering.clustering_fit] FP Agility=91.0
+[2020-06-27 11:39:24,031] [4414/MainThread] [INFO] [dataiku.doctor.clustering.clustering_fit] FP Balance=95.0
+[2020-06-27 11:39:24,032] [4414/MainThread] [INFO] [dataiku.doctor.clustering.clustering_fit] FP BallControl=96.0
+[2020-06-27 11:39:24,032] [4414/MainThread] [INFO] [dataiku.doctor.clustering.clustering_fit] FP CAM=0.0
+[2020-06-27 11:39:24,032] [4414/MainThread] [INFO] [dataiku.doctor.clustering.clustering_fit] FP CB=0.0
+[2020-06-27 11:39:24,033] [4414/MainThread] [INFO] [dataiku.doctor.clustering.clustering_fit] FP CDM=0.0
+[2020-06-27 11:39:24,033] [4414/MainThread] [INFO] [dataiku.doctor.clustering.clustering_fit] FP CF=0.0
+[2020-06-27 11:39:24,033] [4414/MainThread] [INFO] [dataiku.doctor.clustering.clustering_fit] FP CM=0.0
+[2020-06-27 11:39:24,033] [4414/MainThread] [INFO] [dataiku.doctor.clustering.clustering_fit] FP Composure=96.0
+[2020-06-27 11:39:24,034] [4414/MainThread] [INFO] [dataiku.doctor.clustering.clustering_fit] FP Crossing=84.0
+[2020-06-27 11:39:24,034] [4414/MainThread] [INFO] [dataiku.doctor.clustering.clustering_fit] FP Curve=93.0
+[2020-06-27 11:39:24,034] [4414/MainThread] [INFO] [dataiku.doctor.clustering.clustering_fit] FP Dribbling=97.0
+[2020-06-27 11:39:24,034] [4414/MainThread] [INFO] [dataiku.doctor.clustering.clustering_fit] FP FKAccuracy=94.0
+[2020-06-27 11:39:24,035] [4414/MainThread] [INFO] [dataiku.doctor.clustering.clustering_fit] FP Finishing=95.0
+[2020-06-27 11:39:24,035] [4414/MainThread] [INFO] [dataiku.doctor.clustering.clustering_fit] FP GK=0.0
+[2020-06-27 11:39:24,035] [4414/MainThread] [INFO] [dataiku.doctor.clustering.clustering_fit] FP HeadingAccuracy=70.0
+[2020-06-27 11:39:24,035] [4414/MainThread] [INFO] [dataiku.doctor.clustering.clustering_fit] FP Height=173.74
+[2020-06-27 11:39:24,036] [4414/MainThread] [INFO] [dataiku.doctor.clustering.clustering_fit] FP Interceptions=22.0
+[2020-06-27 11:39:24,036] [4414/MainThread] [INFO] [dataiku.doctor.clustering.clustering_fit] FP Jumping=68.0
+[2020-06-27 11:39:24,036] [4414/MainThread] [INFO] [dataiku.doctor.clustering.clustering_fit] FP LAM=0.0
+[2020-06-27 11:39:24,037] [4414/MainThread] [INFO] [dataiku.doctor.clustering.clustering_fit] FP LB=0.0
+[2020-06-27 11:39:24,038] [4414/MainThread] [INFO] [dataiku.doctor.clustering.clustering_fit] FP LCB=0.0
+[2020-06-27 11:39:24,038] [4414/MainThread] [INFO] [dataiku.doctor.clustering.clustering_fit] FP LCM=0.0
+[2020-06-27 11:39:24,039] [4414/MainThread] [INFO] [dataiku.doctor.clustering.clustering_fit] FP LDM=0.0
+[2020-06-27 11:39:24,039] [4414/MainThread] [INFO] [dataiku.doctor.clustering.clustering_fit] FP LF=0.0
+[2020-06-27 11:39:24,039] [4414/MainThread] [INFO] [dataiku.doctor.clustering.clustering_fit] FP LM=0.0
+[2020-06-27 11:39:24,040] [4414/MainThread] [INFO] [dataiku.doctor.clustering.clustering_fit] FP LS=0.0
+[2020-06-27 11:39:24,040] [4414/MainThread] [INFO] [dataiku.doctor.clustering.clustering_fit] FP LW=0.0
+[2020-06-27 11:39:24,040] [4414/MainThread] [INFO] [dataiku.doctor.clustering.clustering_fit] FP LWB=0.0
+[2020-06-27 11:39:24,040] [4414/MainThread] [INFO] [dataiku.doctor.clustering.clustering_fit] FP Lean=0.0
+[2020-06-27 11:39:24,040] [4414/MainThread] [INFO] [dataiku.doctor.clustering.clustering_fit] FP Left=1.0
+[2020-06-27 11:39:24,041] [4414/MainThread] [INFO] [dataiku.doctor.clustering.clustering_fit] FP LongPassing=87.0
+[2020-06-27 11:39:24,041] [4414/MainThread] [INFO] [dataiku.doctor.clustering.clustering_fit] FP LongShots=94.0
+[2020-06-27 11:39:24,041] [4414/MainThread] [INFO] [dataiku.doctor.clustering.clustering_fit] FP Marking=33.0
+[2020-06-27 11:39:24,041] [4414/MainThread] [INFO] [dataiku.doctor.clustering.clustering_fit] FP Normal=0.0
+[2020-06-27 11:39:24,041] [4414/MainThread] [INFO] [dataiku.doctor.clustering.clustering_fit] FP Penalties=75.0
+[2020-06-27 11:39:24,042] [4414/MainThread] [INFO] [dataiku.doctor.clustering.clustering_fit] FP Positioning=94.0
+[2020-06-27 11:39:24,042] [4414/MainThread] [INFO] [dataiku.doctor.clustering.clustering_fit] FP RAM=0.0
+[2020-06-27 11:39:24,042] [4414/MainThread] [INFO] [dataiku.doctor.clustering.clustering_fit] FP RB=0.0
+[2020-06-27 11:39:24,042] [4414/MainThread] [INFO] [dataiku.doctor.clustering.clustering_fit] FP RCB=0.0
+[2020-06-27 11:39:24,042] [4414/MainThread] [INFO] [dataiku.doctor.clustering.clustering_fit] FP RCM=0.0
+[2020-06-27 11:39:24,042] [4414/MainThread] [INFO] [dataiku.doctor.clustering.clustering_fit] FP RDM=0.0
+[2020-06-27 11:39:24,043] [4414/MainThread] [INFO] [dataiku.doctor.clustering.clustering_fit] FP RF=1.0
+[2020-06-27 11:39:24,043] [4414/MainThread] [INFO] [dataiku.doctor.clustering.clustering_fit] FP RM=0.0
+[2020-06-27 11:39:24,043] [4414/MainThread] [INFO] [dataiku.doctor.clustering.clustering_fit] FP RS=0.0
+[2020-06-27 11:39:24,043] [4414/MainThread] [INFO] [dataiku.doctor.clustering.clustering_fit] FP RW=0.0
+[2020-06-27 11:39:24,043] [4414/MainThread] [INFO] [dataiku.doctor.clustering.clustering_fit] FP RWB=0.0
+[2020-06-27 11:39:24,043] [4414/MainThread] [INFO] [dataiku.doctor.clustering.clustering_fit] FP Reactions=95.0
+[2020-06-27 11:39:24,044] [4414/MainThread] [INFO] [dataiku.doctor.clustering.clustering_fit] FP Right=0.0
+[2020-06-27 11:39:24,044] [4414/MainThread] [INFO] [dataiku.doctor.clustering.clustering_fit] FP ST=0.0
+[2020-06-27 11:39:24,044] [4414/MainThread] [INFO] [dataiku.doctor.clustering.clustering_fit] FP ShortPassing=90.0
+[2020-06-27 11:39:24,044] [4414/MainThread] [INFO] [dataiku.doctor.clustering.clustering_fit] FP ShotPower=85.0
+[2020-06-27 11:39:24,044] [4414/MainThread] [INFO] [dataiku.doctor.clustering.clustering_fit] FP SlidingTackle=26.0
+[2020-06-27 11:39:24,044] [4414/MainThread] [INFO] [dataiku.doctor.clustering.clustering_fit] FP SprintSpeed=86.0
+[2020-06-27 11:39:24,044] [4414/MainThread] [INFO] [dataiku.doctor.clustering.clustering_fit] FP Stamina=72.0
+[2020-06-27 11:39:24,045] [4414/MainThread] [INFO] [dataiku.doctor.clustering.clustering_fit] FP StandingTackle=28.0
+[2020-06-27 11:39:24,045] [4414/MainThread] [INFO] [dataiku.doctor.clustering.clustering_fit] FP Stocky=0.0
+[2020-06-27 11:39:24,045] [4414/MainThread] [INFO] [dataiku.doctor.clustering.clustering_fit] FP Strength=59.0
+[2020-06-27 11:39:24,045] [4414/MainThread] [INFO] [dataiku.doctor.clustering.clustering_fit] FP Vision=94.0
+[2020-06-27 11:39:24,045] [4414/MainThread] [INFO] [dataiku.doctor.clustering.clustering_fit] FP Volleys=86.0
+[2020-06-27 11:39:24,045] [4414/MainThread] [INFO] [dataiku.doctor.clustering.clustering_fit] FP Wage_Euro=565000.0
+[2020-06-27 11:39:24,046] [4414/MainThread] [INFO] [dataiku.doctor.clustering.clustering_fit] FP Weight_LBS=72.10884353741497
+[2020-06-27 11:39:26,971] [4414/MainThread] [INFO] [dataiku.doctor.clustering.clustering_fit] Clustering model inspector algo=PY_TWO_STEP
+[2020-06-27 11:39:26,972] [4414/MainThread] [INFO] [dataiku.doctor.clustering.clustering_fit] End of get_actu_params: now {u'n_jobs': 2, u'algorithm': u'PY_TWO_STEP', u'coef0': 0.0, u'isolation_forest': {u'max_samples': 0.5, u'k': 2, u'bootstrap': True, u'enabled': False, u'max_anomalies': 100, u'n_estimators': 100, u'seed': 1337, u'n_samples': 256, u'max_features': 1.0, u'max_depth': 15, u'contamination': 0.05}, u'epsilon': 0.0, u'k': 5, u'custom_has_k': False, u'metrics': {u'evaluationMetric': u'SILHOUETTE', u'customEvaluationMetricGIB': True}, u'seed': 1337, u'min_sample_ratio': 0.0, u'ts_kmeans_k': 50, u'gamma': 0.0, u'max_iterations': 30}
+[2020-06-27 11:39:26,975] [4414/MainThread] [INFO] [dataiku.doctor.utils.listener] END -  Fitting model
+[2020-06-27 11:39:26,975] [4414/MainThread] [INFO] [dataiku.doctor.utils.listener] START -  Saving model
+[2020-06-27 11:39:26,980] [4414/MainThread] [INFO] [dataiku.doctor.utils.listener] END -  Saving model
+[2020-06-27 11:39:26,980] [4414/MainThread] [INFO] [dataiku.doctor.utils.listener] START -  Scoring model
+[2020-06-27 11:39:26,981] [4414/MainThread] [INFO] [dataiku.doctor.clustering.clustering_scorer] Clustering scoring: transform to dataframes
+[2020-06-27 11:39:26,992] [4414/MainThread] [INFO] [dataiku.doctor.clustering.clustering_scorer] Clustering scoring: Dumping shapes
+[2020-06-27 11:39:26,992] [4414/MainThread] [INFO] [dataiku.doctor.clustering.clustering_scorer]   Train df = (18207, 65)
+[2020-06-27 11:39:26,992] [4414/MainThread] [INFO] [dataiku.doctor.clustering.clustering_scorer]   Profiling df = (18207, 65)
+[2020-06-27 11:39:26,992] [4414/MainThread] [INFO] [dataiku.doctor.clustering.clustering_scorer]   Prepca df = (18207, 65)
+[2020-06-27 11:39:26,992] [4414/MainThread] [INFO] [dataiku.doctor.clustering.clustering_scorer] Clustering scoring: Starting work
+[2020-06-27 11:39:26,998] [4414/MainThread] [INFO] [dataiku.doctor.clustering.clustering_scorer] Silhouhette: taking sample of 0.109848 on df (18207, 66)
+//Applications/DataScienceStudio.app/Contents/Resources/kit/python/dataiku/doctor/utils/subsampler.py:77: DeprecationWarning: 
+.ix is deprecated. Please use
+.loc for label based indexing or
+.iloc for positional indexing
+See the documentation here:
+http://pandas.pydata.org/pandas-docs/stable/indexing.html#ix-indexer-is-deprecated
+  keep = temp.ix[[temp.index[ind]]]
+[2020-06-27 11:39:28,557] [4414/MainThread] [INFO] [dataiku.doctor.clustering.clustering_scorer] Clustering scoring: building final profiling_df
+[2020-06-27 11:39:28,632] [4414/MainThread] [INFO] [dataiku.doctor.clustering.clustering_scorer] shape ofw train : 18207,65
+[2020-06-27 11:39:28,632] [4414/MainThread] [INFO] [dataiku.doctor.clustering.clustering_scorer] shape of global dataframe : 18207,66
+[2020-06-27 11:39:28,632] [4414/MainThread] [INFO] [dataiku.doctor.clustering.clustering_scorer] Clustering scorer: final profiling_df (18207, 66)
+[2020-06-27 11:39:28,709] [4414/MainThread] [INFO] [dataiku.doctor.clustering.clustering_scorer] clusters list : ['node_9' 'node_91' 'node_92' 'node_93' 'node_94']
+[2020-06-27 11:39:28,714] [4414/MainThread] [INFO] [dataiku.doctor.clustering.clustering_scorer] cluster in dataframe : ['node_9' 'node_91' 'node_92' 'node_93' 'node_94']
+[2020-06-27 11:39:28,949] [4414/MainThread] [INFO] [dataiku.doctor.clustering.clustering_scorer] Labels:       cluster_labels
+0             node_9
+1            node_92
+2            node_91
+3            node_91
+4            node_92
+5            node_92
+6            node_92
+7            node_92
+8            node_92
+9            node_94
+10           node_94
+11           node_92
+12           node_94
+13           node_91
+14           node_91
+15           node_94
+16           node_94
+17           node_94
+18           node_91
+19           node_91
+20           node_91
+21           node_94
+22           node_94
+23           node_91
+24           node_94
+25           node_94
+26           node_91
+27           node_91
+28           node_91
+29           node_94
+...              ...
+18177        node_93
+18178        node_93
+18179        node_93
+18180        node_93
+18181        node_93
+18182        node_93
+18183        node_93
+18184        node_93
+18185        node_93
+18186        node_93
+18187        node_93
+18188        node_93
+18189        node_93
+18190        node_93
+18191        node_93
+18192        node_93
+18193        node_93
+18194        node_93
+18195        node_93
+18196        node_93
+18197        node_93
+18198        node_93
+18199        node_93
+18200        node_93
+18201        node_93
+18202        node_93
+18203        node_93
+18204        node_93
+18205        node_93
+18206        node_93
+[18207 rows x 1 columns]
+[2020-06-27 11:39:28,954] [4414/MainThread] [INFO] [dataiku.doctor.clustering.clustering_scorer] Grouped: Empty DataFrame
+Columns: []
+Index: [node_9, node_91, node_92, node_93, node_94]
+[2020-06-27 11:39:28,956] [4414/MainThread] [INFO] [dataiku.doctor.clustering.clustering_scorer] Grouped2: <pandas.core.groupby.groupby.DataFrameGroupBy object at 0x108fabb50>
+[2020-06-27 11:39:28,966] [4414/MainThread] [INFO] [dataiku.doctor.clustering.clustering_scorer] Study profiling column: Acceleration dtype=float64
+[2020-06-27 11:39:28,966] [4414/MainThread] [INFO] [dataiku.doctor.clustering.clustering_scorer]   It's a float
+[2020-06-27 11:39:29,000] [4414/MainThread] [INFO] [dataiku.doctor.clustering.clustering_scorer] Study profiling column: Marking dtype=float64
+[2020-06-27 11:39:29,000] [4414/MainThread] [INFO] [dataiku.doctor.clustering.clustering_scorer]   It's a float
+[2020-06-27 11:39:29,027] [4414/MainThread] [INFO] [dataiku.doctor.clustering.clustering_scorer] Study profiling column: Strength dtype=float64
+[2020-06-27 11:39:29,027] [4414/MainThread] [INFO] [dataiku.doctor.clustering.clustering_scorer]   It's a float
+[2020-06-27 11:39:29,052] [4414/MainThread] [INFO] [dataiku.doctor.clustering.clustering_scorer] Study profiling column: SlidingTackle dtype=float64
+[2020-06-27 11:39:29,052] [4414/MainThread] [INFO] [dataiku.doctor.clustering.clustering_scorer]   It's a float
+[2020-06-27 11:39:29,080] [4414/MainThread] [INFO] [dataiku.doctor.clustering.clustering_scorer] Study profiling column: Composure dtype=float64
+[2020-06-27 11:39:29,080] [4414/MainThread] [INFO] [dataiku.doctor.clustering.clustering_scorer]   It's a float
+[2020-06-27 11:39:29,105] [4414/MainThread] [INFO] [dataiku.doctor.clustering.clustering_scorer] Study profiling column: StandingTackle dtype=float64
+[2020-06-27 11:39:29,105] [4414/MainThread] [INFO] [dataiku.doctor.clustering.clustering_scorer]   It's a float
+[2020-06-27 11:39:29,132] [4414/MainThread] [INFO] [dataiku.doctor.clustering.clustering_scorer] Study profiling column: Dribbling dtype=float64
+[2020-06-27 11:39:29,132] [4414/MainThread] [INFO] [dataiku.doctor.clustering.clustering_scorer]   It's a float
+[2020-06-27 11:39:29,161] [4414/MainThread] [INFO] [dataiku.doctor.clustering.clustering_scorer] Study profiling column: Lean dtype=float64
+[2020-06-27 11:39:29,161] [4414/MainThread] [INFO] [dataiku.doctor.clustering.clustering_scorer]   It's a float
+[2020-06-27 11:39:29,184] [4414/MainThread] [INFO] [dataiku.doctor.clustering.clustering_scorer] Study profiling column: Stamina dtype=float64
+[2020-06-27 11:39:29,185] [4414/MainThread] [INFO] [dataiku.doctor.clustering.clustering_scorer]   It's a float
+[2020-06-27 11:39:29,213] [4414/MainThread] [INFO] [dataiku.doctor.clustering.clustering_scorer] Study profiling column: RCM dtype=float64
+[2020-06-27 11:39:29,213] [4414/MainThread] [INFO] [dataiku.doctor.clustering.clustering_scorer]   It's a float
+[2020-06-27 11:39:29,235] [4414/MainThread] [INFO] [dataiku.doctor.clustering.clustering_scorer] Study profiling column: CAM dtype=float64
+[2020-06-27 11:39:29,236] [4414/MainThread] [INFO] [dataiku.doctor.clustering.clustering_scorer]   It's a float
+[2020-06-27 11:39:29,261] [4414/MainThread] [INFO] [dataiku.doctor.clustering.clustering_scorer] Study profiling column: LWB dtype=float64
+[2020-06-27 11:39:29,261] [4414/MainThread] [INFO] [dataiku.doctor.clustering.clustering_scorer]   It's a float
+[2020-06-27 11:39:29,284] [4414/MainThread] [INFO] [dataiku.doctor.clustering.clustering_scorer] Study profiling column: ST dtype=float64
+[2020-06-27 11:39:29,284] [4414/MainThread] [INFO] [dataiku.doctor.clustering.clustering_scorer]   It's a float
+[2020-06-27 11:39:29,309] [4414/MainThread] [INFO] [dataiku.doctor.clustering.clustering_scorer] Study profiling column: Stocky dtype=float64
+[2020-06-27 11:39:29,309] [4414/MainThread] [INFO] [dataiku.doctor.clustering.clustering_scorer]   It's a float
+[2020-06-27 11:39:29,332] [4414/MainThread] [INFO] [dataiku.doctor.clustering.clustering_scorer] Study profiling column: RCB dtype=float64
+[2020-06-27 11:39:29,332] [4414/MainThread] [INFO] [dataiku.doctor.clustering.clustering_scorer]   It's a float
+[2020-06-27 11:39:29,357] [4414/MainThread] [INFO] [dataiku.doctor.clustering.clustering_scorer] Study profiling column: LF dtype=float64
+[2020-06-27 11:39:29,357] [4414/MainThread] [INFO] [dataiku.doctor.clustering.clustering_scorer]   It's a float
+[2020-06-27 11:39:29,379] [4414/MainThread] [INFO] [dataiku.doctor.clustering.clustering_scorer] Study profiling column: Agility dtype=float64
+[2020-06-27 11:39:29,379] [4414/MainThread] [INFO] [dataiku.doctor.clustering.clustering_scorer]   It's a float
+[2020-06-27 11:39:29,406] [4414/MainThread] [INFO] [dataiku.doctor.clustering.clustering_scorer] Study profiling column: RW dtype=float64
+[2020-06-27 11:39:29,406] [4414/MainThread] [INFO] [dataiku.doctor.clustering.clustering_scorer]   It's a float
+[2020-06-27 11:39:29,430] [4414/MainThread] [INFO] [dataiku.doctor.clustering.clustering_scorer] Study profiling column: LB dtype=float64
+[2020-06-27 11:39:29,430] [4414/MainThread] [INFO] [dataiku.doctor.clustering.clustering_scorer]   It's a float
+[2020-06-27 11:39:29,453] [4414/MainThread] [INFO] [dataiku.doctor.clustering.clustering_scorer] Study profiling column: RS dtype=float64
+[2020-06-27 11:39:29,453] [4414/MainThread] [INFO] [dataiku.doctor.clustering.clustering_scorer]   It's a float
+[2020-06-27 11:39:29,478] [4414/MainThread] [INFO] [dataiku.doctor.clustering.clustering_scorer] Study profiling column: Vision dtype=float64
+[2020-06-27 11:39:29,478] [4414/MainThread] [INFO] [dataiku.doctor.clustering.clustering_scorer]   It's a float
+[2020-06-27 11:39:29,506] [4414/MainThread] [INFO] [dataiku.doctor.clustering.clustering_scorer] Study profiling column: Volleys dtype=float64
+[2020-06-27 11:39:29,506] [4414/MainThread] [INFO] [dataiku.doctor.clustering.clustering_scorer]   It's a float
+[2020-06-27 11:39:29,532] [4414/MainThread] [INFO] [dataiku.doctor.clustering.clustering_scorer] Study profiling column: LM dtype=float64
+[2020-06-27 11:39:29,532] [4414/MainThread] [INFO] [dataiku.doctor.clustering.clustering_scorer]   It's a float
+[2020-06-27 11:39:29,557] [4414/MainThread] [INFO] [dataiku.doctor.clustering.clustering_scorer] Study profiling column: LDM dtype=float64
+[2020-06-27 11:39:29,557] [4414/MainThread] [INFO] [dataiku.doctor.clustering.clustering_scorer]   It's a float
+[2020-06-27 11:39:29,580] [4414/MainThread] [INFO] [dataiku.doctor.clustering.clustering_scorer] Study profiling column: LW dtype=float64
+[2020-06-27 11:39:29,580] [4414/MainThread] [INFO] [dataiku.doctor.clustering.clustering_scorer]   It's a float
+[2020-06-27 11:39:29,603] [4414/MainThread] [INFO] [dataiku.doctor.clustering.clustering_scorer] Study profiling column: RF dtype=float64
+[2020-06-27 11:39:29,603] [4414/MainThread] [INFO] [dataiku.doctor.clustering.clustering_scorer]   It's a float
+[2020-06-27 11:39:29,632] [4414/MainThread] [INFO] [dataiku.doctor.clustering.clustering_scorer] Study profiling column: Jumping dtype=float64
+[2020-06-27 11:39:29,632] [4414/MainThread] [INFO] [dataiku.doctor.clustering.clustering_scorer]   It's a float
+[2020-06-27 11:39:29,684] [4414/MainThread] [INFO] [dataiku.doctor.clustering.clustering_scorer] Study profiling column: FKAccuracy dtype=float64
+[2020-06-27 11:39:29,684] [4414/MainThread] [INFO] [dataiku.doctor.clustering.clustering_scorer]   It's a float
+[2020-06-27 11:39:29,719] [4414/MainThread] [INFO] [dataiku.doctor.clustering.clustering_scorer] Study profiling column: LS dtype=float64
+[2020-06-27 11:39:29,719] [4414/MainThread] [INFO] [dataiku.doctor.clustering.clustering_scorer]   It's a float
+[2020-06-27 11:39:29,749] [4414/MainThread] [INFO] [dataiku.doctor.clustering.clustering_scorer] Study profiling column: RB dtype=float64
+[2020-06-27 11:39:29,749] [4414/MainThread] [INFO] [dataiku.doctor.clustering.clustering_scorer]   It's a float
+[2020-06-27 11:39:29,775] [4414/MainThread] [INFO] [dataiku.doctor.clustering.clustering_scorer] Study profiling column: CB dtype=float64
+[2020-06-27 11:39:29,775] [4414/MainThread] [INFO] [dataiku.doctor.clustering.clustering_scorer]   It's a float
+[2020-06-27 11:39:29,799] [4414/MainThread] [INFO] [dataiku.doctor.clustering.clustering_scorer] Study profiling column: RM dtype=float64
+[2020-06-27 11:39:29,799] [4414/MainThread] [INFO] [dataiku.doctor.clustering.clustering_scorer]   It's a float
+[2020-06-27 11:39:29,824] [4414/MainThread] [INFO] [dataiku.doctor.clustering.clustering_scorer] Study profiling column: ShortPassing dtype=float64
+[2020-06-27 11:39:29,824] [4414/MainThread] [INFO] [dataiku.doctor.clustering.clustering_scorer]   It's a float
+[2020-06-27 11:39:29,850] [4414/MainThread] [INFO] [dataiku.doctor.clustering.clustering_scorer] Study profiling column: Age dtype=float64
+[2020-06-27 11:39:29,850] [4414/MainThread] [INFO] [dataiku.doctor.clustering.clustering_scorer]   It's a float
+[2020-06-27 11:39:29,879] [4414/MainThread] [INFO] [dataiku.doctor.clustering.clustering_scorer] Study profiling column: SprintSpeed dtype=float64
+[2020-06-27 11:39:29,880] [4414/MainThread] [INFO] [dataiku.doctor.clustering.clustering_scorer]   It's a float
+[2020-06-27 11:39:29,908] [4414/MainThread] [INFO] [dataiku.doctor.clustering.clustering_scorer] Study profiling column: Wage_Euro dtype=float64
+[2020-06-27 11:39:29,909] [4414/MainThread] [INFO] [dataiku.doctor.clustering.clustering_scorer]   It's a float
+[2020-06-27 11:39:29,933] [4414/MainThread] [INFO] [dataiku.doctor.clustering.clustering_scorer] Study profiling column: CM dtype=float64
+[2020-06-27 11:39:29,933] [4414/MainThread] [INFO] [dataiku.doctor.clustering.clustering_scorer]   It's a float
+[2020-06-27 11:39:29,959] [4414/MainThread] [INFO] [dataiku.doctor.clustering.clustering_scorer] Study profiling column: LAM dtype=float64
+[2020-06-27 11:39:29,959] [4414/MainThread] [INFO] [dataiku.doctor.clustering.clustering_scorer]   It's a float
+[2020-06-27 11:39:29,982] [4414/MainThread] [INFO] [dataiku.doctor.clustering.clustering_scorer] Study profiling column: Positioning dtype=float64
+[2020-06-27 11:39:29,983] [4414/MainThread] [INFO] [dataiku.doctor.clustering.clustering_scorer]   It's a float
+[2020-06-27 11:39:30,011] [4414/MainThread] [INFO] [dataiku.doctor.clustering.clustering_scorer] Study profiling column: ShotPower dtype=float64
+[2020-06-27 11:39:30,011] [4414/MainThread] [INFO] [dataiku.doctor.clustering.clustering_scorer]   It's a float
+[2020-06-27 11:39:30,037] [4414/MainThread] [INFO] [dataiku.doctor.clustering.clustering_scorer] Study profiling column: Curve dtype=float64
+[2020-06-27 11:39:30,038] [4414/MainThread] [INFO] [dataiku.doctor.clustering.clustering_scorer]   It's a float
+[2020-06-27 11:39:30,065] [4414/MainThread] [INFO] [dataiku.doctor.clustering.clustering_scorer] Study profiling column: CF dtype=float64
+[2020-06-27 11:39:30,065] [4414/MainThread] [INFO] [dataiku.doctor.clustering.clustering_scorer]   It's a float
+[2020-06-27 11:39:30,089] [4414/MainThread] [INFO] [dataiku.doctor.clustering.clustering_scorer] Study profiling column: RDM dtype=float64
+[2020-06-27 11:39:30,090] [4414/MainThread] [INFO] [dataiku.doctor.clustering.clustering_scorer]   It's a float
+[2020-06-27 11:39:30,113] [4414/MainThread] [INFO] [dataiku.doctor.clustering.clustering_scorer] Study profiling column: BallControl dtype=float64
+[2020-06-27 11:39:30,113] [4414/MainThread] [INFO] [dataiku.doctor.clustering.clustering_scorer]   It's a float
+[2020-06-27 11:39:30,141] [4414/MainThread] [INFO] [dataiku.doctor.clustering.clustering_scorer] Study profiling column: Crossing dtype=float64
+[2020-06-27 11:39:30,141] [4414/MainThread] [INFO] [dataiku.doctor.clustering.clustering_scorer]   It's a float
+[2020-06-27 11:39:30,167] [4414/MainThread] [INFO] [dataiku.doctor.clustering.clustering_scorer] Study profiling column: Finishing dtype=float64
+[2020-06-27 11:39:30,167] [4414/MainThread] [INFO] [dataiku.doctor.clustering.clustering_scorer]   It's a float
+[2020-06-27 11:39:30,196] [4414/MainThread] [INFO] [dataiku.doctor.clustering.clustering_scorer] Study profiling column: Balance dtype=float64
+[2020-06-27 11:39:30,196] [4414/MainThread] [INFO] [dataiku.doctor.clustering.clustering_scorer]   It's a float
+[2020-06-27 11:39:30,223] [4414/MainThread] [INFO] [dataiku.doctor.clustering.clustering_scorer] Study profiling column: GK dtype=float64
+[2020-06-27 11:39:30,224] [4414/MainThread] [INFO] [dataiku.doctor.clustering.clustering_scorer]   It's a float
+[2020-06-27 11:39:30,250] [4414/MainThread] [INFO] [dataiku.doctor.clustering.clustering_scorer] Study profiling column: HeadingAccuracy dtype=float64
+[2020-06-27 11:39:30,250] [4414/MainThread] [INFO] [dataiku.doctor.clustering.clustering_scorer]   It's a float
+[2020-06-27 11:39:30,278] [4414/MainThread] [INFO] [dataiku.doctor.clustering.clustering_scorer] Study profiling column: Left dtype=float64
+[2020-06-27 11:39:30,278] [4414/MainThread] [INFO] [dataiku.doctor.clustering.clustering_scorer]   It's a float
+[2020-06-27 11:39:30,302] [4414/MainThread] [INFO] [dataiku.doctor.clustering.clustering_scorer] Study profiling column: Reactions dtype=float64
+[2020-06-27 11:39:30,302] [4414/MainThread] [INFO] [dataiku.doctor.clustering.clustering_scorer]   It's a float
+[2020-06-27 11:39:30,329] [4414/MainThread] [INFO] [dataiku.doctor.clustering.clustering_scorer] Study profiling column: RWB dtype=float64
+[2020-06-27 11:39:30,329] [4414/MainThread] [INFO] [dataiku.doctor.clustering.clustering_scorer]   It's a float
+[2020-06-27 11:39:30,352] [4414/MainThread] [INFO] [dataiku.doctor.clustering.clustering_scorer] Study profiling column: Right dtype=float64
+[2020-06-27 11:39:30,352] [4414/MainThread] [INFO] [dataiku.doctor.clustering.clustering_scorer]   It's a float
+[2020-06-27 11:39:30,379] [4414/MainThread] [INFO] [dataiku.doctor.clustering.clustering_scorer] Study profiling column: CDM dtype=float64
+[2020-06-27 11:39:30,379] [4414/MainThread] [INFO] [dataiku.doctor.clustering.clustering_scorer]   It's a float
+[2020-06-27 11:39:30,402] [4414/MainThread] [INFO] [dataiku.doctor.clustering.clustering_scorer] Study profiling column: Penalties dtype=float64
+[2020-06-27 11:39:30,402] [4414/MainThread] [INFO] [dataiku.doctor.clustering.clustering_scorer]   It's a float
+[2020-06-27 11:39:30,431] [4414/MainThread] [INFO] [dataiku.doctor.clustering.clustering_scorer] Study profiling column: Normal dtype=float64
+[2020-06-27 11:39:30,431] [4414/MainThread] [INFO] [dataiku.doctor.clustering.clustering_scorer]   It's a float
+[2020-06-27 11:39:30,457] [4414/MainThread] [INFO] [dataiku.doctor.clustering.clustering_scorer] Study profiling column: LongShots dtype=float64
+[2020-06-27 11:39:30,458] [4414/MainThread] [INFO] [dataiku.doctor.clustering.clustering_scorer]   It's a float
+[2020-06-27 11:39:30,484] [4414/MainThread] [INFO] [dataiku.doctor.clustering.clustering_scorer] Study profiling column: Height dtype=float64
+[2020-06-27 11:39:30,484] [4414/MainThread] [INFO] [dataiku.doctor.clustering.clustering_scorer]   It's a float
+[2020-06-27 11:39:30,511] [4414/MainThread] [INFO] [dataiku.doctor.clustering.clustering_scorer] Study profiling column: LCB dtype=float64
+[2020-06-27 11:39:30,511] [4414/MainThread] [INFO] [dataiku.doctor.clustering.clustering_scorer]   It's a float
+[2020-06-27 11:39:30,534] [4414/MainThread] [INFO] [dataiku.doctor.clustering.clustering_scorer] Study profiling column: Interceptions dtype=float64
+[2020-06-27 11:39:30,535] [4414/MainThread] [INFO] [dataiku.doctor.clustering.clustering_scorer]   It's a float
+[2020-06-27 11:39:30,562] [4414/MainThread] [INFO] [dataiku.doctor.clustering.clustering_scorer] Study profiling column: LongPassing dtype=float64
+[2020-06-27 11:39:30,562] [4414/MainThread] [INFO] [dataiku.doctor.clustering.clustering_scorer]   It's a float
+[2020-06-27 11:39:30,588] [4414/MainThread] [INFO] [dataiku.doctor.clustering.clustering_scorer] Study profiling column: RAM dtype=float64
+[2020-06-27 11:39:30,588] [4414/MainThread] [INFO] [dataiku.doctor.clustering.clustering_scorer]   It's a float
+[2020-06-27 11:39:30,612] [4414/MainThread] [INFO] [dataiku.doctor.clustering.clustering_scorer] Study profiling column: LCM dtype=float64
+[2020-06-27 11:39:30,612] [4414/MainThread] [INFO] [dataiku.doctor.clustering.clustering_scorer]   It's a float
+[2020-06-27 11:39:30,635] [4414/MainThread] [INFO] [dataiku.doctor.clustering.clustering_scorer] Study profiling column: Weight_LBS dtype=float64
+[2020-06-27 11:39:30,636] [4414/MainThread] [INFO] [dataiku.doctor.clustering.clustering_scorer]   It's a float
+[2020-06-27 11:39:30,662] [4414/MainThread] [INFO] [dataiku.doctor.clustering.clustering_scorer] Study profiling column: Aggression dtype=float64
+[2020-06-27 11:39:30,663] [4414/MainThread] [INFO] [dataiku.doctor.clustering.clustering_scorer]   It's a float
+[2020-06-27 11:39:30,690] [4414/MainThread] [INFO] [dataiku.doctor.clustering.clustering_scorer] Study profiling column: cluster_labels dtype=object
+[2020-06-27 11:39:30,744] [4414/MainThread] [INFO] [dataiku.doctor.clustering.clustering_scorer] DONE cluster profiling
+[2020-06-27 11:39:30,748] [4414/MainThread] [INFO] [dataiku.doctor.clustering.clustering_scorer] Done cluster desc/profiling/summary
+[2020-06-27 11:39:30,775] [4414/MainThread] [INFO] [dataiku.doctor.clustering.clustering_scorer] SUBSAMPLED 429 66 
+[2020-06-27 11:39:30,912] [4414/MainThread] [INFO] [dataiku.doctor.clustering.clustering_scorer] Summarizing numerical column : Acceleration (float64)
+[2020-06-27 11:39:30,913] [4414/MainThread] [INFO] [dataiku.doctor.clustering.clustering_scorer] Summarizing numerical column : Marking (float64)
+[2020-06-27 11:39:30,913] [4414/MainThread] [INFO] [dataiku.doctor.clustering.clustering_scorer] Summarizing numerical column : Strength (float64)
+[2020-06-27 11:39:30,913] [4414/MainThread] [INFO] [dataiku.doctor.clustering.clustering_scorer] Summarizing numerical column : SlidingTackle (float64)
+[2020-06-27 11:39:30,913] [4414/MainThread] [INFO] [dataiku.doctor.clustering.clustering_scorer] Summarizing numerical column : Composure (float64)
+[2020-06-27 11:39:30,913] [4414/MainThread] [INFO] [dataiku.doctor.clustering.clustering_scorer] Summarizing numerical column : StandingTackle (float64)
+[2020-06-27 11:39:30,913] [4414/MainThread] [INFO] [dataiku.doctor.clustering.clustering_scorer] Summarizing numerical column : Dribbling (float64)
+[2020-06-27 11:39:30,914] [4414/MainThread] [INFO] [dataiku.doctor.clustering.clustering_scorer] Summarizing numerical column : Lean (float64)
+[2020-06-27 11:39:30,914] [4414/MainThread] [INFO] [dataiku.doctor.clustering.clustering_scorer] Summarizing numerical column : Stamina (float64)
+[2020-06-27 11:39:30,914] [4414/MainThread] [INFO] [dataiku.doctor.clustering.clustering_scorer] Summarizing numerical column : RCM (float64)
+[2020-06-27 11:39:30,914] [4414/MainThread] [INFO] [dataiku.doctor.clustering.clustering_scorer] Summarizing numerical column : CAM (float64)
+[2020-06-27 11:39:30,914] [4414/MainThread] [INFO] [dataiku.doctor.clustering.clustering_scorer] Summarizing numerical column : LWB (float64)
+[2020-06-27 11:39:30,914] [4414/MainThread] [INFO] [dataiku.doctor.clustering.clustering_scorer] Summarizing numerical column : ST (float64)
+[2020-06-27 11:39:30,914] [4414/MainThread] [INFO] [dataiku.doctor.clustering.clustering_scorer] Summarizing numerical column : Stocky (float64)
+[2020-06-27 11:39:30,915] [4414/MainThread] [INFO] [dataiku.doctor.clustering.clustering_scorer] Summarizing numerical column : RCB (float64)
+[2020-06-27 11:39:30,915] [4414/MainThread] [INFO] [dataiku.doctor.clustering.clustering_scorer] Summarizing numerical column : LF (float64)
+[2020-06-27 11:39:30,915] [4414/MainThread] [INFO] [dataiku.doctor.clustering.clustering_scorer] Summarizing numerical column : Agility (float64)
+[2020-06-27 11:39:30,915] [4414/MainThread] [INFO] [dataiku.doctor.clustering.clustering_scorer] Summarizing numerical column : RW (float64)
+[2020-06-27 11:39:30,915] [4414/MainThread] [INFO] [dataiku.doctor.clustering.clustering_scorer] Summarizing numerical column : LB (float64)
+[2020-06-27 11:39:30,915] [4414/MainThread] [INFO] [dataiku.doctor.clustering.clustering_scorer] Summarizing numerical column : RS (float64)
+[2020-06-27 11:39:30,915] [4414/MainThread] [INFO] [dataiku.doctor.clustering.clustering_scorer] Summarizing numerical column : Vision (float64)
+[2020-06-27 11:39:30,915] [4414/MainThread] [INFO] [dataiku.doctor.clustering.clustering_scorer] Summarizing numerical column : Volleys (float64)
+[2020-06-27 11:39:30,916] [4414/MainThread] [INFO] [dataiku.doctor.clustering.clustering_scorer] Summarizing numerical column : LM (float64)
+[2020-06-27 11:39:30,916] [4414/MainThread] [INFO] [dataiku.doctor.clustering.clustering_scorer] Summarizing numerical column : LDM (float64)
+[2020-06-27 11:39:30,916] [4414/MainThread] [INFO] [dataiku.doctor.clustering.clustering_scorer] Summarizing numerical column : LW (float64)
+[2020-06-27 11:39:30,916] [4414/MainThread] [INFO] [dataiku.doctor.clustering.clustering_scorer] Summarizing numerical column : RF (float64)
+[2020-06-27 11:39:30,916] [4414/MainThread] [INFO] [dataiku.doctor.clustering.clustering_scorer] Summarizing numerical column : Jumping (float64)
+[2020-06-27 11:39:30,916] [4414/MainThread] [INFO] [dataiku.doctor.clustering.clustering_scorer] Summarizing numerical column : FKAccuracy (float64)
+[2020-06-27 11:39:30,916] [4414/MainThread] [INFO] [dataiku.doctor.clustering.clustering_scorer] Summarizing numerical column : LS (float64)
+[2020-06-27 11:39:30,916] [4414/MainThread] [INFO] [dataiku.doctor.clustering.clustering_scorer] Summarizing numerical column : RB (float64)
+[2020-06-27 11:39:30,916] [4414/MainThread] [INFO] [dataiku.doctor.clustering.clustering_scorer] Summarizing numerical column : CB (float64)
+[2020-06-27 11:39:30,917] [4414/MainThread] [INFO] [dataiku.doctor.clustering.clustering_scorer] Summarizing numerical column : RM (float64)
+[2020-06-27 11:39:30,917] [4414/MainThread] [INFO] [dataiku.doctor.clustering.clustering_scorer] Summarizing numerical column : ShortPassing (float64)
+[2020-06-27 11:39:30,917] [4414/MainThread] [INFO] [dataiku.doctor.clustering.clustering_scorer] Summarizing numerical column : Age (float64)
+[2020-06-27 11:39:30,917] [4414/MainThread] [INFO] [dataiku.doctor.clustering.clustering_scorer] Summarizing numerical column : SprintSpeed (float64)
+[2020-06-27 11:39:30,917] [4414/MainThread] [INFO] [dataiku.doctor.clustering.clustering_scorer] Summarizing numerical column : Wage_Euro (float64)
+[2020-06-27 11:39:30,917] [4414/MainThread] [INFO] [dataiku.doctor.clustering.clustering_scorer] Summarizing numerical column : CM (float64)
+[2020-06-27 11:39:30,917] [4414/MainThread] [INFO] [dataiku.doctor.clustering.clustering_scorer] Summarizing numerical column : LAM (float64)
+[2020-06-27 11:39:30,917] [4414/MainThread] [INFO] [dataiku.doctor.clustering.clustering_scorer] Summarizing numerical column : Positioning (float64)
+[2020-06-27 11:39:30,917] [4414/MainThread] [INFO] [dataiku.doctor.clustering.clustering_scorer] Summarizing numerical column : ShotPower (float64)
+[2020-06-27 11:39:30,918] [4414/MainThread] [INFO] [dataiku.doctor.clustering.clustering_scorer] Summarizing numerical column : Curve (float64)
+[2020-06-27 11:39:30,918] [4414/MainThread] [INFO] [dataiku.doctor.clustering.clustering_scorer] Summarizing numerical column : CF (float64)
+[2020-06-27 11:39:30,918] [4414/MainThread] [INFO] [dataiku.doctor.clustering.clustering_scorer] Summarizing numerical column : RDM (float64)
+[2020-06-27 11:39:30,918] [4414/MainThread] [INFO] [dataiku.doctor.clustering.clustering_scorer] Summarizing numerical column : BallControl (float64)
+[2020-06-27 11:39:30,919] [4414/MainThread] [INFO] [dataiku.doctor.clustering.clustering_scorer] Summarizing numerical column : Crossing (float64)
+[2020-06-27 11:39:30,919] [4414/MainThread] [INFO] [dataiku.doctor.clustering.clustering_scorer] Summarizing numerical column : Finishing (float64)
+[2020-06-27 11:39:30,919] [4414/MainThread] [INFO] [dataiku.doctor.clustering.clustering_scorer] Summarizing numerical column : Balance (float64)
+[2020-06-27 11:39:30,919] [4414/MainThread] [INFO] [dataiku.doctor.clustering.clustering_scorer] Summarizing numerical column : GK (float64)
+[2020-06-27 11:39:30,919] [4414/MainThread] [INFO] [dataiku.doctor.clustering.clustering_scorer] Summarizing numerical column : HeadingAccuracy (float64)
+[2020-06-27 11:39:30,919] [4414/MainThread] [INFO] [dataiku.doctor.clustering.clustering_scorer] Summarizing numerical column : Left (float64)
+[2020-06-27 11:39:30,919] [4414/MainThread] [INFO] [dataiku.doctor.clustering.clustering_scorer] Summarizing numerical column : Reactions (float64)
+[2020-06-27 11:39:30,919] [4414/MainThread] [INFO] [dataiku.doctor.clustering.clustering_scorer] Summarizing numerical column : RWB (float64)
+[2020-06-27 11:39:30,920] [4414/MainThread] [INFO] [dataiku.doctor.clustering.clustering_scorer] Summarizing numerical column : Right (float64)
+[2020-06-27 11:39:30,920] [4414/MainThread] [INFO] [dataiku.doctor.clustering.clustering_scorer] Summarizing numerical column : CDM (float64)
+[2020-06-27 11:39:30,920] [4414/MainThread] [INFO] [dataiku.doctor.clustering.clustering_scorer] Summarizing numerical column : Penalties (float64)
+[2020-06-27 11:39:30,920] [4414/MainThread] [INFO] [dataiku.doctor.clustering.clustering_scorer] Summarizing numerical column : Normal (float64)
+[2020-06-27 11:39:30,920] [4414/MainThread] [INFO] [dataiku.doctor.clustering.clustering_scorer] Summarizing numerical column : LongShots (float64)
+[2020-06-27 11:39:30,920] [4414/MainThread] [INFO] [dataiku.doctor.clustering.clustering_scorer] Summarizing numerical column : Height (float64)
+[2020-06-27 11:39:30,920] [4414/MainThread] [INFO] [dataiku.doctor.clustering.clustering_scorer] Summarizing numerical column : LCB (float64)
+[2020-06-27 11:39:30,921] [4414/MainThread] [INFO] [dataiku.doctor.clustering.clustering_scorer] Summarizing numerical column : Interceptions (float64)
+[2020-06-27 11:39:30,921] [4414/MainThread] [INFO] [dataiku.doctor.clustering.clustering_scorer] Summarizing numerical column : LongPassing (float64)
+[2020-06-27 11:39:30,921] [4414/MainThread] [INFO] [dataiku.doctor.clustering.clustering_scorer] Summarizing numerical column : RAM (float64)
+[2020-06-27 11:39:30,921] [4414/MainThread] [INFO] [dataiku.doctor.clustering.clustering_scorer] Summarizing numerical column : LCM (float64)
+[2020-06-27 11:39:30,922] [4414/MainThread] [INFO] [dataiku.doctor.clustering.clustering_scorer] Summarizing numerical column : Weight_LBS (float64)
+[2020-06-27 11:39:30,922] [4414/MainThread] [INFO] [dataiku.doctor.clustering.clustering_scorer] Summarizing numerical column : Aggression (float64)
+[2020-06-27 11:39:30,922] [4414/MainThread] [INFO] [dataiku.doctor.clustering.clustering_scorer] Summarizing numerical column : cluster_labels (object)
+[2020-06-27 11:39:31,054] [4414/MainThread] [INFO] [dataiku.doctor.clustering.clustering_scorer] Intrinsic scoring of clustering model
+[2020-06-27 11:39:31,275] [4414/MainThread] [INFO] [dataiku.doctor.utils.listener] END -  Scoring model
+[2020/06/27-11:39:31.280] [MRT-2151] [INFO] [dku.block.link.interaction]  - Check result for nullity exceptionIfNull=true result=not null
+[2020/06/27-11:39:31.283] [KNL-python-single-command-kernel-out-2156] [DEBUG] [process]  - StreamToLine: EOF (stream closed)
+[2020/06/27-11:39:31.283] [KNL-python-single-command-kernel-err-2157] [DEBUG] [process]  - StreamToLine: EOF (stream closed)
+[2020/06/27-11:39:31.313] [KNL-python-single-command-kernel-monitor-2155] [INFO] [dku.kernels]  - Process done with code 143
+[2020/06/27-11:39:31.314] [FT-TrainWorkThread-PntezW5I-2150] [INFO] [dku.analysis.ml.python] T-d4Ynylj4 - Processing thread joined ...
+[2020/06/27-11:39:31.315] [FT-TrainWorkThread-PntezW5I-2150] [INFO] [dku.analysis.ml.python] T-d4Ynylj4 - Joining processing thread ...
+[2020/06/27-11:39:31.316] [FT-TrainWorkThread-PntezW5I-2150] [INFO] [dku.analysis.ml.python] T-d4Ynylj4 - Processing thread joined ...
+[2020/06/27-11:39:31.316] [FT-TrainWorkThread-PntezW5I-2150] [INFO] [dku.analysis.clustering] T-d4Ynylj4 - Train done
+[2020/06/27-11:39:31.316] [FT-TrainWorkThread-PntezW5I-2150] [INFO] [dku.analysis.prediction] T-d4Ynylj4 - Train done

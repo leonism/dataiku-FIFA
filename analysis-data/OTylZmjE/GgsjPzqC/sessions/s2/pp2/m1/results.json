@@ -1,0 +1,1511 @@
+{
+    "metrics": {
+        "nbClusters": 3, 
+        "silhouette": 0.7512533810111062
+    }, 
+    "reduce_vars": [], 
+    "train_nb_features": 70, 
+    "train_nb_records": 18207, 
+    "summary": {
+        "clusters": []
+    }, 
+    "variables_importance": {
+        "variables": [
+            "Acceleration", 
+            "Age", 
+            "Aggression", 
+            "Agility", 
+            "Balance", 
+            "BallControl", 
+            "CAM", 
+            "CB", 
+            "CDM", 
+            "CF", 
+            "CM", 
+            "Composure", 
+            "Crossing", 
+            "Curve", 
+            "Dribbling", 
+            "FKAccuracy", 
+            "Finishing", 
+            "GK", 
+            "HeadingAccuracy", 
+            "Height", 
+            "Interceptions", 
+            "Jumping", 
+            "LAM", 
+            "LB", 
+            "LCB", 
+            "LCM", 
+            "LDM", 
+            "LF", 
+            "LM", 
+            "LS", 
+            "LW", 
+            "LWB", 
+            "Lean", 
+            "Left", 
+            "LongPassing", 
+            "LongShots", 
+            "Marking", 
+            "Normal", 
+            "Penalties", 
+            "Positioning", 
+            "RAM", 
+            "RB", 
+            "RCB", 
+            "RCM", 
+            "RDM", 
+            "RF", 
+            "RM", 
+            "RS", 
+            "RW", 
+            "RWB", 
+            "Reactions", 
+            "Right", 
+            "ST", 
+            "ShortPassing", 
+            "ShotPower", 
+            "SlidingTackle", 
+            "SprintSpeed", 
+            "Stamina", 
+            "StandingTackle", 
+            "Stocky", 
+            "Strength", 
+            "Vision", 
+            "Volleys", 
+            "Wage_Euro", 
+            "Weight_LBS", 
+            "col_67", 
+            "col_68", 
+            "col_69", 
+            "col_70", 
+            "col_71"
+        ], 
+        "importances": [
+            0.026673543102300128, 
+            0.00550444288720189, 
+            0.019688737816858367, 
+            0.0063036830398910644, 
+            0.05239450136228771, 
+            0.006847527636736088, 
+            0.0003008907388330621, 
+            0.0002498563638326665, 
+            0.00024705809442838366, 
+            6.82469507073953e-05, 
+            0.00030793516273400483, 
+            0.0080984200928433, 
+            0.0003665003556464662, 
+            0.013265236390770395, 
+            0.012859601248033698, 
+            0.013483863123077972, 
+            0.0008157900850844685, 
+            0.0005330665793704171, 
+            0.0004887826208324582, 
+            0.0006788106049875611, 
+            0.005071267126104239, 
+            0.006003890327538491, 
+            1.9908715525685465e-05, 
+            0.0003796904430174731, 
+            0.00023296565668538707, 
+            0.00019666760258463698, 
+            0.0002092441029666593, 
+            1.867695686027146e-05, 
+            0.00035276584725586654, 
+            0.00012401064463750833, 
+            0.00022632893955553307, 
+            2.2967554013836183e-05, 
+            0.0008716185810410443, 
+            0.0006107401899533854, 
+            0.02564825442048369, 
+            0.004863331099315888, 
+            0.016383022741387955, 
+            0.000786926169128801, 
+            0.01652890950473726, 
+            0.005101200481268541, 
+            5.966772462897105e-05, 
+            0.0002411143128062785, 
+            0.00027082122524134405, 
+            0.00018429949635395543, 
+            0.00028699974254851266, 
+            3.36908600133094e-05, 
+            0.0003615626433085815, 
+            9.534441602249167e-05, 
+            0.00021037430623558207, 
+            9.593876892069119e-06, 
+            0.012777093615713135, 
+            0.0006526703957853307, 
+            0.0005022513249850672, 
+            9.366524310261807e-05, 
+            0.005668477125268448, 
+            0.015105615234904207, 
+            0.007649124644275581, 
+            0.005066001294823957, 
+            0.01972307822978978, 
+            0.0004520313251237854, 
+            0.06344065195796396, 
+            0.005756545657203789, 
+            0.005172913333773204, 
+            0.4884666024192735, 
+            0.0001353860749953269, 
+            0.005640782664413841, 
+            0.03377002419922258, 
+            0.016641225506848357, 
+            0.03465772115237334, 
+            0.024045788635589524
+        ]
+    }, 
+    "processed_feature_names": [
+        "Acceleration", 
+        "Age", 
+        "Aggression", 
+        "Agility", 
+        "Balance", 
+        "BallControl", 
+        "CAM", 
+        "CB", 
+        "CDM", 
+        "CF", 
+        "CM", 
+        "Composure", 
+        "Crossing", 
+        "Curve", 
+        "Dribbling", 
+        "FKAccuracy", 
+        "Finishing", 
+        "GK", 
+        "HeadingAccuracy", 
+        "Height", 
+        "Interceptions", 
+        "Jumping", 
+        "LAM", 
+        "LB", 
+        "LCB", 
+        "LCM", 
+        "LDM", 
+        "LF", 
+        "LM", 
+        "LS", 
+        "LW", 
+        "LWB", 
+        "Lean", 
+        "Left", 
+        "LongPassing", 
+        "LongShots", 
+        "Marking", 
+        "Normal", 
+        "Penalties", 
+        "Positioning", 
+        "RAM", 
+        "RB", 
+        "RCB", 
+        "RCM", 
+        "RDM", 
+        "RF", 
+        "RM", 
+        "RS", 
+        "RW", 
+        "RWB", 
+        "Reactions", 
+        "Right", 
+        "ST", 
+        "ShortPassing", 
+        "ShotPower", 
+        "SlidingTackle", 
+        "SprintSpeed", 
+        "Stamina", 
+        "StandingTackle", 
+        "Stocky", 
+        "Strength", 
+        "Vision", 
+        "Volleys", 
+        "Wage_Euro", 
+        "Weight_LBS", 
+        "col_67", 
+        "col_68", 
+        "col_69", 
+        "col_70", 
+        "col_71"
+    ], 
+    "train_nb_outliers": 0, 
+    "cluster_description": [
+        {
+            "variable": "Acceleration", 
+            "var": 95.3, 
+            "values": [
+                {
+                    "cluster": "cluster_0", 
+                    "value": 72.06051873198847
+                }, 
+                {
+                    "cluster": "cluster_1", 
+                    "value": 64.98401894051494
+                }, 
+                {
+                    "cluster": "cluster_2", 
+                    "value": 52.763206960845245
+                }
+            ]
+        }, 
+        {
+            "variable": "Marking", 
+            "var": 61.1, 
+            "values": [
+                {
+                    "cluster": "cluster_0", 
+                    "value": 60.293948126801155
+                }, 
+                {
+                    "cluster": "cluster_1", 
+                    "value": 53.93163657886949
+                }, 
+                {
+                    "cluster": "cluster_2", 
+                    "value": 44.74532145570058
+                }
+            ]
+        }, 
+        {
+            "variable": "Strength", 
+            "var": 111.65, 
+            "values": [
+                {
+                    "cluster": "cluster_0", 
+                    "value": 80.45821325648414
+                }, 
+                {
+                    "cluster": "cluster_1", 
+                    "value": 70.62030186445693
+                }, 
+                {
+                    "cluster": "cluster_2", 
+                    "value": 59.341343829846004
+                }
+            ]
+        }, 
+        {
+            "variable": "SlidingTackle", 
+            "var": 104.62, 
+            "values": [
+                {
+                    "cluster": "cluster_0", 
+                    "value": 71.30547550432277
+                }, 
+                {
+                    "cluster": "cluster_1", 
+                    "value": 62.34773601657295
+                }, 
+                {
+                    "cluster": "cluster_2", 
+                    "value": 50.899454457565085
+                }
+            ]
+        }, 
+        {
+            "variable": "Composure", 
+            "var": 57.3, 
+            "values": [
+                {
+                    "cluster": "cluster_0", 
+                    "value": 68.56772334293949
+                }, 
+                {
+                    "cluster": "cluster_1", 
+                    "value": 63.83131103876887
+                }, 
+                {
+                    "cluster": "cluster_2", 
+                    "value": 53.74697879980664
+                }
+            ]
+        }, 
+        {
+            "variable": "col_69", 
+            "var": 48.48, 
+            "values": [
+                {
+                    "cluster": "cluster_0", 
+                    "value": 59.48414985590778
+                }, 
+                {
+                    "cluster": "cluster_1", 
+                    "value": 53.4317845516425
+                }, 
+                {
+                    "cluster": "cluster_2", 
+                    "value": 45.59629859816311
+                }
+            ]
+        }, 
+        {
+            "variable": "StandingTackle", 
+            "var": 87.06, 
+            "values": [
+                {
+                    "cluster": "cluster_0", 
+                    "value": 65.82997118155619
+                }, 
+                {
+                    "cluster": "cluster_1", 
+                    "value": 59.35424681858538
+                }, 
+                {
+                    "cluster": "cluster_2", 
+                    "value": 47.435605275878736
+                }
+            ]
+        }, 
+        {
+            "variable": "Dribbling", 
+            "var": 87.52, 
+            "values": [
+                {
+                    "cluster": "cluster_0", 
+                    "value": 65.63688760806916
+                }, 
+                {
+                    "cluster": "cluster_1", 
+                    "value": 59.13820656999112
+                }, 
+                {
+                    "cluster": "cluster_2", 
+                    "value": 47.19280436433948
+                }
+            ]
+        }, 
+        {
+            "variable": "Lean", 
+            "var": 0.0, 
+            "values": [
+                {
+                    "cluster": "cluster_0", 
+                    "value": 0.3919308357348703
+                }, 
+                {
+                    "cluster": "cluster_1", 
+                    "value": 0.3515833086712045
+                }, 
+                {
+                    "cluster": "cluster_2", 
+                    "value": 0.3519093985222015
+                }
+            ]
+        }, 
+        {
+            "variable": "Stamina", 
+            "var": 23.66, 
+            "values": [
+                {
+                    "cluster": "cluster_0", 
+                    "value": 71.90201729106629
+                }, 
+                {
+                    "cluster": "cluster_1", 
+                    "value": 68.11630659958567
+                }, 
+                {
+                    "cluster": "cluster_2", 
+                    "value": 62.24756577584421
+                }
+            ]
+        }, 
+        {
+            "variable": "RCM", 
+            "var": 0.0, 
+            "values": [
+                {
+                    "cluster": "cluster_0", 
+                    "value": 0.03170028818443804
+                }, 
+                {
+                    "cluster": "cluster_1", 
+                    "value": 0.02929860905593371
+                }, 
+                {
+                    "cluster": "cluster_2", 
+                    "value": 0.019404737241903183
+                }
+            ]
+        }, 
+        {
+            "variable": "CAM", 
+            "var": 0.0, 
+            "values": [
+                {
+                    "cluster": "cluster_0", 
+                    "value": 0.06051873198847262
+                }, 
+                {
+                    "cluster": "cluster_1", 
+                    "value": 0.05682154483575022
+                }, 
+                {
+                    "cluster": "cluster_2", 
+                    "value": 0.05144672329259029
+                }
+            ]
+        }, 
+        {
+            "variable": "LWB", 
+            "var": 0.0, 
+            "values": [
+                {
+                    "cluster": "cluster_0", 
+                    "value": 0.0
+                }, 
+                {
+                    "cluster": "cluster_1", 
+                    "value": 0.0056229653743711154
+                }, 
+                {
+                    "cluster": "cluster_2", 
+                    "value": 0.004074304260755473
+                }
+            ]
+        }, 
+        {
+            "variable": "ST", 
+            "var": 0.0, 
+            "values": [
+                {
+                    "cluster": "cluster_0", 
+                    "value": 0.11239193083573487
+                }, 
+                {
+                    "cluster": "cluster_1", 
+                    "value": 0.12044983722994969
+                }, 
+                {
+                    "cluster": "cluster_2", 
+                    "value": 0.12195290380498584
+                }
+            ]
+        }, 
+        {
+            "variable": "Stocky", 
+            "var": 0.0, 
+            "values": [
+                {
+                    "cluster": "cluster_0", 
+                    "value": 0.05187319884726225
+                }, 
+                {
+                    "cluster": "cluster_1", 
+                    "value": 0.07428233205090264
+                }, 
+                {
+                    "cluster": "cluster_2", 
+                    "value": 0.06014777984945791
+                }
+            ]
+        }, 
+        {
+            "variable": "RCB", 
+            "var": 0.0, 
+            "values": [
+                {
+                    "cluster": "cluster_0", 
+                    "value": 0.05187319884726225
+                }, 
+                {
+                    "cluster": "cluster_1", 
+                    "value": 0.047055341817105655
+                }, 
+                {
+                    "cluster": "cluster_2", 
+                    "value": 0.03349216214349838
+                }
+            ]
+        }, 
+        {
+            "variable": "LF", 
+            "var": 0.0, 
+            "values": [
+                {
+                    "cluster": "cluster_0", 
+                    "value": 0.005763688760806916
+                }, 
+                {
+                    "cluster": "cluster_1", 
+                    "value": 0.0011837821840781297
+                }, 
+                {
+                    "cluster": "cluster_2", 
+                    "value": 0.0006215040397762585
+                }
+            ]
+        }, 
+        {
+            "variable": "col_70", 
+            "var": 43.51, 
+            "values": [
+                {
+                    "cluster": "cluster_0", 
+                    "value": 59.10374639769452
+                }, 
+                {
+                    "cluster": "cluster_1", 
+                    "value": 53.995264871263686
+                }, 
+                {
+                    "cluster": "cluster_2", 
+                    "value": 46.01574476900767
+                }
+            ]
+        }, 
+        {
+            "variable": "Agility", 
+            "var": 77.77, 
+            "values": [
+                {
+                    "cluster": "cluster_0", 
+                    "value": 57.91066282420749
+                }, 
+                {
+                    "cluster": "cluster_1", 
+                    "value": 51.522935779816514
+                }, 
+                {
+                    "cluster": "cluster_2", 
+                    "value": 40.47904150265865
+                }
+            ]
+        }, 
+        {
+            "variable": "RW", 
+            "var": 0.0, 
+            "values": [
+                {
+                    "cluster": "cluster_0", 
+                    "value": 0.040345821325648415
+                }, 
+                {
+                    "cluster": "cluster_1", 
+                    "value": 0.023971589227582125
+                }, 
+                {
+                    "cluster": "cluster_2", 
+                    "value": 0.01899040121538568
+                }
+            ]
+        }, 
+        {
+            "variable": "LB", 
+            "var": 0.0, 
+            "values": [
+                {
+                    "cluster": "cluster_0", 
+                    "value": 0.06628242074927954
+                }, 
+                {
+                    "cluster": "cluster_1", 
+                    "value": 0.06451612903225806
+                }, 
+                {
+                    "cluster": "cluster_2", 
+                    "value": 0.0746495407775706
+                }
+            ]
+        }, 
+        {
+            "variable": "col_68", 
+            "var": 122.99, 
+            "values": [
+                {
+                    "cluster": "cluster_0", 
+                    "value": 77.98847262247838
+                }, 
+                {
+                    "cluster": "cluster_1", 
+                    "value": 68.5273749630068
+                }, 
+                {
+                    "cluster": "cluster_2", 
+                    "value": 55.88412402458394
+                }
+            ]
+        }, 
+        {
+            "variable": "RS", 
+            "var": 0.0, 
+            "values": [
+                {
+                    "cluster": "cluster_0", 
+                    "value": 0.008645533141210375
+                }, 
+                {
+                    "cluster": "cluster_1", 
+                    "value": 0.01864456939923054
+                }, 
+                {
+                    "cluster": "cluster_2", 
+                    "value": 0.009460672605483047
+                }
+            ]
+        }, 
+        {
+            "variable": "Vision", 
+            "var": 14.4, 
+            "values": [
+                {
+                    "cluster": "cluster_0", 
+                    "value": 71.59942363112393
+                }, 
+                {
+                    "cluster": "cluster_1", 
+                    "value": 69.41402781888132
+                }, 
+                {
+                    "cluster": "cluster_2", 
+                    "value": 64.21303777363441
+                }
+            ]
+        }, 
+        {
+            "variable": "Volleys", 
+            "var": 1.15, 
+            "values": [
+                {
+                    "cluster": "cluster_0", 
+                    "value": 77.13256484149856
+                }, 
+                {
+                    "cluster": "cluster_1", 
+                    "value": 76.31311038768867
+                }, 
+                {
+                    "cluster": "cluster_2", 
+                    "value": 75.00491928220052
+                }
+            ]
+        }, 
+        {
+            "variable": "LM", 
+            "var": 0.0, 
+            "values": [
+                {
+                    "cluster": "cluster_0", 
+                    "value": 0.05187319884726225
+                }, 
+                {
+                    "cluster": "cluster_1", 
+                    "value": 0.0656999112163362
+                }, 
+                {
+                    "cluster": "cluster_2", 
+                    "value": 0.05904288377874456
+                }
+            ]
+        }, 
+        {
+            "variable": "LDM", 
+            "var": 0.0, 
+            "values": [
+                {
+                    "cluster": "cluster_0", 
+                    "value": 0.020172910662824207
+                }, 
+                {
+                    "cluster": "cluster_1", 
+                    "value": 0.014501331754957087
+                }, 
+                {
+                    "cluster": "cluster_2", 
+                    "value": 0.01291347282646226
+                }
+            ]
+        }, 
+        {
+            "variable": "LW", 
+            "var": 0.0, 
+            "values": [
+                {
+                    "cluster": "cluster_0", 
+                    "value": 0.03170028818443804
+                }, 
+                {
+                    "cluster": "cluster_1", 
+                    "value": 0.022787807043503996
+                }, 
+                {
+                    "cluster": "cluster_2", 
+                    "value": 0.020233409294938196
+                }
+            ]
+        }, 
+        {
+            "variable": "RF", 
+            "var": 0.0, 
+            "values": [
+                {
+                    "cluster": "cluster_0", 
+                    "value": 0.005763688760806916
+                }, 
+                {
+                    "cluster": "cluster_1", 
+                    "value": 0.0017756732761171944
+                }, 
+                {
+                    "cluster": "cluster_2", 
+                    "value": 0.0005524480353566743
+                }
+            ]
+        }, 
+        {
+            "variable": "Jumping", 
+            "var": 19.33, 
+            "values": [
+                {
+                    "cluster": "cluster_0", 
+                    "value": 72.48414985590779
+                }, 
+                {
+                    "cluster": "cluster_1", 
+                    "value": 68.38502515537141
+                }, 
+                {
+                    "cluster": "cluster_2", 
+                    "value": 63.698363372695255
+                }
+            ]
+        }, 
+        {
+            "variable": "FKAccuracy", 
+            "var": 50.89, 
+            "values": [
+                {
+                    "cluster": "cluster_0", 
+                    "value": 64.19884726224784
+                }, 
+                {
+                    "cluster": "cluster_1", 
+                    "value": 59.87955016277005
+                }, 
+                {
+                    "cluster": "cluster_2", 
+                    "value": 50.26282715282094
+                }
+            ]
+        }, 
+        {
+            "variable": "LS", 
+            "var": 0.0, 
+            "values": [
+                {
+                    "cluster": "cluster_0", 
+                    "value": 0.01440922190201729
+                }, 
+                {
+                    "cluster": "cluster_1", 
+                    "value": 0.01982835158330867
+                }, 
+                {
+                    "cluster": "cluster_2", 
+                    "value": 0.009322560596643879
+                }
+            ]
+        }, 
+        {
+            "variable": "RB", 
+            "var": 0.0, 
+            "values": [
+                {
+                    "cluster": "cluster_0", 
+                    "value": 0.05187319884726225
+                }, 
+                {
+                    "cluster": "cluster_1", 
+                    "value": 0.06747558449245339
+                }, 
+                {
+                    "cluster": "cluster_2", 
+                    "value": 0.07216352461846558
+                }
+            ]
+        }, 
+        {
+            "variable": "CB", 
+            "var": 0.0, 
+            "values": [
+                {
+                    "cluster": "cluster_0", 
+                    "value": 0.07204610951008646
+                }, 
+                {
+                    "cluster": "cluster_1", 
+                    "value": 0.07517016868896123
+                }, 
+                {
+                    "cluster": "cluster_2", 
+                    "value": 0.10351495062495684
+                }
+            ]
+        }, 
+        {
+            "variable": "RM", 
+            "var": 0.0, 
+            "values": [
+                {
+                    "cluster": "cluster_0", 
+                    "value": 0.05763688760806916
+                }, 
+                {
+                    "cluster": "cluster_1", 
+                    "value": 0.06747558449245339
+                }, 
+                {
+                    "cluster": "cluster_2", 
+                    "value": 0.06049305987155583
+                }
+            ]
+        }, 
+        {
+            "variable": "col_67", 
+            "var": 56.76, 
+            "values": [
+                {
+                    "cluster": "cluster_0", 
+                    "value": 61.46974063400577
+                }, 
+                {
+                    "cluster": "cluster_1", 
+                    "value": 55.809411068363424
+                }, 
+                {
+                    "cluster": "cluster_2", 
+                    "value": 46.54623299495891
+                }
+            ]
+        }, 
+        {
+            "variable": "ShortPassing", 
+            "var": 0.0, 
+            "values": [
+                {
+                    "cluster": "cluster_0", 
+                    "value": 0.002881844380403458
+                }, 
+                {
+                    "cluster": "cluster_1", 
+                    "value": 0.008286475288546907
+                }, 
+                {
+                    "cluster": "cluster_2", 
+                    "value": 0.006560320419860507
+                }
+            ]
+        }, 
+        {
+            "variable": "Age", 
+            "var": 1.65, 
+            "values": [
+                {
+                    "cluster": "cluster_0", 
+                    "value": 27.054755043227665
+                }, 
+                {
+                    "cluster": "cluster_1", 
+                    "value": 26.754069251257768
+                }, 
+                {
+                    "cluster": "cluster_2", 
+                    "value": 24.695117740487536
+                }
+            ]
+        }, 
+        {
+            "variable": "SprintSpeed", 
+            "var": 104.24, 
+            "values": [
+                {
+                    "cluster": "cluster_0", 
+                    "value": 64.53314121037464
+                }, 
+                {
+                    "cluster": "cluster_1", 
+                    "value": 57.41757916543356
+                }, 
+                {
+                    "cluster": "cluster_2", 
+                    "value": 44.39969615358056
+                }
+            ]
+        }, 
+        {
+            "variable": "Wage_Euro", 
+            "var": 4510655761.83, 
+            "values": [
+                {
+                    "cluster": "cluster_0", 
+                    "value": 129086.4553314121
+                }, 
+                {
+                    "cluster": "cluster_1", 
+                    "value": 25643.385617046464
+                }, 
+                {
+                    "cluster": "cluster_2", 
+                    "value": 3158.3454181341067
+                }
+            ]
+        }, 
+        {
+            "variable": "CM", 
+            "var": 0.0, 
+            "values": [
+                {
+                    "cluster": "cluster_0", 
+                    "value": 0.08645533141210375
+                }, 
+                {
+                    "cluster": "cluster_1", 
+                    "value": 0.06037289138798461
+                }, 
+                {
+                    "cluster": "cluster_2", 
+                    "value": 0.08010496512671776
+                }
+            ]
+        }, 
+        {
+            "variable": "LAM", 
+            "var": 0.0, 
+            "values": [
+                {
+                    "cluster": "cluster_0", 
+                    "value": 0.002881844380403458
+                }, 
+                {
+                    "cluster": "cluster_1", 
+                    "value": 0.0023675643681562593
+                }, 
+                {
+                    "cluster": "cluster_2", 
+                    "value": 0.0008286720530350114
+                }
+            ]
+        }, 
+        {
+            "variable": "Positioning", 
+            "var": 36.63, 
+            "values": [
+                {
+                    "cluster": "cluster_0", 
+                    "value": 73.55331412103746
+                }, 
+                {
+                    "cluster": "cluster_1", 
+                    "value": 69.1953240603729
+                }, 
+                {
+                    "cluster": "cluster_2", 
+                    "value": 61.593881638008426
+                }
+            ]
+        }, 
+        {
+            "variable": "ShotPower", 
+            "var": 16.78, 
+            "values": [
+                {
+                    "cluster": "cluster_0", 
+                    "value": 71.78962536023054
+                }, 
+                {
+                    "cluster": "cluster_1", 
+                    "value": 68.19769162474105
+                }, 
+                {
+                    "cluster": "cluster_2", 
+                    "value": 63.617153511497825
+                }
+            ]
+        }, 
+        {
+            "variable": "Curve", 
+            "var": 79.69, 
+            "values": [
+                {
+                    "cluster": "cluster_0", 
+                    "value": 60.737752161383284
+                }, 
+                {
+                    "cluster": "cluster_1", 
+                    "value": 54.521456052086414
+                }, 
+                {
+                    "cluster": "cluster_2", 
+                    "value": 43.135073544644705
+                }
+            ]
+        }, 
+        {
+            "variable": "CF", 
+            "var": 0.0, 
+            "values": [
+                {
+                    "cluster": "cluster_0", 
+                    "value": 0.002881844380403458
+                }, 
+                {
+                    "cluster": "cluster_1", 
+                    "value": 0.005918910920390648
+                }, 
+                {
+                    "cluster": "cluster_2", 
+                    "value": 0.003659968234237967
+                }
+            ]
+        }, 
+        {
+            "variable": "RDM", 
+            "var": 0.0, 
+            "values": [
+                {
+                    "cluster": "cluster_0", 
+                    "value": 0.011527377521613832
+                }, 
+                {
+                    "cluster": "cluster_1", 
+                    "value": 0.021604024859425867
+                }, 
+                {
+                    "cluster": "cluster_2", 
+                    "value": 0.011808576755748913
+                }
+            ]
+        }, 
+        {
+            "variable": "BallControl", 
+            "var": 99.68, 
+            "values": [
+                {
+                    "cluster": "cluster_0", 
+                    "value": 60.164265129682995
+                }, 
+                {
+                    "cluster": "cluster_1", 
+                    "value": 52.25658478839893
+                }, 
+                {
+                    "cluster": "cluster_2", 
+                    "value": 40.33126165320075
+                }
+            ]
+        }, 
+        {
+            "variable": "Crossing", 
+            "var": 0.0, 
+            "values": [
+                {
+                    "cluster": "cluster_0", 
+                    "value": 0.1037463976945245
+                }, 
+                {
+                    "cluster": "cluster_1", 
+                    "value": 0.11749038176975436
+                }, 
+                {
+                    "cluster": "cluster_2", 
+                    "value": 0.11974311166355915
+                }
+            ]
+        }, 
+        {
+            "variable": "Finishing", 
+            "var": 0.0, 
+            "values": [
+                {
+                    "cluster": "cluster_0", 
+                    "value": 0.521613832853026
+                }, 
+                {
+                    "cluster": "cluster_1", 
+                    "value": 0.501923646049127
+                }, 
+                {
+                    "cluster": "cluster_2", 
+                    "value": 0.4981009598784614
+                }
+            ]
+        }, 
+        {
+            "variable": "Balance", 
+            "var": 103.84, 
+            "values": [
+                {
+                    "cluster": "cluster_0", 
+                    "value": 75.87319884726224
+                }, 
+                {
+                    "cluster": "cluster_1", 
+                    "value": 68.18111867416395
+                }, 
+                {
+                    "cluster": "cluster_2", 
+                    "value": 55.68254954768317
+                }
+            ]
+        }, 
+        {
+            "variable": "GK", 
+            "var": 0.0, 
+            "values": [
+                {
+                    "cluster": "cluster_0", 
+                    "value": 0.08069164265129683
+                }, 
+                {
+                    "cluster": "cluster_1", 
+                    "value": 0.06954720331459012
+                }, 
+                {
+                    "cluster": "cluster_2", 
+                    "value": 0.1216766797873075
+                }
+            ]
+        }, 
+        {
+            "variable": "HeadingAccuracy", 
+            "var": 0.0, 
+            "values": [
+                {
+                    "cluster": "cluster_0", 
+                    "value": 0.14697406340057637
+                }, 
+                {
+                    "cluster": "cluster_1", 
+                    "value": 0.11453092630955904
+                }, 
+                {
+                    "cluster": "cluster_2", 
+                    "value": 0.10682963883709688
+                }
+            ]
+        }, 
+        {
+            "variable": "Left", 
+            "var": 0.0, 
+            "values": [
+                {
+                    "cluster": "cluster_0", 
+                    "value": 0.24495677233429394
+                }, 
+                {
+                    "cluster": "cluster_1", 
+                    "value": 0.2465226398342705
+                }, 
+                {
+                    "cluster": "cluster_2", 
+                    "value": 0.22740142255369106
+                }
+            ]
+        }, 
+        {
+            "variable": "Reactions", 
+            "var": 91.19, 
+            "values": [
+                {
+                    "cluster": "cluster_0", 
+                    "value": 69.20749279538904
+                }, 
+                {
+                    "cluster": "cluster_1", 
+                    "value": 61.71411660254513
+                }, 
+                {
+                    "cluster": "cluster_2", 
+                    "value": 50.24687521580002
+                }
+            ]
+        }, 
+        {
+            "variable": "RWB", 
+            "var": 0.0, 
+            "values": [
+                {
+                    "cluster": "cluster_0", 
+                    "value": 0.002881844380403458
+                }, 
+                {
+                    "cluster": "cluster_1", 
+                    "value": 0.0056229653743711154
+                }, 
+                {
+                    "cluster": "cluster_2", 
+                    "value": 0.0046267522961121466
+                }
+            ]
+        }, 
+        {
+            "variable": "Right", 
+            "var": 0.0, 
+            "values": [
+                {
+                    "cluster": "cluster_0", 
+                    "value": 0.7550432276657061
+                }, 
+                {
+                    "cluster": "cluster_1", 
+                    "value": 0.7534773601657295
+                }, 
+                {
+                    "cluster": "cluster_2", 
+                    "value": 0.7692838892341689
+                }
+            ]
+        }, 
+        {
+            "variable": "CDM", 
+            "var": 0.0, 
+            "values": [
+                {
+                    "cluster": "cluster_0", 
+                    "value": 0.04610951008645533
+                }, 
+                {
+                    "cluster": "cluster_1", 
+                    "value": 0.05238236164545724
+                }, 
+                {
+                    "cluster": "cluster_2", 
+                    "value": 0.05213728333678613
+                }
+            ]
+        }, 
+        {
+            "variable": "Penalties", 
+            "var": 104.59, 
+            "values": [
+                {
+                    "cluster": "cluster_0", 
+                    "value": 64.39481268011528
+                }, 
+                {
+                    "cluster": "cluster_1", 
+                    "value": 57.58626812666469
+                }, 
+                {
+                    "cluster": "cluster_2", 
+                    "value": 44.28734203438989
+                }
+            ]
+        }, 
+        {
+            "variable": "Normal", 
+            "var": 0.0, 
+            "values": [
+                {
+                    "cluster": "cluster_0", 
+                    "value": 0.5504322766570605
+                }, 
+                {
+                    "cluster": "cluster_1", 
+                    "value": 0.5741343592778929
+                }, 
+                {
+                    "cluster": "cluster_2", 
+                    "value": 0.5845590774117809
+                }
+            ]
+        }, 
+        {
+            "variable": "LongShots", 
+            "var": 8.11, 
+            "values": [
+                {
+                    "cluster": "cluster_0", 
+                    "value": 69.07780979827089
+                }, 
+                {
+                    "cluster": "cluster_1", 
+                    "value": 65.93903521751997
+                }, 
+                {
+                    "cluster": "cluster_2", 
+                    "value": 63.39389544920931
+                }
+            ]
+        }, 
+        {
+            "variable": "Height", 
+            "var": 0.0, 
+            "values": [
+                {
+                    "cluster": "cluster_0", 
+                    "value": 0.21613832853025935
+                }, 
+                {
+                    "cluster": "cluster_1", 
+                    "value": 0.24948209529446583
+                }, 
+                {
+                    "cluster": "cluster_2", 
+                    "value": 0.2574407844762102
+                }
+            ]
+        }, 
+        {
+            "variable": "LCB", 
+            "var": 0.0, 
+            "values": [
+                {
+                    "cluster": "cluster_0", 
+                    "value": 0.04610951008645533
+                }, 
+                {
+                    "cluster": "cluster_1", 
+                    "value": 0.04439183190292986
+                }, 
+                {
+                    "cluster": "cluster_2", 
+                    "value": 0.03328499413023962
+                }
+            ]
+        }, 
+        {
+            "variable": "Interceptions", 
+            "var": 12.14, 
+            "values": [
+                {
+                    "cluster": "cluster_0", 
+                    "value": 71.16138328530259
+                }, 
+                {
+                    "cluster": "cluster_1", 
+                    "value": 68.24977804084048
+                }, 
+                {
+                    "cluster": "cluster_2", 
+                    "value": 64.22277467025758
+                }
+            ]
+        }, 
+        {
+            "variable": "LongPassing", 
+            "var": 95.68, 
+            "values": [
+                {
+                    "cluster": "cluster_0", 
+                    "value": 75.58789625360231
+                }, 
+                {
+                    "cluster": "cluster_1", 
+                    "value": 67.85883397454869
+                }, 
+                {
+                    "cluster": "cluster_2", 
+                    "value": 56.15910503418272
+                }
+            ]
+        }, 
+        {
+            "variable": "RAM", 
+            "var": 0.0, 
+            "values": [
+                {
+                    "cluster": "cluster_0", 
+                    "value": 0.002881844380403458
+                }, 
+                {
+                    "cluster": "cluster_1", 
+                    "value": 0.003551346552234389
+                }, 
+                {
+                    "cluster": "cluster_2", 
+                    "value": 0.0005524480353566743
+                }
+            ]
+        }, 
+        {
+            "variable": "LCM", 
+            "var": 0.0, 
+            "values": [
+                {
+                    "cluster": "cluster_0", 
+                    "value": 0.0345821325648415
+                }, 
+                {
+                    "cluster": "cluster_1", 
+                    "value": 0.0319621189701095
+                }, 
+                {
+                    "cluster": "cluster_2", 
+                    "value": 0.01899040121538568
+                }
+            ]
+        }, 
+        {
+            "variable": "Weight_LBS", 
+            "var": 0.0, 
+            "values": [
+                {
+                    "cluster": "cluster_0", 
+                    "value": 0.008645533141210375
+                }, 
+                {
+                    "cluster": "cluster_1", 
+                    "value": 0.008286475288546907
+                }, 
+                {
+                    "cluster": "cluster_2", 
+                    "value": 0.011187072715972654
+                }
+            ]
+        }, 
+        {
+            "variable": "Aggression", 
+            "var": 93.93, 
+            "values": [
+                {
+                    "cluster": "cluster_0", 
+                    "value": 71.88760806916426
+                }, 
+                {
+                    "cluster": "cluster_1", 
+                    "value": 65.29002663509914
+                }, 
+                {
+                    "cluster": "cluster_2", 
+                    "value": 52.8042952834749
+                }
+            ]
+        }, 
+        {
+            "variable": "col_71", 
+            "var": 34.18, 
+            "values": [
+                {
+                    "cluster": "cluster_0", 
+                    "value": 55.829971181556196
+                }, 
+                {
+                    "cluster": "cluster_1", 
+                    "value": 51.10565255992897
+                }, 
+                {
+                    "cluster": "cluster_2", 
+                    "value": 44.20488916511291
+                }
+            ]
+        }, 
+        {
+            "variable": "cluster_size", 
+            "var": 55369564.0, 
+            "values": [
+                {
+                    "cluster": "cluster_2", 
+                    "value": 14481
+                }, 
+                {
+                    "cluster": "cluster_1", 
+                    "value": 3379
+                }, 
+                {
+                    "cluster": "cluster_0", 
+                    "value": 347
+                }
+            ]
+        }
+    ]
+}

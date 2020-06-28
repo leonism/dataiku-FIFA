@@ -1,0 +1,38 @@
+{
+    "trainingTime": 17176, 
+    "state": "DONE", 
+    "startTime": 1593231651526, 
+    "preprocessingTime": 870, 
+    "progress": {
+        "top_level_todo": [], 
+        "stack": [], 
+        "top_level_done": [
+            {
+                "name": "Loading source dataset", 
+                "time": 521
+            }, 
+            {
+                "name": "Collecting statistics", 
+                "time": 194
+            }, 
+            {
+                "name": "Preprocessing data", 
+                "time": 150
+            }, 
+            {
+                "name": "Fitting model", 
+                "time": 1392
+            }, 
+            {
+                "name": "Saving model", 
+                "time": 3
+            }, 
+            {
+                "name": "Scoring model", 
+                "time": 15780
+            }
+        ]
+    }, 
+    "endTime": 1593231669572, 
+    "modelId": "m1"
+}

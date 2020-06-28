@@ -1,0 +1,854 @@
+{
+    "per_feature": {
+        "Acceleration": {
+            "stats": {
+                "std": 18.89328964578064, 
+                "p99": 84.0, 
+                "min": 4.0, 
+                "max": 97.0, 
+                "average": 55.39902235403966, 
+                "median": 61.0
+            }, 
+            "missing_impute_with_value": 55.39902235403966
+        }, 
+        "Marking": {
+            "stats": {
+                "std": 20.690902254554157, 
+                "p99": 81.0, 
+                "min": 3.0, 
+                "max": 92.0, 
+                "average": 46.74652606140496, 
+                "median": 52.0
+            }, 
+            "missing_impute_with_value": 46.74652606140496
+        }, 
+        "Strength": {
+            "stats": {
+                "std": 8.998582467226166, 
+                "p99": 82.0, 
+                "min": 21.0, 
+                "max": 96.0, 
+                "average": 61.83704069863239, 
+                "median": 62.0
+            }, 
+            "missing_impute_with_value": 61.83704069863239
+        }, 
+        "SlidingTackle": {
+            "stats": {
+                "std": 14.130187575190597, 
+                "p99": 81.0, 
+                "min": 10.0, 
+                "max": 94.0, 
+                "average": 53.41302795628055, 
+                "median": 55.0
+            }, 
+            "missing_impute_with_value": 53.41302795628055
+        }, 
+        "Composure": {
+            "stats": {
+                "std": 17.356208353371056, 
+                "p99": 87.0, 
+                "min": 11.0, 
+                "max": 95.0, 
+                "average": 55.90097215356731, 
+                "median": 59.0
+            }, 
+            "missing_impute_with_value": 55.90097215356731
+        }, 
+        "StandingTackle": {
+            "stats": {
+                "std": 19.51852050983597, 
+                "p99": 81.0, 
+                "min": 2.0, 
+                "max": 95.0, 
+                "average": 49.99813258636788, 
+                "median": 55.0
+            }, 
+            "missing_impute_with_value": 49.99813258636788
+        }, 
+        "Dribbling": {
+            "stats": {
+                "std": 18.347852634737578, 
+                "p99": 80.0, 
+                "min": 5.0, 
+                "max": 93.0, 
+                "average": 49.761245674740486, 
+                "median": 54.0
+            }, 
+            "missing_impute_with_value": 49.761245674740486
+        }, 
+        "Lean": {
+            "stats": {
+                "std": 0.4777961990019995, 
+                "p99": 1.0, 
+                "min": 0.0, 
+                "max": 1.0, 
+                "average": 0.3526116328884495, 
+                "median": 0.0
+            }, 
+            "missing_impute_with_value": 0.3526116328884495
+        }, 
+        "Stamina": {
+            "stats": {
+                "std": 14.750333371142844, 
+                "p99": 91.0, 
+                "min": 14.0, 
+                "max": 96.0, 
+                "average": 63.52073378370956, 
+                "median": 66.0
+            }, 
+            "missing_impute_with_value": 63.52073378370956
+        }, 
+        "RCM": {
+            "stats": {
+                "std": 0.14496628695932115, 
+                "p99": 1.0, 
+                "min": 0.0, 
+                "max": 1.0, 
+                "average": 0.021475256769374416, 
+                "median": 0.0
+            }, 
+            "missing_impute_with_value": 0.021475256769374416
+        }, 
+        "CAM": {
+            "stats": {
+                "std": 0.2232740500775215, 
+                "p99": 1.0, 
+                "min": 0.0, 
+                "max": 1.0, 
+                "average": 0.05261712528148514, 
+                "median": 0.0
+            }, 
+            "missing_impute_with_value": 0.05261712528148514
+        }, 
+        "LWB": {
+            "stats": {
+                "std": 0.06531422237199068, 
+                "p99": 0.0, 
+                "min": 0.0, 
+                "max": 1.0, 
+                "average": 0.004284066567803592, 
+                "median": 0.0
+            }, 
+            "missing_impute_with_value": 0.004284066567803592
+        }, 
+        "ST": {
+            "stats": {
+                "std": 0.32670683336248413, 
+                "p99": 1.0, 
+                "min": 0.0, 
+                "max": 1.0, 
+                "average": 0.12149173394848135, 
+                "median": 0.0
+            }, 
+            "missing_impute_with_value": 0.12149173394848135
+        }, 
+        "RCB": {
+            "stats": {
+                "std": 0.18718852220848853, 
+                "p99": 1.0, 
+                "min": 0.0, 
+                "max": 1.0, 
+                "average": 0.03635964189597408, 
+                "median": 0.0
+            }, 
+            "missing_impute_with_value": 0.03635964189597408
+        }, 
+        "LF": {
+            "stats": {
+                "std": 0.02869190524424738, 
+                "p99": 0.0, 
+                "min": 0.0, 
+                "max": 1.0, 
+                "average": 0.0008238589553468446, 
+                "median": 0.0
+            }, 
+            "missing_impute_with_value": 0.0008238589553468446
+        }, 
+        "Interceptions": {
+            "stats": {
+                "std": 11.80713770903577, 
+                "p99": 90.0, 
+                "min": 15.0, 
+                "max": 95.0, 
+                "average": 65.10237820618444, 
+                "median": 66.0
+            }, 
+            "missing_impute_with_value": 65.10237820618444
+        }, 
+        "Agility": {
+            "stats": {
+                "std": 17.45576258212937, 
+                "p99": 79.0, 
+                "min": 3.0, 
+                "max": 94.0, 
+                "average": 42.86087768440709, 
+                "median": 41.0
+            }, 
+            "missing_impute_with_value": 42.86087768440709
+        }, 
+        "RW": {
+            "stats": {
+                "std": 0.14110269312197626, 
+                "p99": 1.0, 
+                "min": 0.0, 
+                "max": 1.0, 
+                "average": 0.020321854231888835, 
+                "median": 0.0
+            }, 
+            "missing_impute_with_value": 0.020321854231888835
+        }, 
+        "LB": {
+            "stats": {
+                "std": 0.25950145351733866, 
+                "p99": 1.0, 
+                "min": 0.0, 
+                "max": 1.0, 
+                "average": 0.07260943593123524, 
+                "median": 0.0
+            }, 
+            "missing_impute_with_value": 0.07260943593123524
+        }, 
+        "RS": {
+            "stats": {
+                "std": 0.10500405137375042, 
+                "p99": 1.0, 
+                "min": 0.0, 
+                "max": 1.0, 
+                "average": 0.01114955786236063, 
+                "median": 0.0
+            }, 
+            "missing_impute_with_value": 0.01114955786236063
+        }, 
+        "Vision": {
+            "stats": {
+                "std": 12.54119351118676, 
+                "p99": 90.0, 
+                "min": 17.0, 
+                "max": 97.0, 
+                "average": 65.31905311144065, 
+                "median": 67.0
+            }, 
+            "missing_impute_with_value": 65.31905311144065
+        }, 
+        "Volleys": {
+            "stats": {
+                "std": 7.075510907395019, 
+                "p99": 93.0, 
+                "min": 50.0, 
+                "max": 110.0, 
+                "average": 75.28900269838647, 
+                "median": 75.0
+            }, 
+            "missing_impute_with_value": 75.28900269838647
+        }, 
+        "LM": {
+            "stats": {
+                "std": 0.23775572325311456, 
+                "p99": 1.0, 
+                "min": 0.0, 
+                "max": 1.0, 
+                "average": 0.06014170374031966, 
+                "median": 0.0
+            }, 
+            "missing_impute_with_value": 0.06014170374031966
+        }, 
+        "LDM": {
+            "stats": {
+                "std": 0.11475673797714367, 
+                "p99": 1.0, 
+                "min": 0.0, 
+                "max": 1.0, 
+                "average": 0.013346515076618883, 
+                "median": 0.0
+            }, 
+            "missing_impute_with_value": 0.013346515076618883
+        }, 
+        "RWB": {
+            "stats": {
+                "std": 0.06896238260694866, 
+                "p99": 0.0, 
+                "min": 0.0, 
+                "max": 1.0, 
+                "average": 0.004778381941011699, 
+                "median": 0.0
+            }, 
+            "missing_impute_with_value": 0.004778381941011699
+        }, 
+        "Stocky": {
+            "stats": {
+                "std": 0.24227274200284288, 
+                "p99": 1.0, 
+                "min": 0.0, 
+                "max": 1.0, 
+                "average": 0.06261328060636019, 
+                "median": 0.0
+            }, 
+            "missing_impute_with_value": 0.06261328060636019
+        }, 
+        "RF": {
+            "stats": {
+                "std": 0.02963205785608879, 
+                "p99": 0.0, 
+                "min": 0.0, 
+                "max": 1.0, 
+                "average": 0.0008787828857033009, 
+                "median": 0.0
+            }, 
+            "missing_impute_with_value": 0.0008787828857033009
+        }, 
+        "Jumping": {
+            "stats": {
+                "std": 14.631590577470293, 
+                "p99": 91.0, 
+                "min": 12.0, 
+                "max": 96.0, 
+                "average": 64.73559619926402, 
+                "median": 67.0
+            }, 
+            "missing_impute_with_value": 64.73559619926402
+        }, 
+        "col_69": {
+            "stats": {
+                "std": 19.88883702327271, 
+                "p99": 80.0, 
+                "min": 3.0, 
+                "max": 94.0, 
+                "average": 47.31515351238534, 
+                "median": 53.0
+            }, 
+            "missing_impute_with_value": 47.31515351238534
+        }, 
+        "col_68": {
+            "stats": {
+                "std": 11.42125771369214, 
+                "p99": 82.0, 
+                "min": 3.0, 
+                "max": 96.0, 
+                "average": 58.65183720547042, 
+                "median": 60.0
+            }, 
+            "missing_impute_with_value": 58.65183720547042
+        }, 
+        "RB": {
+            "stats": {
+                "std": 0.25667613674725104, 
+                "p99": 1.0, 
+                "min": 0.0, 
+                "max": 1.0, 
+                "average": 0.07090679409018509, 
+                "median": 0.0
+            }, 
+            "missing_impute_with_value": 0.07090679409018509
+        }, 
+        "Nationality": {
+            "stats": {}
+        }, 
+        "col_67": {
+            "stats": {
+                "std": 15.683355093022149, 
+                "p99": 79.0, 
+                "min": 5.0, 
+                "max": 92.0, 
+                "average": 48.54978854286813, 
+                "median": 49.0
+            }, 
+            "missing_impute_with_value": 48.54978854286813
+        }, 
+        "ShortPassing": {
+            "stats": {
+                "std": 0.08224691527546694, 
+                "p99": 0.0, 
+                "min": 0.0, 
+                "max": 1.0, 
+                "average": 0.006810567364200582, 
+                "median": 0.0
+            }, 
+            "missing_impute_with_value": 0.006810567364200582
+        }, 
+        "Age": {
+            "stats": {
+                "std": 4.66994271341433, 
+                "p99": 36.0, 
+                "min": 16.0, 
+                "max": 45.0, 
+                "average": 25.122205745043114, 
+                "median": 25.0
+            }, 
+            "missing_impute_with_value": 25.122205745043114
+        }, 
+        "SprintSpeed": {
+            "stats": {
+                "std": 18.379389228590274, 
+                "p99": 82.0, 
+                "min": 6.0, 
+                "max": 94.0, 
+                "average": 47.199373867193934, 
+                "median": 49.0
+            }, 
+            "missing_impute_with_value": 47.199373867193934
+        }, 
+        "LS": {
+            "stats": {
+                "std": 0.10602174793540027, 
+                "p99": 1.0, 
+                "min": 0.0, 
+                "max": 1.0, 
+                "average": 0.011369253583786456, 
+                "median": 0.0
+            }, 
+            "missing_impute_with_value": 0.011369253583786456
+        }, 
+        "Name": {
+            "stats": {}
+        }, 
+        "CM": {
+            "stats": {
+                "std": 0.2659056271545303, 
+                "p99": 1.0, 
+                "min": 0.0, 
+                "max": 1.0, 
+                "average": 0.0765639589169001, 
+                "median": 0.0
+            }, 
+            "missing_impute_with_value": 0.0765639589169001
+        }, 
+        "LAM": {
+            "stats": {
+                "std": 0.03394312124539923, 
+                "p99": 0.0, 
+                "min": 0.0, 
+                "max": 1.0, 
+                "average": 0.0011534025374855825, 
+                "median": 0.0
+            }, 
+            "missing_impute_with_value": 0.0011534025374855825
+        }, 
+        "CB": {
+            "stats": {
+                "std": 0.2968554166627343, 
+                "p99": 1.0, 
+                "min": 0.0, 
+                "max": 1.0, 
+                "average": 0.09765474817377931, 
+                "median": 0.0
+            }, 
+            "missing_impute_with_value": 0.09765474817377931
+        }, 
+        "ShotPower": {
+            "stats": {
+                "std": 14.909099292619235, 
+                "p99": 91.0, 
+                "min": 12.0, 
+                "max": 97.0, 
+                "average": 64.62300214203329, 
+                "median": 67.0
+            }, 
+            "missing_impute_with_value": 64.62300214203329
+        }, 
+        "Curve": {
+            "stats": {
+                "std": 19.510510187077795, 
+                "p99": 80.0, 
+                "min": 2.0, 
+                "max": 95.0, 
+                "average": 45.58373153182842, 
+                "median": 49.0
+            }, 
+            "missing_impute_with_value": 45.58373153182842
+        }, 
+        "CF": {
+            "stats": {
+                "std": 0.06362447698911605, 
+                "p99": 0.0, 
+                "min": 0.0, 
+                "max": 1.0, 
+                "average": 0.004064370846377767, 
+                "median": 0.0
+            }, 
+            "missing_impute_with_value": 0.004064370846377767
+        }, 
+        "RDM": {
+            "stats": {
+                "std": 0.11591521640220799, 
+                "p99": 1.0, 
+                "min": 0.0, 
+                "max": 1.0, 
+                "average": 0.013621134728401164, 
+                "median": 0.0
+            }, 
+            "missing_impute_with_value": 0.013621134728401164
+        }, 
+        "LW": {
+            "stats": {
+                "std": 0.14314064624933598, 
+                "p99": 1.0, 
+                "min": 0.0, 
+                "max": 1.0, 
+                "average": 0.020926017465809854, 
+                "median": 0.0
+            }, 
+            "missing_impute_with_value": 0.020926017465809854
+        }, 
+        "col_70": {
+            "stats": {
+                "std": 21.65577267878033, 
+                "p99": 81.0, 
+                "min": 2.0, 
+                "max": 93.0, 
+                "average": 47.746086669962104, 
+                "median": 55.0
+            }, 
+            "missing_impute_with_value": 47.746086669962104
+        }, 
+        "Positioning": {
+            "stats": {
+                "std": 15.87566589673088, 
+                "p99": 90.0, 
+                "min": 12.0, 
+                "max": 96.0, 
+                "average": 63.23254792112924, 
+                "median": 67.0
+            }, 
+            "missing_impute_with_value": 63.23254792112924
+        }, 
+        "RM": {
+            "stats": {
+                "std": 0.240679311667157, 
+                "p99": 1.0, 
+                "min": 0.0, 
+                "max": 1.0, 
+                "average": 0.06173449772065689, 
+                "median": 0.0
+            }, 
+            "missing_impute_with_value": 0.06173449772065689
+        }, 
+        "Crossing": {
+            "stats": {
+                "std": 0.32382112133150703, 
+                "p99": 1.0, 
+                "min": 0.0, 
+                "max": 1.0, 
+                "average": 0.11902015708244082, 
+                "median": 0.0
+            }, 
+            "missing_impute_with_value": 0.11902015708244082
+        }, 
+        "Finishing": {
+            "stats": {
+                "std": 0.5000131817505173, 
+                "p99": 1.0, 
+                "min": 0.0, 
+                "max": 1.0, 
+                "average": 0.49925852694018785, 
+                "median": 0.0
+            }, 
+            "missing_impute_with_value": 0.49925852694018785
+        }, 
+        "Balance": {
+            "stats": {
+                "std": 16.668052073043057, 
+                "p99": 84.0, 
+                "min": 5.0, 
+                "max": 96.0, 
+                "average": 58.386939089361235, 
+                "median": 63.0
+            }, 
+            "missing_impute_with_value": 58.386939089361235
+        }, 
+        "GK": {
+            "stats": {
+                "std": 0.3144141962969187, 
+                "p99": 1.0, 
+                "min": 0.0, 
+                "max": 1.0, 
+                "average": 0.11122095897182402, 
+                "median": 0.0
+            }, 
+            "missing_impute_with_value": 0.11122095897182402
+        }, 
+        "HeadingAccuracy": {
+            "stats": {
+                "std": 0.31167788545142144, 
+                "p99": 1.0, 
+                "min": 0.0, 
+                "max": 1.0, 
+                "average": 0.10902400175756577, 
+                "median": 0.0
+            }, 
+            "missing_impute_with_value": 0.10902400175756577
+        }, 
+        "FKAccuracy": {
+            "stats": {
+                "std": 17.359445234375865, 
+                "p99": 81.0, 
+                "min": 4.0, 
+                "max": 94.0, 
+                "average": 52.31317625089251, 
+                "median": 56.0
+            }, 
+            "missing_impute_with_value": 52.31317625089251
+        }, 
+        "Reactions": {
+            "stats": {
+                "std": 15.315058978676646, 
+                "p99": 79.0, 
+                "min": 9.0, 
+                "max": 93.0, 
+                "average": 52.736420058219366, 
+                "median": 56.0
+            }, 
+            "missing_impute_with_value": 52.736420058219366
+        }, 
+        "Left": {
+            "stats": {
+                "std": 0.4216655515827379, 
+                "p99": 1.0, 
+                "min": 0.0, 
+                "max": 1.0, 
+                "average": 0.2312846707310375, 
+                "median": 0.0
+            }, 
+            "missing_impute_with_value": 0.2312846707310375
+        }, 
+        "Right": {
+            "stats": {
+                "std": 0.4233341695328317, 
+                "p99": 1.0, 
+                "min": 0.0, 
+                "max": 1.0, 
+                "average": 0.7660789806118525, 
+                "median": 1.0
+            }, 
+            "missing_impute_with_value": 0.7660789806118525
+        }, 
+        "BallControl": {
+            "stats": {
+                "std": 17.672994993652363, 
+                "p99": 77.0, 
+                "min": 4.0, 
+                "max": 90.0, 
+                "average": 42.92244741033668, 
+                "median": 44.0
+            }, 
+            "missing_impute_with_value": 42.92244741033668
+        }, 
+        "CDM": {
+            "stats": {
+                "std": 0.22217005254357705, 
+                "p99": 1.0, 
+                "min": 0.0, 
+                "max": 1.0, 
+                "average": 0.05206788597792058, 
+                "median": 0.0
+            }, 
+            "missing_impute_with_value": 0.05206788597792058
+        }, 
+        "Penalties": {
+            "stats": {
+                "std": 19.24322203500501, 
+                "p99": 80.0, 
+                "min": 3.0, 
+                "max": 94.0, 
+                "average": 47.138682924150054, 
+                "median": 51.0
+            }, 
+            "missing_impute_with_value": 47.138682924150054
+        }, 
+        "Normal": {
+            "stats": {
+                "std": 0.493248042602678, 
+                "p99": 1.0, 
+                "min": 0.0, 
+                "max": 1.0, 
+                "average": 0.581973966057011, 
+                "median": 1.0
+            }, 
+            "missing_impute_with_value": 0.581973966057011
+        }, 
+        "LongShots": {
+            "stats": {
+                "std": 14.11837563195978, 
+                "p99": 91.0, 
+                "min": 16.0, 
+                "max": 96.0, 
+                "average": 63.97457022024496, 
+                "median": 66.0
+            }, 
+            "missing_impute_with_value": 63.97457022024496
+        }, 
+        "Height": {
+            "stats": {
+                "std": 0.4359723990468393, 
+                "p99": 1.0, 
+                "min": 0.0, 
+                "max": 1.0, 
+                "average": 0.25517658043609603, 
+                "median": 0.0
+            }, 
+            "missing_impute_with_value": 0.25517658043609603
+        }, 
+        "LCB": {
+            "stats": {
+                "std": 0.18527248518974998, 
+                "p99": 1.0, 
+                "min": 0.0, 
+                "max": 1.0, 
+                "average": 0.03559070687098369, 
+                "median": 0.0
+            }, 
+            "missing_impute_with_value": 0.03559070687098369
+        }, 
+        "Wage_Euro": {
+            "stats": {
+                "std": 21999.290405991298, 
+                "p99": 105000.0, 
+                "min": 0.0, 
+                "max": 565000.0, 
+                "average": 9731.312132696215, 
+                "median": 3000.0
+            }, 
+            "missing_impute_with_value": 9731.312132696215
+        }, 
+        "LongPassing": {
+            "stats": {
+                "std": 14.682632976268648, 
+                "p99": 82.0, 
+                "min": 7.0, 
+                "max": 93.0, 
+                "average": 58.70071950348767, 
+                "median": 62.0
+            }, 
+            "missing_impute_with_value": 58.70071950348767
+        }, 
+        "RAM": {
+            "stats": {
+                "std": 0.033943121245397535, 
+                "p99": 0.0, 
+                "min": 0.0, 
+                "max": 1.0, 
+                "average": 0.0011534025374855825, 
+                "median": 0.0
+            }, 
+            "missing_impute_with_value": 0.0011534025374855825
+        }, 
+        "LCM": {
+            "stats": {
+                "std": 0.14568955800678932, 
+                "p99": 1.0, 
+                "min": 0.0, 
+                "max": 1.0, 
+                "average": 0.02169495249080024, 
+                "median": 0.0
+            }, 
+            "missing_impute_with_value": 0.02169495249080024
+        }, 
+        "Weight_LBS": {
+            "stats": {
+                "std": 0.10241351412981733, 
+                "p99": 1.0, 
+                "min": 0.0, 
+                "max": 1.0, 
+                "average": 0.010600318558796068, 
+                "median": 0.0
+            }, 
+            "missing_impute_with_value": 0.010600318558796068
+        }, 
+        "Aggression": {
+            "stats": {
+                "std": 17.222168410065482, 
+                "p99": 84.0, 
+                "min": 2.0, 
+                "max": 95.0, 
+                "average": 55.48519800076893, 
+                "median": 59.0
+            }, 
+            "missing_impute_with_value": 55.48519800076893
+        }, 
+        "col_71": {
+            "stats": {
+                "std": 21.279634234439904, 
+                "p99": 80.0, 
+                "min": 3.0, 
+                "max": 91.0, 
+                "average": 45.70714560333938, 
+                "median": 52.0
+            }, 
+            "missing_impute_with_value": 45.70714560333938
+        }
+    }, 
+    "feature_order": [
+        "Acceleration", 
+        "Marking", 
+        "Strength", 
+        "SlidingTackle", 
+        "Composure", 
+        "col_69", 
+        "StandingTackle", 
+        "Dribbling", 
+        "Lean", 
+        "Stamina", 
+        "RCM", 
+        "CAM", 
+        "LWB", 
+        "ST", 
+        "Stocky", 
+        "RCB", 
+        "LF", 
+        "col_70", 
+        "Agility", 
+        "RW", 
+        "LB", 
+        "col_68", 
+        "RS", 
+        "Vision", 
+        "Volleys", 
+        "LM", 
+        "LDM", 
+        "LW", 
+        "RF", 
+        "Jumping", 
+        "FKAccuracy", 
+        "LS", 
+        "RB", 
+        "CB", 
+        "RM", 
+        "col_67", 
+        "ShortPassing", 
+        "Age", 
+        "SprintSpeed", 
+        "Wage_Euro", 
+        "Name", 
+        "CM", 
+        "LAM", 
+        "Positioning", 
+        "ShotPower", 
+        "Curve", 
+        "CF", 
+        "RDM", 
+        "BallControl", 
+        "Nationality", 
+        "Crossing", 
+        "Finishing", 
+        "Balance", 
+        "GK", 
+        "HeadingAccuracy", 
+        "Left", 
+        "Reactions", 
+        "RWB", 
+        "Right", 
+        "CDM", 
+        "Penalties", 
+        "Normal", 
+        "LongShots", 
+        "Height", 
+        "LCB", 
+        "Interceptions", 
+        "LongPassing", 
+        "RAM", 
+        "LCM", 
+        "Weight_LBS", 
+        "Aggression", 
+        "col_71"
+    ]
+}

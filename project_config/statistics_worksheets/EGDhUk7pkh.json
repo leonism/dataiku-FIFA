@@ -1,0 +1,386 @@
+{
+  "dataSpec": {
+    "inputDatasetSmartName": "Scored",
+    "datasetSelection": {
+      "useMemTable": false,
+      "filter": {
+        "distinct": false,
+        "enabled": false
+      },
+      "partitionSelectionMethod": "ALL",
+      "latestPartitionsN": 1,
+      "ordering": {
+        "enabled": false,
+        "rules": []
+      },
+      "samplingMethod": "HEAD_SEQUENTIAL",
+      "maxRecords": 100000,
+      "targetRatio": 0.02,
+      "withinFirstN": -1,
+      "maxReadUncompressedBytes": -1
+    },
+    "autoRefreshSample": true,
+    "refreshTrigger": 0,
+    "containerSelection": {
+      "containerMode": "INHERIT"
+    }
+  },
+  "rootCard": {
+    "type": "worksheet_root",
+    "confidenceLevel": 0.95,
+    "showConfidenceInterval": false,
+    "cards": [
+      {
+        "type": "univariate_header",
+        "showHistogram": true,
+        "showQuantile": false,
+        "showFrequencyTable": true,
+        "showSummary": true,
+        "showBoxPlot": false,
+        "xColumns": [
+          {
+            "name": "cluster_labels",
+            "type": "CATEGORICAL"
+          }
+        ],
+        "cards": [
+          {
+            "type": "column_card",
+            "column": {
+              "name": "cluster_labels",
+              "type": "CATEGORICAL"
+            },
+            "cards": [
+              {
+                "type": "categorical_histogram",
+                "maxValues": 10,
+                "groupOthers": false,
+                "column": {
+                  "name": "cluster_labels",
+                  "type": "CATEGORICAL"
+                },
+                "id": "gmxI5ak"
+              },
+              {
+                "type": "univariate_summary",
+                "confidenceLevel": 0.95,
+                "showConfidenceInterval": false,
+                "compute": {
+                  "totalCount": true,
+                  "mean": true,
+                  "sum": false,
+                  "median": true,
+                  "std": true,
+                  "variance": false,
+                  "skewness": false,
+                  "kurtosis": false,
+                  "sem": false,
+                  "completeCount": true,
+                  "nbEmpty": true,
+                  "zeroCount": false,
+                  "zeroRatio": false,
+                  "nonZeroRatio": false,
+                  "iqr": false,
+                  "distinctCount": true,
+                  "nbNonEmpty": false,
+                  "min": true,
+                  "max": true,
+                  "range": false,
+                  "mode": true
+                },
+                "column": {
+                  "name": "cluster_labels",
+                  "type": "CATEGORICAL"
+                },
+                "id": "Q0XqXjp"
+              },
+              {
+                "type": "univariate_frequency_table",
+                "maxValues": 10,
+                "column": {
+                  "name": "cluster_labels",
+                  "type": "CATEGORICAL"
+                },
+                "id": "N8R1EAS"
+              }
+            ],
+            "id": "rIDrt21"
+          }
+        ],
+        "id": "Uvj4Jop"
+      },
+      {
+        "type": "pca",
+        "heatmapParams": {
+          "showValues": true,
+          "showColors": true,
+          "showAbsValues": false,
+          "threshold": 0.0
+        },
+        "columns": [
+          {
+            "name": "Wage_Euro",
+            "type": "CONTINUOUS"
+          },
+          {
+            "name": "Age",
+            "type": "CONTINUOUS"
+          },
+          {
+            "name": "Height",
+            "type": "CONTINUOUS"
+          },
+          {
+            "name": "Weight_LBS",
+            "type": "CONTINUOUS"
+          },
+          {
+            "name": "Crossing",
+            "type": "CONTINUOUS"
+          },
+          {
+            "name": "Finishing",
+            "type": "CONTINUOUS"
+          },
+          {
+            "name": "HeadingAccuracy",
+            "type": "CONTINUOUS"
+          },
+          {
+            "name": "ShortPassing",
+            "type": "CONTINUOUS"
+          },
+          {
+            "name": "Volleys",
+            "type": "CONTINUOUS"
+          },
+          {
+            "name": "Dribbling",
+            "type": "CONTINUOUS"
+          },
+          {
+            "name": "Curve",
+            "type": "CONTINUOUS"
+          },
+          {
+            "name": "FKAccuracy",
+            "type": "CONTINUOUS"
+          },
+          {
+            "name": "LongPassing",
+            "type": "CONTINUOUS"
+          },
+          {
+            "name": "BallControl",
+            "type": "CONTINUOUS"
+          },
+          {
+            "name": "Acceleration",
+            "type": "CONTINUOUS"
+          },
+          {
+            "name": "SprintSpeed",
+            "type": "CONTINUOUS"
+          },
+          {
+            "name": "Agility",
+            "type": "CONTINUOUS"
+          },
+          {
+            "name": "Reactions",
+            "type": "CONTINUOUS"
+          },
+          {
+            "name": "Balance",
+            "type": "CONTINUOUS"
+          },
+          {
+            "name": "ShotPower",
+            "type": "CONTINUOUS"
+          },
+          {
+            "name": "Jumping",
+            "type": "CONTINUOUS"
+          },
+          {
+            "name": "Stamina",
+            "type": "CONTINUOUS"
+          },
+          {
+            "name": "Strength",
+            "type": "CONTINUOUS"
+          },
+          {
+            "name": "LongShots",
+            "type": "CONTINUOUS"
+          },
+          {
+            "name": "Aggression",
+            "type": "CONTINUOUS"
+          },
+          {
+            "name": "Interceptions",
+            "type": "CONTINUOUS"
+          },
+          {
+            "name": "Positioning",
+            "type": "CONTINUOUS"
+          },
+          {
+            "name": "Vision",
+            "type": "CONTINUOUS"
+          },
+          {
+            "name": "Penalties",
+            "type": "CONTINUOUS"
+          },
+          {
+            "name": "Composure",
+            "type": "CONTINUOUS"
+          },
+          {
+            "name": "Marking",
+            "type": "CONTINUOUS"
+          },
+          {
+            "name": "StandingTackle",
+            "type": "CONTINUOUS"
+          },
+          {
+            "name": "SlidingTackle",
+            "type": "CONTINUOUS"
+          }
+        ],
+        "id": "6cGTXvK"
+      },
+      {
+        "type": "fit_distribution",
+        "distributions": [
+          {
+            "distribution": {
+              "type": "exponential"
+            }
+          }
+        ],
+        "confidenceLevel": 0.95,
+        "column": {
+          "name": "Wage_Euro",
+          "type": "CONTINUOUS"
+        },
+        "id": "szWEa3m"
+      },
+      {
+        "type": "fit_distribution",
+        "distributions": [
+          {
+            "distribution": {
+              "type": "normal"
+            }
+          }
+        ],
+        "confidenceLevel": 0.95,
+        "column": {
+          "name": "Wage_Euro",
+          "type": "CONTINUOUS"
+        },
+        "id": "0FLvgHe"
+      },
+      {
+        "type": "fit_2d_distribution",
+        "xResolution": 640,
+        "yResolution": 480,
+        "distribution": {
+          "type": "kde_2d",
+          "x_relative_bandwidth": 15.0,
+          "y_relative_bandwidth": 15.0
+        },
+        "xColumn": {
+          "name": "Wage_Euro",
+          "type": "CONTINUOUS"
+        },
+        "yColumn": {
+          "name": "Acceleration",
+          "type": "CONTINUOUS"
+        },
+        "id": "TfhPZ9I"
+      },
+      {
+        "type": "fit_curve",
+        "curves": [
+          {
+            "type": "isotonic"
+          }
+        ],
+        "xColumn": {
+          "name": "Wage_Euro",
+          "type": "CONTINUOUS"
+        },
+        "yColumn": {
+          "name": "Aggression",
+          "type": "CONTINUOUS"
+        },
+        "id": "Wl6ngmC"
+      },
+      {
+        "type": "fit_curve",
+        "curves": [
+          {
+            "type": "polynomial",
+            "degree": 2
+          }
+        ],
+        "xColumn": {
+          "name": "Wage_Euro",
+          "type": "CONTINUOUS"
+        },
+        "yColumn": {
+          "name": "Aggression",
+          "type": "CONTINUOUS"
+        },
+        "id": "RrUJHqH"
+      },
+      {
+        "type": "fit_curve",
+        "curves": [
+          {
+            "type": "polynomial",
+            "degree": 5
+          },
+          {
+            "type": "isotonic"
+          }
+        ],
+        "xColumn": {
+          "name": "Wage_Euro",
+          "type": "CONTINUOUS"
+        },
+        "yColumn": {
+          "name": "Vision",
+          "type": "CONTINUOUS"
+        },
+        "id": "9hDlhBo"
+      }
+    ],
+    "id": "FQ45UeV"
+  },
+  "name": "Worksheet",
+  "versionTag": {
+    "versionNumber": 15,
+    "lastModifiedBy": {
+      "login": "admin"
+    },
+    "lastModifiedOn": 1593243113789
+  },
+  "creationTag": {
+    "versionNumber": 0,
+    "lastModifiedBy": {
+      "login": "admin"
+    },
+    "lastModifiedOn": 1593237704177
+  },
+  "tags": [],
+  "customFields": {},
+  "checklists": {
+    "checklists": []
+  }
+}

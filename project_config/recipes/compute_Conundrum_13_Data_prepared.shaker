@@ -1,0 +1,1123 @@
+{
+  "columnsSelection": {
+    "mode": "ALL"
+  },
+  "explorationSampling": {
+    "_refreshTrigger": 1,
+    "selection": {
+      "filter": {
+        "distinct": false,
+        "enabled": false
+      },
+      "latestPartitionsN": 1,
+      "maxRecords": 10000,
+      "ordering": {
+        "rules": [],
+        "enabled": false
+      },
+      "withinFirstN": -1,
+      "partitionSelectionMethod": "ALL",
+      "maxStoredBytes": 104857600,
+      "targetRatio": 0.02,
+      "maxReadUncompressedBytes": -1,
+      "samplingMethod": "RANDOM_FIXED_NB_EXACT"
+    },
+    "autoRefreshSample": false
+  },
+  "explorationFilters": [],
+  "origin": "PREPARE_RECIPE",
+  "exploreUIParams": {
+    "autoRefresh": true
+  },
+  "steps": [
+    {
+      "preview": false,
+      "mainColor": "#61c1b0",
+      "name": "House Cleaning",
+      "metaType": "GROUP",
+      "disabled": false,
+      "steps": [
+        {
+          "preview": false,
+          "metaType": "PROCESSOR",
+          "disabled": false,
+          "type": "ColumnRenamer",
+          "params": {
+            "renamings": [
+              {
+                "from": "Weight",
+                "to": "Weight(lbs)"
+              },
+              {
+                "from": "Wage",
+                "to": "Wage(Euro)"
+              }
+            ]
+          },
+          "alwaysShowComment": false
+        },
+        {
+          "preview": false,
+          "metaType": "PROCESSOR",
+          "disabled": false,
+          "type": "FindReplace",
+          "params": {
+            "output": "",
+            "mapping": [
+              {
+                "from": "lbs",
+                "to": ""
+              }
+            ],
+            "normalization": "EXACT",
+            "columns": [
+              "Weight(lbs)"
+            ],
+            "appliesTo": "SINGLE_COLUMN",
+            "stopAfterFirstMatch": false,
+            "matching": "SUBSTRING"
+          },
+          "alwaysShowComment": false
+        },
+        {
+          "preview": false,
+          "metaType": "PROCESSOR",
+          "disabled": false,
+          "type": "FindReplace",
+          "params": {
+            "output": "",
+            "mapping": [
+              {
+                "from": "€",
+                "to": ""
+              },
+              {
+                "from": "K",
+                "to": "000"
+              }
+            ],
+            "normalization": "EXACT",
+            "columns": [
+              "Wage(Euro)"
+            ],
+            "appliesTo": "SINGLE_COLUMN",
+            "stopAfterFirstMatch": false,
+            "matching": "SUBSTRING"
+          },
+          "alwaysShowComment": false
+        },
+        {
+          "preview": false,
+          "metaType": "PROCESSOR",
+          "disabled": false,
+          "type": "FindReplace",
+          "params": {
+            "output": "",
+            "mapping": [
+              {
+                "from": "\u0027",
+                "to": "."
+              }
+            ],
+            "normalization": "EXACT",
+            "columns": [
+              "Height"
+            ],
+            "appliesTo": "SINGLE_COLUMN",
+            "stopAfterFirstMatch": false,
+            "matching": "SUBSTRING"
+          },
+          "alwaysShowComment": false
+        },
+        {
+          "preview": false,
+          "metaType": "PROCESSOR",
+          "disabled": false,
+          "type": "CreateColumnWithGREL",
+          "params": {
+            "expression": "(Height) * 30.48",
+            "column": "Height"
+          },
+          "alwaysShowComment": false
+        },
+        {
+          "preview": false,
+          "metaType": "PROCESSOR",
+          "disabled": false,
+          "type": "FindReplace",
+          "params": {
+            "output": "",
+            "mapping": [
+              {
+                "from": "England",
+                "to": "United Kingdom"
+              }
+            ],
+            "normalization": "EXACT",
+            "columns": [
+              "Nationality"
+            ],
+            "appliesTo": "SINGLE_COLUMN",
+            "stopAfterFirstMatch": false,
+            "matching": "SUBSTRING"
+          },
+          "alwaysShowComment": false
+        },
+        {
+          "preview": false,
+          "metaType": "PROCESSOR",
+          "disabled": false,
+          "type": "RoundProcessor",
+          "params": {
+            "mode": "ROUND",
+            "places": 2,
+            "columns": [
+              "Height"
+            ],
+            "precision": 0,
+            "appliesTo": "SINGLE_COLUMN"
+          },
+          "alwaysShowComment": false
+        },
+        {
+          "preview": false,
+          "metaType": "PROCESSOR",
+          "disabled": false,
+          "type": "ColumnRenamer",
+          "params": {
+            "renamings": [
+              {
+                "from": "Wage(Euro)",
+                "to": "Wage_Euro"
+              }
+            ]
+          },
+          "alwaysShowComment": false
+        },
+        {
+          "preview": false,
+          "metaType": "PROCESSOR",
+          "disabled": false,
+          "type": "ColumnRenamer",
+          "params": {
+            "renamings": [
+              {
+                "from": "Weight(lbs)",
+                "to": "Weight_LBS"
+              }
+            ]
+          },
+          "alwaysShowComment": false
+        },
+        {
+          "preview": false,
+          "metaType": "PROCESSOR",
+          "disabled": false,
+          "type": "CreateColumnWithGREL",
+          "params": {
+            "expression": "Weight_LBS / 2.205",
+            "column": "Weight_LBS"
+          },
+          "alwaysShowComment": false
+        },
+        {
+          "preview": false,
+          "metaType": "PROCESSOR",
+          "disabled": false,
+          "type": "RoundProcessor",
+          "params": {
+            "mode": "ROUND",
+            "places": 0,
+            "columns": [
+              "Height"
+            ],
+            "precision": 0,
+            "appliesTo": "SINGLE_COLUMN"
+          },
+          "alwaysShowComment": false
+        },
+        {
+          "preview": false,
+          "metaType": "PROCESSOR",
+          "disabled": false,
+          "type": "RoundProcessor",
+          "params": {
+            "mode": "ROUND",
+            "places": 0,
+            "columns": [
+              "Weight_LBS"
+            ],
+            "precision": 0,
+            "appliesTo": "SINGLE_COLUMN"
+          },
+          "alwaysShowComment": false
+        }
+      ],
+      "alwaysShowComment": false,
+      "secondaryColor": "#d4e7e4"
+    },
+    {
+      "preview": false,
+      "mainColor": "#ff9c00",
+      "name": "Preferred Foot",
+      "metaType": "GROUP",
+      "disabled": false,
+      "steps": [
+        {
+          "preview": false,
+          "designTimeReport": {
+            "report": {
+              "unfoldedValues": [
+                "Left",
+                "Right"
+              ]
+            }
+          },
+          "metaType": "PROCESSOR",
+          "disabled": false,
+          "type": "Unfold",
+          "params": {
+            "overflowAction": "ERROR",
+            "column": "Preferred Foot",
+            "limit": 100
+          },
+          "alwaysShowComment": false
+        },
+        {
+          "preview": false,
+          "metaType": "PROCESSOR",
+          "disabled": false,
+          "type": "FillEmptyWithValue",
+          "params": {
+            "columns": [
+              "Right"
+            ],
+            "appliesTo": "SINGLE_COLUMN",
+            "value": "0"
+          },
+          "alwaysShowComment": false
+        },
+        {
+          "preview": false,
+          "metaType": "PROCESSOR",
+          "disabled": false,
+          "type": "FillEmptyWithValue",
+          "params": {
+            "columns": [
+              "Left"
+            ],
+            "appliesTo": "SINGLE_COLUMN",
+            "value": "0"
+          },
+          "alwaysShowComment": false
+        },
+        {
+          "preview": false,
+          "metaType": "PROCESSOR",
+          "disabled": false,
+          "type": "ColumnsSelector",
+          "params": {
+            "columns": [
+              "Preferred Foot"
+            ],
+            "keep": false,
+            "appliesTo": "SINGLE_COLUMN"
+          },
+          "alwaysShowComment": false
+        }
+      ],
+      "alwaysShowComment": false,
+      "secondaryColor": "#f4e0c1"
+    },
+    {
+      "preview": false,
+      "mainColor": "#30c2ff",
+      "name": "Body Type",
+      "metaType": "GROUP",
+      "disabled": false,
+      "steps": [
+        {
+          "preview": false,
+          "metaType": "PROCESSOR",
+          "disabled": false,
+          "type": "FindReplace",
+          "params": {
+            "output": "",
+            "mapping": [
+              {
+                "from": "Courtois",
+                "to": "Lean"
+              },
+              {
+                "from": "Neymar",
+                "to": "Lean"
+              },
+              {
+                "from": "Shaqiri",
+                "to": "Lean"
+              },
+              {
+                "from": "PLAYER_BODY_TYPE_25",
+                "to": "Normal"
+              },
+              {
+                "from": "Messi",
+                "to": "Lean"
+              },
+              {
+                "from": "Akinfenwa",
+                "to": "Stocky"
+              }
+            ],
+            "normalization": "EXACT",
+            "columns": [
+              "Body Type"
+            ],
+            "appliesTo": "SINGLE_COLUMN",
+            "stopAfterFirstMatch": false,
+            "matching": "FULL_STRING"
+          },
+          "alwaysShowComment": false
+        },
+        {
+          "preview": false,
+          "designTimeReport": {
+            "report": {
+              "unfoldedValues": [
+                "Lean",
+                "Normal",
+                "Stocky"
+              ]
+            }
+          },
+          "metaType": "PROCESSOR",
+          "disabled": false,
+          "type": "Unfold",
+          "params": {
+            "overflowAction": "ERROR",
+            "column": "Body Type",
+            "limit": 100
+          },
+          "alwaysShowComment": false
+        },
+        {
+          "preview": false,
+          "metaType": "PROCESSOR",
+          "disabled": false,
+          "type": "FillEmptyWithValue",
+          "params": {
+            "columns": [
+              "Body Type"
+            ],
+            "appliesTo": "SINGLE_COLUMN",
+            "value": "Normal"
+          },
+          "alwaysShowComment": false
+        },
+        {
+          "preview": false,
+          "metaType": "PROCESSOR",
+          "disabled": false,
+          "type": "FillEmptyWithValue",
+          "params": {
+            "columns": [
+              "Lean"
+            ],
+            "appliesTo": "SINGLE_COLUMN",
+            "value": "0"
+          },
+          "alwaysShowComment": false
+        },
+        {
+          "preview": false,
+          "metaType": "PROCESSOR",
+          "disabled": false,
+          "type": "FillEmptyWithValue",
+          "params": {
+            "columns": [
+              "Normal"
+            ],
+            "appliesTo": "SINGLE_COLUMN",
+            "value": "0"
+          },
+          "alwaysShowComment": false
+        },
+        {
+          "preview": false,
+          "metaType": "PROCESSOR",
+          "disabled": false,
+          "type": "FillEmptyWithValue",
+          "params": {
+            "columns": [
+              "Stocky"
+            ],
+            "appliesTo": "SINGLE_COLUMN",
+            "value": "0"
+          },
+          "alwaysShowComment": false
+        },
+        {
+          "preview": false,
+          "metaType": "PROCESSOR",
+          "disabled": false,
+          "type": "ColumnsSelector",
+          "params": {
+            "columns": [
+              "Body Type"
+            ],
+            "keep": false,
+            "appliesTo": "SINGLE_COLUMN"
+          },
+          "alwaysShowComment": false
+        }
+      ],
+      "alwaysShowComment": false,
+      "secondaryColor": "#cae8f4"
+    },
+    {
+      "preview": false,
+      "mainColor": "#90d931",
+      "name": "Filling The Emptiness Inside",
+      "metaType": "GROUP",
+      "disabled": false,
+      "steps": [
+        {
+          "preview": false,
+          "metaType": "PROCESSOR",
+          "disabled": false,
+          "type": "FillEmptyWithValue",
+          "params": {
+            "columns": [
+              "Position"
+            ],
+            "appliesTo": "SINGLE_COLUMN",
+            "value": "ST"
+          },
+          "alwaysShowComment": false
+        },
+        {
+          "preview": false,
+          "designTimeReport": {
+            "report": {
+              "unfoldedValues": [
+                "RF",
+                "GK",
+                "RB",
+                "ST",
+                "LF",
+                "RCM",
+                "RS",
+                "RCB",
+                "CM",
+                "LCM",
+                "LM",
+                "LDM",
+                "CAM",
+                "RW",
+                "RM",
+                "LCB",
+                "CDM",
+                "LAM",
+                "LW",
+                "LB",
+                "CB",
+                "LS",
+                "RDM",
+                "RAM",
+                "CF",
+                "RWB",
+                "LWB"
+              ]
+            }
+          },
+          "metaType": "PROCESSOR",
+          "disabled": false,
+          "type": "Unfold",
+          "params": {
+            "overflowAction": "ERROR",
+            "column": "Position",
+            "limit": 100
+          },
+          "alwaysShowComment": false
+        },
+        {
+          "preview": false,
+          "metaType": "PROCESSOR",
+          "disabled": false,
+          "type": "FillEmptyWithValue",
+          "params": {
+            "columns": [
+              "RM",
+              "GK",
+              "LW",
+              "CB",
+              "LF",
+              "RCM",
+              "RS",
+              "CM",
+              "CDM",
+              "LB",
+              "LCM",
+              "LDM",
+              "CAM",
+              "LS",
+              "ST",
+              "LCB",
+              "LM",
+              "RDM",
+              "RF",
+              "RCB",
+              "RB",
+              "RW",
+              "RWB",
+              "LWB",
+              "CF",
+              "LAM",
+              "RAM"
+            ],
+            "appliesTo": "COLUMNS",
+            "value": "0"
+          },
+          "alwaysShowComment": false
+        },
+        {
+          "preview": false,
+          "metaType": "PROCESSOR",
+          "disabled": false,
+          "type": "FillEmptyWithValue",
+          "params": {
+            "columns": [
+              "ShotPower"
+            ],
+            "appliesTo": "SINGLE_COLUMN",
+            "value": "65"
+          },
+          "alwaysShowComment": false
+        },
+        {
+          "preview": false,
+          "metaType": "PROCESSOR",
+          "disabled": false,
+          "type": "FillEmptyWithValue",
+          "params": {
+            "columns": [
+              "Positioning"
+            ],
+            "appliesTo": "SINGLE_COLUMN",
+            "value": "65"
+          },
+          "alwaysShowComment": false
+        },
+        {
+          "preview": false,
+          "metaType": "PROCESSOR",
+          "disabled": false,
+          "type": "FillEmptyWithValue",
+          "params": {
+            "columns": [
+              "Dribbling"
+            ],
+            "appliesTo": "SINGLE_COLUMN",
+            "value": "66"
+          },
+          "alwaysShowComment": false
+        },
+        {
+          "preview": false,
+          "metaType": "PROCESSOR",
+          "disabled": false,
+          "type": "FillEmptyWithValue",
+          "params": {
+            "columns": [
+              "StandingTackle"
+            ],
+            "appliesTo": "SINGLE_COLUMN",
+            "value": "66"
+          },
+          "alwaysShowComment": false
+        },
+        {
+          "preview": false,
+          "metaType": "PROCESSOR",
+          "disabled": false,
+          "type": "FillEmptyWithValue",
+          "params": {
+            "columns": [
+              "SlidingTackle"
+            ],
+            "appliesTo": "SINGLE_COLUMN",
+            "value": "63"
+          },
+          "alwaysShowComment": false
+        },
+        {
+          "preview": false,
+          "metaType": "PROCESSOR",
+          "disabled": false,
+          "type": "FillEmptyWithValue",
+          "params": {
+            "columns": [
+              "Reactions"
+            ],
+            "appliesTo": "SINGLE_COLUMN",
+            "value": "62"
+          },
+          "alwaysShowComment": false
+        },
+        {
+          "preview": false,
+          "metaType": "PROCESSOR",
+          "disabled": false,
+          "type": "FillEmptyWithValue",
+          "params": {
+            "columns": [
+              "HeadingAccuracy"
+            ],
+            "appliesTo": "SINGLE_COLUMN",
+            "value": "58"
+          },
+          "alwaysShowComment": false
+        },
+        {
+          "preview": false,
+          "metaType": "PROCESSOR",
+          "disabled": false,
+          "type": "FillEmptyWithValue",
+          "params": {
+            "columns": [
+              "Penalties"
+            ],
+            "appliesTo": "SINGLE_COLUMN",
+            "value": "49"
+          },
+          "alwaysShowComment": false
+        },
+        {
+          "preview": false,
+          "metaType": "PROCESSOR",
+          "disabled": false,
+          "type": "FillEmptyWithValue",
+          "params": {
+            "columns": [
+              "Agility"
+            ],
+            "appliesTo": "SINGLE_COLUMN",
+            "value": "70"
+          },
+          "alwaysShowComment": false
+        },
+        {
+          "preview": false,
+          "metaType": "PROCESSOR",
+          "disabled": false,
+          "type": "FillEmptyWithValue",
+          "params": {
+            "columns": [
+              "Height"
+            ],
+            "appliesTo": "SINGLE_COLUMN",
+            "value": "182.88"
+          },
+          "alwaysShowComment": false
+        },
+        {
+          "preview": false,
+          "metaType": "PROCESSOR",
+          "disabled": false,
+          "type": "FillEmptyWithValue",
+          "params": {
+            "columns": [
+              "LongShots"
+            ],
+            "appliesTo": "SINGLE_COLUMN",
+            "value": "58"
+          },
+          "alwaysShowComment": false
+        },
+        {
+          "preview": false,
+          "metaType": "PROCESSOR",
+          "disabled": false,
+          "type": "FillEmptyWithValue",
+          "params": {
+            "columns": [
+              "Volleys"
+            ],
+            "appliesTo": "SINGLE_COLUMN",
+            "value": "48"
+          },
+          "alwaysShowComment": false
+        },
+        {
+          "preview": false,
+          "metaType": "PROCESSOR",
+          "disabled": false,
+          "type": "FillEmptyWithValue",
+          "params": {
+            "columns": [
+              "Aggression"
+            ],
+            "appliesTo": "SINGLE_COLUMN",
+            "value": "68"
+          },
+          "alwaysShowComment": false
+        },
+        {
+          "preview": false,
+          "metaType": "PROCESSOR",
+          "disabled": false,
+          "type": "FillEmptyWithValue",
+          "params": {
+            "columns": [
+              "Curve"
+            ],
+            "appliesTo": "SINGLE_COLUMN",
+            "value": "58"
+          },
+          "alwaysShowComment": false
+        },
+        {
+          "preview": false,
+          "metaType": "PROCESSOR",
+          "disabled": false,
+          "type": "FillEmptyWithValue",
+          "params": {
+            "columns": [
+              "BallControl"
+            ],
+            "appliesTo": "SINGLE_COLUMN",
+            "value": "65"
+          },
+          "alwaysShowComment": false
+        },
+        {
+          "preview": false,
+          "metaType": "PROCESSOR",
+          "disabled": false,
+          "type": "FillEmptyWithValue",
+          "params": {
+            "columns": [
+              "Crossing"
+            ],
+            "appliesTo": "SINGLE_COLUMN",
+            "value": "60"
+          },
+          "alwaysShowComment": false
+        },
+        {
+          "preview": false,
+          "metaType": "PROCESSOR",
+          "disabled": false,
+          "type": "FillEmptyWithValue",
+          "params": {
+            "columns": [
+              "ShortPassing"
+            ],
+            "appliesTo": "SINGLE_COLUMN",
+            "value": "64"
+          },
+          "alwaysShowComment": false
+        },
+        {
+          "preview": false,
+          "metaType": "PROCESSOR",
+          "disabled": false,
+          "type": "FillEmptyWithValue",
+          "params": {
+            "columns": [
+              "Marking"
+            ],
+            "appliesTo": "SINGLE_COLUMN",
+            "value": "60"
+          },
+          "alwaysShowComment": false
+        },
+        {
+          "preview": false,
+          "metaType": "PROCESSOR",
+          "disabled": false,
+          "type": "FillEmptyWithValue",
+          "params": {
+            "columns": [
+              "SprintSpeed"
+            ],
+            "appliesTo": "SINGLE_COLUMN",
+            "value": "68"
+          },
+          "alwaysShowComment": false
+        },
+        {
+          "preview": false,
+          "metaType": "PROCESSOR",
+          "disabled": false,
+          "type": "FillEmptyWithValue",
+          "params": {
+            "columns": [
+              "Stamina"
+            ],
+            "appliesTo": "SINGLE_COLUMN",
+            "value": "68"
+          },
+          "alwaysShowComment": false
+        },
+        {
+          "preview": false,
+          "metaType": "PROCESSOR",
+          "disabled": false,
+          "type": "FillEmptyWithValue",
+          "params": {
+            "columns": [
+              "Interceptions"
+            ],
+            "appliesTo": "SINGLE_COLUMN",
+            "value": "65"
+          },
+          "alwaysShowComment": false
+        },
+        {
+          "preview": false,
+          "metaType": "PROCESSOR",
+          "disabled": false,
+          "type": "FillEmptyWithValue",
+          "params": {
+            "columns": [
+              "FKAccuracy"
+            ],
+            "appliesTo": "SINGLE_COLUMN",
+            "value": "42"
+          },
+          "alwaysShowComment": false
+        },
+        {
+          "preview": false,
+          "metaType": "PROCESSOR",
+          "disabled": false,
+          "type": "FillEmptyWithValue",
+          "params": {
+            "columns": [
+              "LongPassing"
+            ],
+            "appliesTo": "SINGLE_COLUMN",
+            "value": "62"
+          },
+          "alwaysShowComment": false
+        },
+        {
+          "preview": false,
+          "metaType": "PROCESSOR",
+          "disabled": false,
+          "type": "FillEmptyWithValue",
+          "params": {
+            "columns": [
+              "Vision"
+            ],
+            "appliesTo": "SINGLE_COLUMN",
+            "value": "58"
+          },
+          "alwaysShowComment": false
+        },
+        {
+          "preview": false,
+          "metaType": "PROCESSOR",
+          "disabled": false,
+          "type": "FillEmptyWithValue",
+          "params": {
+            "columns": [
+              "Composure"
+            ],
+            "appliesTo": "SINGLE_COLUMN",
+            "value": "60"
+          },
+          "alwaysShowComment": false
+        },
+        {
+          "preview": false,
+          "metaType": "PROCESSOR",
+          "disabled": false,
+          "type": "FillEmptyWithValue",
+          "params": {
+            "columns": [
+              "Acceleration"
+            ],
+            "appliesTo": "SINGLE_COLUMN",
+            "value": "68"
+          },
+          "alwaysShowComment": false
+        },
+        {
+          "preview": false,
+          "metaType": "PROCESSOR",
+          "disabled": false,
+          "type": "FillEmptyWithValue",
+          "params": {
+            "columns": [
+              "Jumping"
+            ],
+            "appliesTo": "SINGLE_COLUMN",
+            "value": "70"
+          },
+          "alwaysShowComment": false
+        },
+        {
+          "preview": false,
+          "metaType": "PROCESSOR",
+          "disabled": false,
+          "type": "FillEmptyWithValue",
+          "params": {
+            "columns": [
+              "Balance"
+            ],
+            "appliesTo": "SINGLE_COLUMN",
+            "value": "67"
+          },
+          "alwaysShowComment": false
+        },
+        {
+          "preview": false,
+          "metaType": "PROCESSOR",
+          "disabled": false,
+          "type": "FillEmptyWithValue",
+          "params": {
+            "columns": [
+              "Finishing"
+            ],
+            "appliesTo": "SINGLE_COLUMN",
+            "value": "58"
+          },
+          "alwaysShowComment": false
+        },
+        {
+          "preview": false,
+          "metaType": "PROCESSOR",
+          "disabled": false,
+          "type": "FillEmptyWithValue",
+          "params": {
+            "columns": [
+              "Strength"
+            ],
+            "appliesTo": "SINGLE_COLUMN",
+            "value": "68"
+          },
+          "alwaysShowComment": false
+        },
+        {
+          "preview": false,
+          "metaType": "PROCESSOR",
+          "disabled": false,
+          "type": "ColumnsSelector",
+          "params": {
+            "columns": [
+              "Position"
+            ],
+            "keep": false,
+            "appliesTo": "SINGLE_COLUMN"
+          },
+          "alwaysShowComment": false
+        }
+      ],
+      "alwaysShowComment": false,
+      "secondaryColor": "#deeccb"
+    }
+  ],
+  "maxProcessedMemTableBytes": -1,
+  "previewMode": "ALL_ROWS",
+  "vizSampling": {
+    "_refreshTrigger": 0,
+    "autoRefreshSample": false
+  },
+  "analysisColumnData": {
+    "Nationality": {
+      "meaning": "CountryMeaning"
+    }
+  },
+  "columnWidthsByName": {
+    "ShotPower": 100,
+    "LM": 100,
+    "Left": 100,
+    "StandingTackle": 120,
+    "LS": 100,
+    "PLAYER_BODY_TYPE_25": 158,
+    "HeadingAccuracy": 128,
+    "LW": 100,
+    "CDM": 100,
+    "Name": 169,
+    "Weight_LBS": 100,
+    "Penalties": 100,
+    "LWB": 100,
+    "Agility": 100,
+    "Preferred Foot": 120,
+    "LongShots": 100,
+    "RWB": 100,
+    "Weight(lbs)": 100,
+    "Lean": 100,
+    "Position": 100,
+    "Curve": 100,
+    "BallControl": 100,
+    "LCB": 100,
+    "Crossing": 100,
+    "Weight": 100,
+    "CAM": 100,
+    "RCB": 100,
+    "RB": 100,
+    "FKAccuracy": 100,
+    "RF": 100,
+    "LongPassing": 100,
+    "Vision": 100,
+    "Composure": 100,
+    "LCM": 100,
+    "RM": 100,
+    "Jumping": 100,
+    "Weight (lbs)": 105,
+    "Balance": 100,
+    "RCM": 100,
+    "Messi": 100,
+    "Positioning": 100,
+    "RS": 100,
+    "Dribbling": 100,
+    "RW": 100,
+    "SlidingTackle": 113,
+    "Reactions": 100,
+    "Right": 100,
+    "Wage(Euro)": 100,
+    "Wage_Euro": 100,
+    "LDM": 100,
+    "Height": 100,
+    "RDM": 100,
+    "Age": 100,
+    "CB": 100,
+    "Volleys": 100,
+    "Wage": 100,
+    "ST": 100,
+    "Body Type": 100,
+    "CF": 100,
+    "GK": 100,
+    "Akinfenwa": 100,
+    "Aggression": 100,
+    "Courtois": 100,
+    "CM": 100,
+    "ShortPassing": 105,
+    "Marking": 100,
+    "SprintSpeed": 100,
+    "Normal": 100,
+    "Nationality": 113,
+    "Stamina": 100,
+    "Interceptions": 113,
+    "Shaqiri": 100,
+    "LB": 100,
+    "LAM": 100,
+    "LF": 100,
+    "Stocky": 100,
+    "Acceleration": 105,
+    "Neymar": 100,
+    "Finishing": 100,
+    "Strength": 100,
+    "RAM": 100
+  },
+  "sorting": [],
+  "globalSearchQuery": "",
+  "coloring": {
+    "scheme": "MEANING_AND_STATUS",
+    "individualColumns": [],
+    "valueColoringMode": "HASH"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "description": "KMeans (k\u003d5)\n\nTrained in 18 seconds on 18207 records\n",
+  "name": "KMeans (k\u003d5)",
+  "starred": false,
+  "clusterMetas": {},
+  "customMeta": {
+    "kv": {}
+  },
+  "tags": [],
+  "activeClassifierThreshold": 0.0
+}

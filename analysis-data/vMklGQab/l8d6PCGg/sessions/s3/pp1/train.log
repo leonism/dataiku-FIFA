@@ -1,0 +1,3 @@
+[2020/06/27-10:49:15.309] [FT-TrainWorkThread-3IqlZ28x-1686] [INFO] [dku.analysis.ml.python] T-l8d6PCGg - Processing thread joined ...
+[2020/06/27-10:49:15.313] [FT-TrainWorkThread-3IqlZ28x-1686] [INFO] [dku.analysis.clustering] T-l8d6PCGg - Train done
+[2020/06/27-10:49:15.314] [FT-TrainWorkThread-3IqlZ28x-1686] [INFO] [dku.analysis.prediction] T-l8d6PCGg - Train done

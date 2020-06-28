@@ -1,0 +1,11 @@
+{
+  "description": "Agglomerative Clustering (K\u003d5)\n\nTrained in 2 minutes on 18207 records\n",
+  "name": "Agglomerative Clustering (K\u003d5)",
+  "starred": false,
+  "clusterMetas": {},
+  "customMeta": {
+    "kv": {}
+  },
+  "tags": [],
+  "activeClassifierThreshold": 0.0
+}

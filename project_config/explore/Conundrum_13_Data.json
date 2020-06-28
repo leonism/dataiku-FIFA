@@ -1,0 +1,143 @@
+{
+  "script": {
+    "steps": [],
+    "maxProcessedMemTableBytes": -1,
+    "fullSampleStatistics": {
+      "engineConfig": {
+        "padRunsWithMetrics": false,
+        "hive": {
+          "active": true,
+          "extraConf": []
+        },
+        "basic": {},
+        "dss": {
+          "active": true,
+          "selection": {
+            "useMemTable": false,
+            "filter": {
+              "distinct": false,
+              "enabled": false
+            },
+            "partitionSelectionMethod": "ALL",
+            "latestPartitionsN": 1,
+            "ordering": {
+              "enabled": false,
+              "rules": []
+            },
+            "samplingMethod": "FULL",
+            "maxRecords": -1,
+            "targetRatio": 0.02,
+            "withinFirstN": -1,
+            "maxReadUncompressedBytes": -1
+          }
+        },
+        "sql": {
+          "active": true
+        },
+        "impala": {
+          "active": true
+        },
+        "spark": {
+          "active": true,
+          "extraConf": []
+        },
+        "python": {}
+      },
+      "basic": true,
+      "countDistinct": true,
+      "advanced": true,
+      "percentile": false,
+      "validity": false,
+      "updateOnAnalyzeBoxOpen": false,
+      "computeCostFreeMetrics": false
+    },
+    "columnsSelection": {
+      "mode": "ALL"
+    },
+    "columnWidthsByName": {
+      "Name": 169,
+      "Age": 100,
+      "Nationality": 113,
+      "Wage": 100,
+      "Preferred Foot": 120,
+      "Body Type": 100,
+      "Position": 100,
+      "Height": 100,
+      "Weight": 100,
+      "Crossing": 100,
+      "Finishing": 100,
+      "HeadingAccuracy": 128,
+      "ShortPassing": 105,
+      "Volleys": 100,
+      "Dribbling": 100,
+      "Curve": 100,
+      "FKAccuracy": 100,
+      "LongPassing": 100,
+      "BallControl": 100,
+      "Acceleration": 105,
+      "SprintSpeed": 100,
+      "Agility": 100,
+      "Reactions": 100,
+      "Balance": 100,
+      "ShotPower": 100,
+      "Jumping": 100,
+      "Stamina": 100,
+      "Strength": 100,
+      "LongShots": 100,
+      "Aggression": 100,
+      "Interceptions": 113,
+      "Positioning": 100,
+      "Vision": 100,
+      "Penalties": 100,
+      "Composure": 100,
+      "Marking": 100,
+      "StandingTackle": 120,
+      "SlidingTackle": 113
+    },
+    "coloring": {
+      "scheme": "MEANING_AND_STATUS",
+      "individualColumns": [],
+      "valueColoringMode": "HASH"
+    },
+    "sorting": [
+      {
+        "column": "Wage",
+        "ascending": false
+      }
+    ],
+    "analysisColumnData": {},
+    "explorationSampling": {
+      "selection": {
+        "maxStoredBytes": 104857600,
+        "filter": {
+          "distinct": false,
+          "enabled": false
+        },
+        "partitionSelectionMethod": "ALL",
+        "latestPartitionsN": 1,
+        "ordering": {
+          "enabled": false,
+          "rules": []
+        },
+        "samplingMethod": "HEAD_SEQUENTIAL",
+        "maxRecords": 10000,
+        "targetRatio": 0.02,
+        "withinFirstN": -1,
+        "maxReadUncompressedBytes": -1
+      },
+      "autoRefreshSample": false,
+      "_refreshTrigger": 0
+    },
+    "vizSampling": {
+      "autoRefreshSample": false,
+      "_refreshTrigger": 0
+    },
+    "exploreUIParams": {
+      "autoRefresh": true
+    },
+    "globalSearchQuery": "",
+    "explorationFilters": [],
+    "previewMode": "ALL_ROWS"
+  },
+  "charts": []
+}
