@@ -3,7 +3,7 @@
 # Dataiku's Conundrum Challenge on FIFA Dataset.
 
 # Introduction
-If there's one thing similar about an interesting dataset and a good football's match, is that they're all keeping everyone's safe at home during this time of the pandemic. And in all honesty, I'm no data scientist nor a dev guy. I just recently got myself exposed to an ML/AI in general, while Dataiku in particular, somewhere a little over then 3 months ago, so here's my take to this conundrum's challenge.
+If there's one thing similar about an interesting dataset and a good football's match, is that they're all keeping everyone's safe at home during this time of the pandemic. And in all honesty, I'm no data-scientist nor a dev guy. I just recently got myself exposed to a Machine Learning/Artificial Intelligent in general, while Dataiku in particular -- somewhere a little over then 3 months ago, but anyway here's my take to this conundrum's challenge.
 
 # Installation
 On this repository, you may find my personal projects related to Machine Learning, EDA, Python Jupyter Notebook and couple of Visualization based on the Dataiku Platform exported standard files. Most of the datasets I've been working with, downloaded from Conundrum site. Installation pretty straight forward. Simply download the whole set as a single project and as a ZIP file, everything have been flattened out with plain text files, and no SQL dump was involved, so there wouldn't be any missing system dependencies issue. Simply imported the downloaded Zip file to your working project.
