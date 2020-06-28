@@ -50,7 +50,7 @@ And for sure those who sits at the 'Grading A' level would stand above the avera
 
 
 # Value Proposition
-- And coming back again to the initial question,  _"creating a flow that outputs a value proposition in term of their wages"_. I think I didn't include the players name and their nationalities in my modeling for a couple of reasons. In my opinions, those two variables are just too subjective to get included. In a sense that you could be a top-knot player, regardless of what your 'Names' would sound like, and of course your 'Nationalities'.
+And coming back again to the initial question,  _"creating a flow that outputs a value proposition in term of their wages"_. I think I didn't include the players name and their nationalities in my modeling for a couple of reasons. In my opinions, those two variables are just too subjective to get included. In a sense that you could be a top-knot player, regardless of what your 'Names' would sound like, and of course your 'Nationalities'.
 
 So I've done the DSS flow diagram, while the followings are my list of 'value proposition' that contributed of being one '_Grading-A_' player in the field.
 
