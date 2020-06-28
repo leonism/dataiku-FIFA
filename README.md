@@ -36,7 +36,7 @@ And here's how my _cluster plot_ would look like, obviously the better the grade
 ![scateter-plot-b.png](/images/scateter-plot-b.png)
 
 # Variables Significant Level
-And for sure those who sits at the 'Grading A' level would stand above the average threshold (though, that's not always the case with other variables).
+And for sure those who sits at the 'Grading A' level would stand above the average threshold (though, that's not always the case with other variables).<br /><br />
 ![grading-a-variables.jpg](/images/grading-a-variables.jpg)
 
 
@@ -56,6 +56,15 @@ So I've done the DSS flow diagram, while the followings are my list of 'value pr
 
 
 Been enjoying exploring this dataset for sure, and certainly it was fun doing it, stays safe everyone! 😊
+
+# Jupyter Notebooks
+- [Correlations analysis on Conundrum_13_Data_prepared (admin).ipynb](https://github.com/leonism/dataiku-FIFA/blob/master/ipython_notebooks/Correlations%20analysis%20on%20Conundrum_13_Data_prepared%20(admin).ipynb) 
+- [Correlations analysis on Conundrum_13_Data_prepared_scored (admin).ipynb](https://github.com/leonism/dataiku-FIFA/blob/master/ipython_notebooks/Correlations%20analysis%20on%20Conundrum_13_Data_prepared_scored%20(admin).ipynb) 
+- [High dimensional data visualization (t-SNE) on Conundrum_13_Data_prepared_scored (admin).ipynb](https://github.com/leonism/dataiku-FIFA/blob/master/ipython_notebooks/High%20dimensional%20data%20visualization%20(t-SNE)%20on%20Conundrum_13_Data_prepared_scored%20(admin).ipynb)
+- [PCA on Conundrum_13_Data_prepared_scored (admin).ipynb](https://github.com/leonism/dataiku-FIFA/blob/master/ipython_notebooks/PCA%20on%20Conundrum_13_Data_prepared_scored%20(admin).ipynb)
+- [Statistics and tests on a single population on Conundrum_13_Data_prepared_scored (admin).ipynb](https://github.com/leonism/dataiku-FIFA/blob/master/ipython_notebooks/Statistics%20and%20tests%20on%20a%20single%20population%20on%20Conundrum_13_Data_prepared_scored%20(admin).ipynb)
+- [Statistics and tests on multiple populations on Conundrum_13_Data_prepared_scored (admin).ipynb](https://github.com/leonism/dataiku-FIFA/blob/master/ipython_notebooks/Statistics%20and%20tests%20on%20multiple%20populations%20on%20Conundrum_13_Data_prepared_scored%20(admin).ipynb)
+- [Topic modeling on Conundrum_13_Data_prepared_scored (admin).ipynb](https://github.com/leonism/dataiku-FIFA/blob/master/ipython_notebooks/Topic%20modeling%20on%20Conundrum_13_Data_prepared_scored%20(admin).ipynb)
 
 # Disclaimer
 And please remember, as this is only a weekend pet project, which I'm doing them for my personal interest only.
