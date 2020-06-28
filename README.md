@@ -63,6 +63,19 @@ So I've done the DSS flow diagram, while the followings are my list of 'value pr
 **Top 5 Values Proposition By Grade.**
 ![fig3.png](/images/fig3.png)
 
+# Correlation Matrix
+
+The very first correlation analysis consists of plotting the "Correlation matrix" for numerical variables. For each couple of numerical variables, this computes the "strength" of the correlation (called the Pearson coefficient):
+
+- 1.0 means a perfect correlation
+- 0.0 means no correlation
+- -1.0 means a perfect "inverse" correlation
+
+Since it does not really make sense to print this correlation plot for hundred of variables, we are restricting it to the first 50 numerical variables of the dataset.
+![download-1.png](/images/download-1.png)
+![download.png](/images/download.png)
+
+
 Been enjoying exploring this dataset for sure, and certainly it was fun doing it, stays safe everyone! 😊
 
 
